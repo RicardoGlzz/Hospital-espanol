@@ -1,0 +1,718 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto', sans-serif;
+}
+body
+{
+  overflow-x: hidden; 
+
+}
+.flexslider 
+{
+  margin-top: 100px;
+  width: 100%;
+  height: 500px;
+}
+.flexslider li img
+{
+  width: 100%;
+  height: 600px;
+
+}
+header .menu
+{
+  position: fixed;
+  z-index: 10;
+  list-style: none;
+  width: 100%;
+  height: 100px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 0px;
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .8s ease-out;
+  -o-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+
+}
+.menu .menu-item 
+{
+  margin-right: 40px;
+  margin-top: 15px;
+  
+}
+.menu li a 
+{
+  text-decoration: none;
+  color:#28448C;
+  font-size: 1.1em;
+  font-weight: bold;
+
+}
+.animar-menuitem 
+{
+  border-right: 1px solid gray;
+  padding-right: 10px;
+}
+.menu .opcion 
+{
+  float: left;
+  position: relative;
+  top: -100px;
+  left: 420px;
+  -webkit-transition: all .8s ease-out;
+  -moz-transition: all .8s ease-out;
+  -o-transition: all .8s ease-out;
+  transition: all .8s ease-out;
+}
+.fix-menu {
+  position: relative;
+  left: -600px;
+  top: 20px;
+}
+.social
+{
+  position: fixed;
+  left: -80px;
+  top: 100px;
+  z-index: 2;
+  -webkit-transition: all 1s ease-out;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
+}
+.mostrar-social
+{
+  position: fixed;
+  left: 0px;
+}
+.social ul
+{
+  list-style: none;
+}
+.social ul li a
+{
+  display: inline-block;
+  color:#fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-transition: all .7s ease-out;
+  -moz-transition: all .7s ease-out;
+  -o-transition: all .7s ease-out;
+  transition: all .7s ease-out;
+}
+.social ul li a i 
+{
+  font-size: 1.6em;
+  
+}
+.social ul li .fb 
+{
+  background: #3b5998;
+}
+.social ul li .tw 
+{
+  background: #00abf0;
+}
+.social ul li .youtube 
+{
+  background: red;
+}
+.social ul li .g-plus 
+{
+  background: #dd4b39;
+}
+.social ul li a:hover
+{
+  width: 200%;
+}
+.ayuda
+{
+  background: #3b5998;
+  color: white;
+  width:60px;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+  top: 70px;
+  right: 35px; 
+  border-radius: 50%;
+  font-size: 1.3em;
+  text-align: center;
+  margin-right: -200px;
+  margin-top: -55px;
+  cursor: pointer;
+   -moz-box-shadow: 1px 3px 4px 3px #ccc;
+  -webkit-box-shadow: 1px 3px 4px 3px #ccc;
+  box-shadow: 1px 3px 4px 3px #ccc;
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+
+}
+.ayuda-animar
+{
+  width: 80px;
+  height: 80px;
+
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+
+.ayuda span 
+{
+  position: relative;
+  top: 15px;
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+.ayuda i 
+{
+  font-size: 2.4em;
+  margin-top: 13px;
+  display: none;
+  -webkit-transition: all .4s ease-out;
+  -moz-transition: all .4s ease-out;
+  -o-transition: all .4s ease-out;
+  transition: all .4s ease-out;
+}
+.mostrar-ayuda 
+{
+  margin-right: 0;
+}
+
+.consulta 
+{
+  background: #3b5998;
+  color: white;
+  width:250px;
+  position: fixed;
+  z-index: 3;
+  top: 122px;
+  right: 0;
+  margin-right: -250px;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+.consulta2 
+{
+  background: #3b5998;
+  color: white;
+  width:250px;
+  position: fixed;
+  z-index: 3;
+  top: 100px;
+  right: 0;
+  margin-right: -250px;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+.consulta2 span 
+{
+  position: absolute;
+  top: 5px;
+  right: 25px;
+  cursor: pointer;
+}
+.consulta2 span i 
+{
+  font-size: 1.4em;
+}
+.consulta2 label 
+{
+  margin-left: 20px;
+  position: relative;
+  top: 3px;
+}
+.consulta2 input,textarea 
+{
+  margin-left: 35px;
+  margin-top: 10px;
+  color: #3b5998;
+  resize:none;
+}
+.consulta2 h3 
+{
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+.consulta2 button 
+{
+  margin-left: 100px;
+  border:white;
+  background: white;
+  color: #3b5998;
+  padding: 10px;
+  margin-top: 15px;
+  position: relative;
+  top: -5px;
+  font-weight: bold;
+}
+.consulta2 figure 
+{
+  margin-left: 25px;
+}
+.consulta3 
+{
+  background: #3b5998;
+  color: white;
+  width:250px;
+  position: fixed;
+  z-index: 3;
+  top: 100px;
+  right: 0;
+  margin-right: -250px;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+.consulta3 h1 
+{
+  text-align: center;
+}
+.consulta3 button 
+{
+  border:white;
+  background: white;
+  color: #3b5998;
+  margin-left: 45px;
+  padding: 10px;
+  margin-top: -5px;
+  position: relative;
+  top: -5px;
+  font-weight: bold;
+}
+.consulta3 span 
+{
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  cursor: pointer;
+}
+.consulta3 span i 
+{
+  color: white;
+  font-size: 1.4em;
+}
+.consulta span
+{
+  position: absolute;
+  top: 4px;
+  right: 8px;
+  cursor: pointer;
+}
+.consulta span i 
+{
+  color: white;
+  font-size: 1.4em;
+}
+.consulta figure 
+{
+    margin-left: 28px;
+}
+.consulta figure img 
+{
+  border-radius: 5px;
+}
+.consulta h2 
+{
+  text-align: center;
+  margin-top: 20px;
+}
+.consulta button 
+{
+  border:white;
+  background: white;
+  color: #3b5998;
+  margin-left: 70px;
+  padding: 10px;
+  margin-top: -5px;
+  position: relative;
+  top: -5px;
+  font-weight: bold;
+}
+.animar
+{
+  border-bottom: 2px solid #28448C;
+  height: 84px;
+  width: 30%;
+  animation: linea 7s 1;
+  -webkit-animation: linea 7s 1;
+  -moz-animation: linea 7s 1;
+
+}
+@-webkit-keyframes linea 
+{
+    0%
+    {
+      width: 0;
+      
+    }
+   
+    100%
+    {
+      width:30%;
+      color: #28448C;
+    }
+}
+@-moz-keyframes linea 
+{
+    0%
+    {
+      width: 0;
+      color: red;
+    }
+   
+    100%
+    {
+      width:30%;
+      color:#28448C;
+    }
+}
+.logo-animar {
+
+}
+.logo-animar figure 
+{
+  
+}
+.logo-img img 
+{
+  width: 120px;
+  margin-top: -20px;
+}
+.logo img 
+{
+  width: 270px;
+  margin-top: -180px;
+  margin-left: 70px;
+}
+
+/*Comienzo de contenido*/
+
+#procedimientos h1 {
+  color: #1E305F;
+  text-align: center;
+  
+}
+#procedimientos section 
+{
+  display: inline-block;
+  margin-left: 200px;
+  margin-bottom: 35px;
+}
+/*bypass de pagina inicio*/
+.inicio-bypass
+{
+  background: #8CB0F4;
+  width: 320px;
+  
+}
+.inicio-bypass,.inicio-sleeve,.inicio-balloon,.inicio-gastro,.inicio-metabolica h2
+{
+  text-align: center;
+}
+.inicio-bypass div 
+{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.inicio-bypass div img 
+{
+  width: 320px;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+.inicio-bypass button 
+{
+  background:transparent;
+  border: 2px solid white;
+  color:white;
+  font-size: 1.5em;
+  padding: 10px; 
+   -webkit-transition: all.5s ease-out;
+  -moz-transition: all.5s ease-out;
+  -o-transition: all.5s ease-out;
+  transition: all.5s ease-out;
+}
+.inicio-bypass button:hover 
+{
+  background:white;
+  color:  #8CB0F4;
+} 
+/*inicio manga gastrica*/
+.inicio-sleeve
+{
+  background: white;
+   width: 320px;
+}
+.inicio-sleeve div 
+{
+  display: inline-block;
+  vertical-align: middle;
+  color: #24448C;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.inicio-sleeve div img 
+{
+  width: 320px;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+.inicio-sleeve button 
+{
+  background:white;
+  border: 2px solid #24448C;
+  color:#24448C;
+  font-size: 1.5em;
+  padding: 10px; 
+   -webkit-transition: all.5s ease-out;
+  -moz-transition: all.5s ease-out;
+  -o-transition: all.5s ease-out;
+  transition: all.5s ease-out;
+}
+.inicio-sleeve button:hover 
+{
+  background:#24448C;
+  color: white;
+} 
+/*balon intragastrico*/
+.inicio-balloon
+{
+  background: #8CB0F4;
+  width: 320px;
+}
+.inicio-balloon div 
+{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.inicio-balloon div img 
+{
+  width: 320px;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+.inicio-balloon button 
+{
+  background:transparent;
+  border: 2px solid white;
+  color:white;
+  font-size: 1.5em;
+  padding: 10px; 
+   -webkit-transition: all.5s ease-out;
+  -moz-transition: all.5s ease-out;
+  -o-transition: all.5s ease-out;
+  transition: all.5s ease-out;
+  
+}
+.inicio-balloon button:hover 
+{
+  background:white;
+  color:  #8CB0F4;
+} 
+/*Gastroplication*/
+.inicio-gastro
+{
+  background: white;
+  width: 320px;
+  
+}
+.inicio-gastro div 
+{
+  display: inline-block;
+  vertical-align: middle;
+  color: #24448C;
+  font-size: 1em;
+  padding: 15px;
+}
+
+.inicio-gastro div img 
+{
+  width: 320px;
+  
+  
+}
+.inicio-gastro button 
+{
+  background:white;
+  border: 2px solid #24448C;
+  color:#24448C;
+  font-size: 1.5em;
+  padding: 10px; 
+   -webkit-transition: all.5s ease-out;
+  -moz-transition: all.5s ease-out;
+  -o-transition: all.5s ease-out;
+  transition: all.5s ease-out;
+  margin-left: 25px;
+}
+.inicio-gastro button:hover 
+{
+  background:#24448C;
+  color: white;
+} 
+/*Cirugia metabolica*/
+.inicio-metabolica
+{
+  background: #8CB0F4;
+  width: 320px;
+  position: relative;
+  left: 25%;
+  
+}
+.inicio-metabolica div 
+{
+  display: inline-block;
+  vertical-align: middle;
+  color: white;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.inicio-metabolica div img 
+{
+  width: 320px;
+  margin-top: -5px;
+  margin-left: -5px;
+}
+.inicio-metabolica button 
+{
+  background:transparent;
+  border: 2px solid white;
+  color:white;
+  font-size: 1.5em;
+  padding: 10px; 
+   -webkit-transition: all.5s ease-out;
+  -moz-transition: all.5s ease-out;
+  -o-transition: all.5s ease-out;
+  transition: all.5s ease-out;
+  margin-left: 65px;
+}
+.inicio-metabolica button:hover 
+{
+  background:white;
+  color:  #8CB0F4;
+} 
+/*Calculadora en inicio*/
+#calculadora-imc 
+{
+
+}
+#calculadora-imc figure 
+{ 
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 2s;
+   -webkit-animation-iteration-count: infinite;
+}
+#calculadora-imc figure i 
+{
+  font-size: 4em;
+}
+#calculadora-imc {
+  margin-left: 20%;
+}
+#calculadora-imc div
+{
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#calculadora-imc figure img 
+{
+  width: 320px;
+}
+#calculadora-imc h2 
+{
+  text-align: center;
+  color: #1E305F; 
+}
+#calculadora-imc p 
+{
+  color:#1E305F; 
+  text-align: center;
+  margin-bottom: 15px;
+}
+#calculadora-imc form 
+{
+  display: block;
+  text-align: center;
+}
+#calculadora-imc input 
+{
+  margin-top: 5px;
+}
+#calculadora-imc  label
+{
+  color:#1E305F; 
+}
+#calculadora-imc #imc
+ {
+  margin-left: 20px;
+}
+#calculadora-imc #boton-imc
+{
+  background: #3b5998;
+  color: white;
+  padding: 10px;
+  border:none;
+}
+/*Equipo*/
+.equipo h1 
+{
+  text-align: center;
+  color: #1E305F;
+}
+.equipo p {
+  color: #1E305F;
+  padding: 20px;
+  font-size: 1.1em; 
+}
+.equipo figure img
+{
+  width: 100%;
+}
+
+.equipo div {
+
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.footer-cont div 
+{
+  margin-top: -45px;
+}
+footer .footer-cont
+{
+  display: block;
+  text-align: center;
+  color: #28448C;
+}
+footer span 
+{
+  font-size: .8em;
+}
