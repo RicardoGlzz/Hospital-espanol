@@ -31,7 +31,6 @@
 				<li class="menu-item opcion animated fadeInDown"><a href="">Gastric Bypass</a></li>
 				<li class="menu-item opcion animated fadeInDown"><a href="">Sleeve Gastrectomy</a></li>
 				<li class="menu-item opcion animated fadeInDown"><a href="">Intragastric Balloon</a></li>
-				<br>
 				<div class="fix-menu">
 				<li class="menu-item opcion animated fadeInDown"><a href="">Gastroplicature</a></li>
 				<li class="menu-item opcion animated fadeInDown"><a href="">Metabolic Surgery</a></li>
@@ -39,19 +38,7 @@
 				</div>
 			</ul>
 	</header>
-	<!-- Galeria -->
-	<section class="wrapper">
-		<div class="flexslider">
-		  <ul class="slides">
-		    <li  class="slide1">
-		  		<img src="img/equipo.jpg" alt="">			
-		    </li>
-		    <li >
-		  		<img src="img/operacion.jpg" alt="">
-		    </li>
-		 
-		  </ul>
-		</div>
+
 	<!-- Redes sociales -->
 		<div class="social">
 			<ul>
@@ -101,17 +88,44 @@
 		@yield('content')
 
 		<footer>
-			<div class="footer-cont">
-					<figure>
-						<img src="img/logo.png" alt="">
-					</figure>
-				<div>	
-				<h3>Footer title</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.	
-				 Itaque exercitationem vel tenetur, voluptas, neque enim.</p>
-				<span>Copyright © 2015 All rights reserved</span>
+			<section id="facebook-api">
+				Facebook
+			</section>
+			<section id="contactos">
+				<h1>CONTACT US</h1>
+				<div>
+					<h3>Dr. Othon Vazquez Novoa</h3>
+					<span>Phone: [+52] (618) 815-1935</span>
+					<br>
+					<span>e-mail: ovano@hotmail.com</span>
 				</div>
-			</div>
+				<div>
+					<h3>Dr. Cecilia R. de Vazquez</h3>
+					<span>Phone: [+52] (618) 815-2221</span>
+					<br>
+					<span>e-mail: m_ceciliars@hotmail.com</span>
+				</div>
+				<div>
+					<h3>Hospital Santa Barbara del Rieti</h3>
+					<span>Felipe Pescador #302 ote. Zona Centro. </span>
+					<br>
+					<span>C.P. 34000 Durango, Dgo; Mexico.</span>
+				</div>
+				<div>
+					<h3>Central Medica Quirurgica</h3>
+					<span>Av. Ejercito Mexicano #2207. Col. Palos Prietos.</span>
+					<br>
+					<span>C.P. 82010 Mazatlan, Sin; Mexico.</span>
+					<br>
+					<span>phone: [+52] (669) 985-0730</span>
+				</div>
+				<div>
+					<h3>Centro Medico Las Conchas</h3>
+					<span>Dr. Jesus Kumate 202, L-B3. Col. Hacienda las Cruces</span>
+					<br>
+					<span>C.P. 82126 Mazatlan, Sin; Mexico</span>
+				</div>
+			</section>
 		</footer>	
 
 	</section>	

@@ -15,7 +15,7 @@ $(document).on("ready",function()
 		}
 		else
 		{
-			$(".menu .opcion").addClass("animar-menuitem");
+			
 			$(".menu").css("border-bottom","2px solid #28448C");
 			$(".social").addClass("mostrar-social");
 			$(".ayuda").addClass("mostrar-ayuda");
@@ -44,22 +44,24 @@ $(document).on("ready",function()
 	})
 	$(".ayuda").on("click",function()
 	{
+		$(this).css("margin-right","220px");
 		$(".consulta").css("margin-right","0");
 
 	})
 	$(".ayuda").on("mouseover",function()
 	{
-		$(this).addClass("ayuda-animar");
+		
 		$(".ayuda i").css("display","block");
 		$(".ayuda span").css("display","none");
 	}).mouseleave(function()
 	{
-		$(this).removeClass("ayuda-animar");
+		
 		$(".ayuda i").css("display","none");
 		$(".ayuda span").css("display","block");
 	})
 	$(".ocultar-consulta").on("click",function()
 	{
+		$(".ayuda").css("margin-right","-5px");
 		$(".consulta").css("margin-right","-250px");
 		$(".consulta2").css("margin-right","-250px");
 		$(".consulta3").css("margin-right","-250px");
