@@ -8,15 +8,11 @@
 		    <li  class="slide1">
 		  		<img src="img/equipo.jpg" alt="">			
 		    </li>
-		    <li >
-		  		<img src="img/operacion.jpg" alt="">
-		    </li>
-		 
 		  </ul>
 		</div>	
-<h1>Welcome, first let's check your BMI</h1>
+<h1 class="bmi-titulo">Welcome, first let's check your BMI</h1>
 <section id="calculadora-imc">
-		<div class="bmi-figure">
+		<div class="bmi-figure img-uno">
 			<figure>
 				<img src="img/bmi-men.jpg" alt="">
 			</figure>
@@ -24,7 +20,7 @@
 		<div class="calculadora">	
 			<h2>Check your BMI(Body Mass Index)</h2>
 			<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
-			<form class="form-inline bg-info" role="form">
+			<form  role="form">
 			    <label class="" for="calculodeIMC">Height: </label>
 			    <input type="email" class="" id="altura" placeholder="Height in cms">
 				<br>
@@ -40,7 +36,7 @@
 			    <input type="email" name="leyenda" id="leyenda" size="42">		             
 			</form>
 		</div>  
-		<div class="bmi-figure">
+		<div class="bmi-figure img-dos">
 			<figure>
 				<img src="img/bmi-women.jpg" alt="">
 			</figure>
@@ -49,20 +45,21 @@
 			Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
 	</section>
 	<section class="sobrepeso">
-		<figure>
+		<figure class="peso-img peso-uno">
 			<img src="img/resumen-dos.jpg" alt="">
 			<h4>Worldwide obesity has more than doubled since 1980.</h4>
 		</figure>
 		<figure>
 			<h1>Got overweight?</h1>
 		</figure>
-		<figure>
+		<figure class="peso-img peso-dos">
 			<img src="img/resumen.jpg" alt="">
 			<h4>39% of adults aged 18 years and over were overweight in 2014, and 13% were obese.</h4>
 		</figure>
 	</section>
 <section id="procedimientos">
 	<h1>Procedures that will benefit your life</h1>
+	<hr>
 	<!--  gastric bypass -->
 	<section class="inicio-bypass">
 		<div class="cont-img">
@@ -103,6 +100,7 @@
 			<button>Lorem ipsum</button>
 		</div>
 	</section>
+	<hr>
 	<!-- Gastroaplication -->
 	<section class="inicio-gastro">
 		<div class="cont-img">
@@ -132,4 +130,5 @@
 		</section>
 	</section>	
 </section>	
+</section>
 @stop

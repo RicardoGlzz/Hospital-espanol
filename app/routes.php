@@ -14,6 +14,13 @@
 
 //Rutas para el Frontend
 Route::get('/', 'FrontendController@index');
+Route::get('doctores', 'FrontendController@doctores');
+Route::get('bypass', 'FrontendController@bypass');
+Route::get('sleeve', 'FrontendController@sleeve');
+Route::get('intragastric', 'FrontendController@intragastric');
+Route::get('gastroplicature', 'FrontendController@gastroplicature');
+Route::get('metabolic', 'FrontendController@metabolic');
+Route::get('contact', 'FrontendController@contact');
 
 
 //Rutas para el administrador

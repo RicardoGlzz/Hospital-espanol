@@ -28,6 +28,7 @@ header .menu
   list-style: none;
   width: 100%;
   height: 100px;
+  top: 0;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 0px;
   -webkit-transition: all .8s ease-out;
@@ -59,20 +60,40 @@ header .menu
 {
   float: left;
   position: relative;
-  top: -80px;
+  top: -90px;
   left: 270px;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+.menu .opcion:hover 
+{
+    background-color: #3b5998;
+}
+.menu .opcion a:hover
+{
+  color: white
+}
+.menu-bordes 
+{
+   border-top: 1px solid #3b5998;
+  border-bottom: 1px solid #3b5998;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  top: -90px;
   -webkit-transition: all .8s ease-out;
   -moz-transition: all .8s ease-out;
   -o-transition: all .8s ease-out;
   transition: all .8s ease-out;
 }
-
 .social
 {
   position: fixed;
   left: -80px;
   top: 100px;
-  z-index: 2;
+  z-index: 10;
   -webkit-transition: all 1s ease-out;
   -moz-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
@@ -127,7 +148,7 @@ header .menu
 }
 .ayuda
 {
-  background:#8CB0F4;
+  background:#3b5998;
   color: white;
   width:60px;
   height: 60px;
@@ -135,6 +156,7 @@ header .menu
   z-index: 10;
   top: 160px;
   right: 35px; 
+  border: 2px solid white;
   border-radius: 50%;
   font-size: 1.3em;
   text-align: center;
@@ -333,7 +355,7 @@ header .menu
 {
   border-bottom: 2px solid #28448C;
   height: 84px;
-  width: 30%;
+  width: 20%;
   animation: linea 7s 1;
   -webkit-animation: linea 7s 1;
   -moz-animation: linea 7s 1;
@@ -349,7 +371,7 @@ header .menu
    
     100%
     {
-      width:30%;
+      width:20%;
       color: #28448C;
     }
 }
@@ -363,17 +385,11 @@ header .menu
    
     100%
     {
-      width:30%;
+      width:20%;
       color:#28448C;
     }
 }
-.logo-animar {
 
-}
-.logo-animar figure 
-{
-  
-}
 .logo-img img 
 {
   width: 120px;
@@ -390,18 +406,28 @@ header .menu
 /*Comienzo de contenido*/
 #procedimientos 
 {
-  margin-top: -190px;
+  max-width: 1280px;
+  display: table;
 }
 #procedimientos h1 {
   color: #1E305F;
   text-align: center;
-  
+  margin-bottom: 55px;
 }
 #procedimientos section 
 {
   display: inline-block;
   margin-left: 100px;
   margin-bottom: 35px;
+  outline: 2px solid gray;
+  vertical-align: top;
+}
+#procedimientos hr 
+{
+  margin-bottom: 60px;
+  position: relative;
+  width: 1100px;
+  left: 10%;
 }
 /*bypass de pagina inicio*/
 .inicio-bypass
@@ -465,7 +491,7 @@ header .menu
 {
   width: 400px;
   margin-left: -42px;
-  margin-top: -5px;
+  margin-top:  -52px;;
 }
 .inicio-sleeve button 
 {
@@ -502,7 +528,7 @@ header .menu
 .inicio-balloon div img 
 {
   width: 320px;
-  margin-top: -5px;
+  margin-top: -30px;
   margin-left: -5px;
 }
 .inicio-balloon button 
@@ -528,7 +554,8 @@ header .menu
 {
   background: white;
   width: 320px;
-  
+  position: relative;
+  left: 5%;
 }
 .inicio-gastro div 
 {
@@ -542,8 +569,8 @@ header .menu
 .inicio-gastro div img 
 {
   width: 320px;
-  
-  
+  margin-left: -15px; 
+  margin-top: -22px; 
 }
 .inicio-gastro button 
 {
@@ -569,7 +596,7 @@ header .menu
   background: #8CB0F4;
   width: 320px;
   position: relative;
-  left: 25%;
+  left: 22%;
   
 }
 .inicio-metabolica div 
@@ -613,7 +640,8 @@ header .menu
 }
 #calculadora-imc 
 {
-  
+  display: block;
+  text-align: center;
   background: #3b5998;
 }
 #calculadora-imc h3
@@ -628,9 +656,8 @@ header .menu
 
 #calculadora-imc div
 {
-  width: 30%;
+  
   position: relative;
-  left: 60px;
   display: inline-block;
   vertical-align: middle;
 }
@@ -686,8 +713,8 @@ header .menu
 {
   display: block;
   position: relative;
-  left: 100px;
-  top: 70px;
+  text-align: center;
+  top: 50px;
 }
 .sobrepeso figure
 {
@@ -704,22 +731,45 @@ header .menu
   border: 10px solid #3b5998;
   border-radius: 20px;
   cursor: pointer;
+   transition:all .5s ease;
+  -webkit-transition:all .5s ease;
+  -moz-transition:all .5s ease;
+  -o-transition:all .5s ease;
+  -ms-transition:all .5s ease; 
   
 }
 .sobrepeso figure h4 
 {
   color: #3b5998;
-  width: 300px;
+  width: 295px;
   font-size: 1.5em;
-  position: relative;
+  position: absolute;
   z-index: 2;
-  top: -295px;
+  top: 210px;
+  padding: 15px;
+  display: none;
+  margin-left: -15px;
+  transition:all .5s ease;
+  -webkit-transition:all .5s ease;
+  -moz-transition:all .5s ease;
+  -o-transition:all .5s ease;
+  -ms-transition:all .5s ease; 
+
+}
+.wrapper-section 
+{
+  margin-top: 100px;
 }
 footer section 
 {
   width: 45%;
   display: inline-block;
   color: #3b5998;
+}
+footer #facebook-api 
+{
+  position: relative;
+  left: 90px;
 }
 footer section div 
 {

@@ -1,5 +1,6 @@
 $(document).on("ready",function()
 {
+	// ANIMACIONES
 	$(".logo-animar").addClass("animar");
 
 	$(window).scroll(function()
@@ -11,37 +12,43 @@ $(document).on("ready",function()
 			$(".social").removeClass("mostrar-social");
 			$(".ayuda").removeClass("mostrar-ayuda");
 			$(".menu .opcion").removeClass("animar-menuitem");
-
+			$(".menu .opcion").removeClass("animated fadeIn menu-bordes");
 		}
 		else
 		{
 			
 			$(".menu").css("border-bottom","2px solid #28448C");
+			$(".menu .opcion").addClass("animated slideInDown menu-bordes");
 			$(".social").addClass("mostrar-social");
 			$(".ayuda").addClass("mostrar-ayuda");
 			$(".ayuda").css("margin-top","-55px");
 			$(".consulta").css("margin-top","-20px");
 		}
-
-			if($(window).scrollTop() > $(".inicio-bypass").get(0).offsetHeight+350)
+			if($(window).scrollTop() > $("#calculadora-imc").get(0).offsetHeight+100)
 		{
 			
-			
+			$(".img-uno").addClass("animated slideInLeft");	
+			$(".img-dos").addClass("animated slideInRight");
+			$(".calculadora").addClass("animated slideInUp");
+			$(".bmi-titulo").addClass("animated slideInDown");		
+		}		
+		if($(window).scrollTop() > $(".sobrepeso").get(0).offsetHeight+350)
+		{
+			$(".peso-uno").addClass("animated slideInLeft");	
+			$(".peso-dos").addClass("animated slideInRight");
+			$(".sobrepeso h1").addClass("animated bounce");
+		}
+
+			if($(window).scrollTop() > $("#procedimientos").get(0).offsetHeight)
+		{
+			$("#procedimientos section").addClass("animated slideInUp");	
+			$("#procedimientos h1").addClass("animated slideInDown");
 		}
 	
-			if($(window).scrollTop() > $(".inicio-balloon").get(0).offsetHeight+800)
-		{
-			
-			
-			
-		}
-			if($(window).scrollTop() > $(".inicio-metabolica").get(0).offsetHeight+1500)
-		{
-			
-			
-		}
+		
 		
 	})
+	// Animaciones de seccion pregunta al doctor
 	$(".ayuda").on("click",function()
 	{
 		$(this).css("margin-right","220px");
@@ -52,6 +59,7 @@ $(document).on("ready",function()
 	{
 		
 		$(".ayuda i").css("display","block");
+		$(".ayuda i").addClass("animated fadeIn");
 		$(".ayuda span").css("display","none");
 	}).mouseleave(function()
 	{
@@ -83,6 +91,23 @@ $(document).on("ready",function()
 		$(".consulta").css("margin-right","-250px");
 		$(".consulta2").css("margin-right","0px");
 	})
+	// animacion de imagenes de sobrepeso
+	$(".sobrepeso .peso-img img").hover(
+		function(){
+			$(".peso-img img").css("opacity",".2");
+			$("h4").css("display","block");
+			$(".sobrepeso figure h4").addClass("animated fadeInUp");
+	},function(){
+			$(".peso-img img").css("opacity","1");
+			$("h4").addClass("animated fadeInDown");
+			$(".sobrepeso figure h4").css("display","none");
+		}
+	);
+
+
+
+
+	// FIN DE ANIMACIONES
 
 	// Calculadora de IMC / BMI
 	//definimos la funcion

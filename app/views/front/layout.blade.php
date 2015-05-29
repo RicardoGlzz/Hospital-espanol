@@ -17,24 +17,55 @@
 	<script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
+	<!-- Inicias SDK de facebook -->
+	<script>
+	  window.fbAsyncInit = function() {
+	    FB.init({
+	      appId      : '790697614359748',
+	      xfbml      : true,
+	      version    : 'v2.3'
+	    });
+	  };
+
+	  (function(d, s, id){
+	     var js, fjs = d.getElementsByTagName(s)[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement(s); js.id = id;
+	     js.src = "//connect.facebook.net/en_US/sdk.js";
+	     fjs.parentNode.insertBefore(js, fjs);
+	   }(document, 'script', 'facebook-jssdk'));
+	</script>	
+	<!-- Funcion de plugin -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=790697614359748";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+	</script>
+
 	<header>
 			<ul class="menu">
 				<div class="menu-item logo-animar">
-					<figure class="logo-img">
-						<img src="img/logo.png" alt="">
-					</figure>
-					<figure class="logo">
-						<img src="img/titulo.png" alt="">
-					</figure>
+					<a href="{{ URL::to('/') }}">
+						<figure class="logo-img">
+							<img src="img/logo.png" alt="">
+						</figure>
+						<figure class="logo">
+							<img src="img/titulo.png" alt="">
+						</figure>
+					</a>
 				</div>
-				<li class="menu-item opcion animated fadeInDown"><a href="">Know the doctor & the cols</a></li>
-				<li class="menu-item opcion animated fadeInDown"><a href="">Gastric Bypass</a></li>
-				<li class="menu-item opcion animated fadeInDown"><a href="">Sleeve Gastrectomy</a></li>
-				<li class="menu-item opcion animated fadeInDown"><a href="">Intragastric Balloon</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('doctores') }}">Know the doctor & the cols</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('bypass') }}">Gastric Bypass</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('sleeve') }}">Sleeve Gastrectomy</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('intragastric') }}">Intragastric Balloon</a></li>
 				<div class="fix-menu">
-				<li class="menu-item opcion animated fadeInDown"><a href="">Gastroplicature</a></li>
-				<li class="menu-item opcion animated fadeInDown"><a href="">Metabolic Surgery</a></li>
-				<li class="menu-item opcion animated fadeInDown"><a href="">Contact</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('gastroplicature') }}">Gastroplicature</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('metabolic') }}">Metabolic Surgery</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('contact') }}">Contact</a></li>
 				</div>
 			</ul>
 	</header>
@@ -89,7 +120,7 @@
 
 		<footer>
 			<section id="facebook-api">
-				Facebook
+				<div class="fb-page" data-href="https://www.facebook.com/hospitalsantabarbaradelrieti?fref=ts" data-width="500" data-height="550" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hospitalsantabarbaradelrieti?fref=ts"><a href="https://www.facebook.com/hospitalsantabarbaradelrieti?fref=ts">Hospital Santa Barbara del Rieti</a></blockquote></div></div>
 			</section>
 			<section id="contactos">
 				<h1>CONTACT US</h1>
