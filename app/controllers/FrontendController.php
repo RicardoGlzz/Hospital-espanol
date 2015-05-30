@@ -4,7 +4,9 @@ class FrontendController extends BaseController {
 
 	public function index()
 	{
-		return View::make('front.index');
+		$galeria = Galeria::all();
+
+		return View::make('front.index')->with('galeria',$galeria);
 	}
 	public function doctores()
 	{

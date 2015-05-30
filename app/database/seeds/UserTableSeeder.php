@@ -8,8 +8,8 @@ class UserTableSeeder extends Seeder {
 
 		User::create(array(
 
-			'username' => 'Admin',
-			'password' => Hash::make('Admin2015')
+			'username' => '',
+			'password' => Hash::make()
 		));
 	}
 }

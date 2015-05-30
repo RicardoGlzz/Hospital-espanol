@@ -5,9 +5,11 @@
 	<section class="wrapper">
 		<div class="flexslider">
 		  <ul class="slides">
+		  	@foreach($galeria as $item)
 		    <li  class="slide1">
-		  		<img src="img/equipo.jpg" alt="">			
+		  		<img src="{{ $item->ruta }}" alt="Imagenes de Galeria">			
 		    </li>
+		    @endforeach
 		  </ul>
 		</div>	
 <h1 class="bmi-titulo">Welcome, first let's check your BMI</h1>

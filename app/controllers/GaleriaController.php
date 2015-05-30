@@ -8,4 +8,14 @@ class GaleriaController extends BaseController {
 
 		return View::make('admin.galeria')->with('galeria',$galeria);
 	}
+
+	public function saveImg()
+	{
+
+	}
+
+	public function saveOrden()
+	{
+		
+	}
 }
