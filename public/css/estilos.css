@@ -1274,9 +1274,102 @@ footer #contactos
         text-align: center;
         width: 100%;
         margin-top: 8px;
-       
-
      } 
+     .social 
+     {
+        width: 100%;
+        left: 0;
+        margin-top: 100%;
+        text-align: center;
+     }
+     .social li 
+     {
+        display: inline-block;
+        width: 23%;
+     }
+     .mostrar-social
+     {
+        margin-top: 120%;
+        text-align: center;
+     }
+     .social ul li a 
+     {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+     }
+     .social ul li a i 
+     {
+        margin-top: 5px;
+     }
+     .social ul li a:hover
+     {
+        width: 35px;
+     }
+     .ayuda 
+     {
+        z-index: 30;
+        top: 75px;
+        left: 0;
+     }
+     .consulta,.consulta2,.consulta3 
+     {
+        z-index: 30;
+     }
+     .consulta2 figure img 
+     {
+        display: none;
+     }
+     footer #facebook-api 
+     {
+        left: 0;
+     }
+     footer section 
+     {
+        width: 100%;
+        display: block;
+     }
+     /*Fin de layout*/
+     /*Inicio*/
+     .inicio-section h1
+     {
+        margin-top: 100px;
+     }
+     .flexslider 
+     {
+        height: 15em !important;
+     }
+     #calculadora-imc figure img 
+     {
+        width: 300px;
+        position: relative;
+        left: -30px;
+     }
+     #calculadora-imc div 
+     {
+        display: block;
+     }
+     .sobrepeso figure img 
+     {
+        display: none;
+     }
+     #procedimientos
+     {
+        display: block;
+     }
+     #procedimientos hr 
+     {
+        left: 0;
+     }
+     #procedimientos section 
+     {
+        margin-left: 0;
+     }
+     #procedimientos .inicio-metabolica 
+     {
+        margin-left: -70px;
+     }
+      
 }
 @media (min-width:350px) and (max-width: 600px) {
         *
@@ -1306,13 +1399,11 @@ footer #contactos
           width: 0
        }
        .animar 
-     {
+      {
         width: 100%;
         background: white;
         position: relative;
         top: -14px;
-        
-       
      }
 
      header .menu 
@@ -1355,5 +1446,60 @@ footer #contactos
           display: inline-block;
           margin-top: 8px;
       }
+      .social 
+     {
+        width: 100%;
+        left: 0;
+        margin-top: 25%;
+        text-align: center;
+     }
+     .social li 
+     {
+        display: inline-block;
+        width: 23%;
+     }
+     .mostrar-social
+     {
+        margin-top: 25%;
+        text-align: center;
+     }
+     .social ul li a 
+     {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+     }
+     .social ul li a i 
+     {
+        margin-top: 5px;
+     }
+     .social ul li a:hover
+     {
+        width: 35px;
+     }
+     .ayuda 
+     {
+        z-index: 30;
+        top: 75px;
+        left: 0;
+     }
+     .consulta,.consulta2,.consulta3 
+     {
+        z-index: 30;
+     }
+     .consulta2 figure img 
+     {
+        display: none;
+     }
+      footer #facebook-api 
+     {
+        left: 0;
+     }
+     footer section 
+     {
+        width: 100%;
+        display: block;
+     }
+     /*Fin de layout*/
   
 }
