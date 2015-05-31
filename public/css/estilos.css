@@ -758,8 +758,352 @@ header .menu
 }
 .wrapper-section 
 {
-  margin-top: 100px;
+  margin-top: 130px;
 }
+
+/*SECCION DE DOCTORES*/
+.doctores 
+{
+  display: block;
+  text-align: center;
+}
+.doctores h1
+{
+    text-align: center;
+    color: #3b5998;
+    padding-top: 40px;
+
+}
+.doctores p 
+{
+    margin: 0 auto;
+    color: #3b5998;
+    font-size: 1.1em;
+    width: 85%;
+}
+.doctores .doctor-color 
+{
+  background: #3b5998;
+}
+.doctores .doctor-color h2 
+{
+   color: white;
+}
+.doctores .doctor-color p 
+{
+   color: white;
+}
+.doctores .doctor-nocolor p 
+{
+  color:#3b5998; 
+}
+.doctores .doctor-nocolor h2 
+{
+  color:#3b5998; 
+}
+.doctores .doctor-color img 
+{
+    border: 3px solid white;
+}
+.doctores .doctor-nocolor img 
+{
+    border: 3px solid #3b5998;
+}
+.doctor-nocolor,.doctor-color 
+{
+  margin-bottom: 100px;
+}
+.doctores div figure 
+{
+  width: 35%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.doctor-nocolor figure img
+{
+    width: 300px;
+    border-radius: 10px;
+}
+.doctor-color figure img
+{
+    width: 300px;
+    border-radius: 10px;
+}
+.confianza figure img 
+{
+    width: 100%;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: 2px solid #3b5998;
+}
+.confianza figure h2 
+{
+  font-size: 2.3em;
+  color: #3b5998;
+}
+.confianza figure p 
+{
+  font-size: 1.5em;
+}
+.confianza button 
+{
+  background: #24448C;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px;
+}
+.equipo-tec 
+{
+  background: #3b5998;
+}
+.equipo-tec figure img 
+{
+  width: 50%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.equipo-tec h1
+{
+  color: white;
+}
+.equipo-tec p
+{
+  width: 85%;
+  margin: 0 auto;
+  color: white;
+}
+
+.instalaciones figure img 
+{
+  width: 70%;
+}
+.visita-mazatlan 
+{
+  background: #3b5998;
+}
+.visita-mazatlan h1 
+{
+  color: white;
+}
+.visita-mazatlan p 
+{
+  color: white;
+}
+.visita-mazatlan .mazatlan 
+{
+  width: 473px; 
+} 
+.visita-mazatlan figure
+{
+  display: inline-block;
+  vertical-align: top;
+}
+.visita-mazatlan figure img
+{
+  border-radius: 10px;
+}
+/*SECCION DE BYPASS*/
+.bypass-section h1
+{
+  text-align: center;
+  font-size: 2.5em;
+  color: #3b5998;
+}
+.bypass-section 
+{
+  text-align: center;
+  color: #3b5998;
+}
+.bypass-section label 
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.bypass-section ul li 
+{
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+.bypass-section p 
+{
+  font-size: 1.2em;
+  width: 80%;
+  margin: 0 auto;
+}
+.bypass-section h3 
+{
+  margin-top: 10px;
+}
+/*SECCION MANGA GASTRICA*/
+.sleeve-section figure img
+{
+  width: 45%;
+}
+.sleeve-section h1
+{
+  text-align: center;
+  font-size: 2.5em;
+  color: #3b5998;
+}
+.sleeve-section 
+{
+  text-align: center;
+  color: #3b5998;
+}
+.sleeve-section label 
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.sleeve-section ul li 
+{
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+.sleeve-section p 
+{
+  font-size: 1.2em;
+  width: 80%;
+  margin: 0 auto;
+}
+.sleeve-section h3 
+{
+  margin-top: 10px;
+}
+/*SECCION GASTROPLICATURE*/
+.gastro-section img 
+{
+  width: 25%;
+}
+.gastro-section h1
+{
+  text-align: center;
+  font-size: 2.5em;
+  color: #3b5998;
+}
+.gastro-section 
+{
+  text-align: center;
+  color: #3b5998;
+}
+.gastro-section label 
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.gastro-section ul li 
+{
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+.gastro-section p 
+{
+  font-size: 1.2em;
+  width: 80%;
+  margin: 0 auto;
+}
+.gastro-section h3 
+{
+  margin-top: 10px;
+}
+/*SECCION DE BALON INTRAGASTRICO*/
+.balloon-section img 
+{
+  width: 25%;
+}
+.balloon-section h1
+{
+  text-align: center;
+  font-size: 2.5em;
+  color: #3b5998;
+}
+.balloon-section 
+{
+  text-align: center;
+  color: #3b5998;
+}
+.balloon-section label 
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.balloon-section ul li 
+{
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+.balloon-section p 
+{
+  font-size: 1.2em;
+  width: 80%;
+  margin: 0 auto;
+}
+.balloon-section h3 
+{
+  margin-top: 10px;
+}
+/*SECCION METABOLICA*/
+.metabolic-section img 
+{
+  width: 25%;
+}
+.metabolic-section h1
+{
+  text-align: center;
+  font-size: 2.5em;
+  color: #3b5998;
+}
+.metabolic-section 
+{
+  text-align: center;
+  color: #3b5998;
+}
+.metabolic-section label 
+{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.metabolic-section ul li 
+{
+  font-size: 1.2em;
+  margin-top: 15px;
+}
+.metabolic-section p 
+{
+  font-size: 1.2em;
+  width: 80%;
+  margin: 0 auto;
+}
+.metabolic-section h3 
+{
+  margin-top: 10px;
+}
+/*SECCION CONTACTO*/
+#map 
+{
+  width: 35%;
+  height: 600px;
+}
+.contacto div
+{
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+}
+.contacto h3 
+{
+  color: #3b5998;
+  text-align: center;
+}
+.contacto p 
+{
+  color: #3b5998;
+  text-align: center;
+}
+
+
+
 footer section 
 {
   width: 45%;

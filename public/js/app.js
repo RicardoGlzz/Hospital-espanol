@@ -24,7 +24,7 @@ $(document).on("ready",function()
 			$(".ayuda").css("margin-top","-55px");
 			$(".consulta").css("margin-top","-20px");
 		}
-			if($(window).scrollTop() > $("#calculadora-imc").get(0).offsetHeight+100)
+			if($(window).scrollTop() > $("#calculadora-imc").scrollTop()+350)
 		{
 			
 			$(".img-uno").addClass("animated slideInLeft");	
@@ -32,14 +32,14 @@ $(document).on("ready",function()
 			$(".calculadora").addClass("animated slideInUp");
 			$(".bmi-titulo").addClass("animated slideInDown");		
 		}		
-		if($(window).scrollTop() > $(".sobrepeso").get(0).offsetHeight+350)
+		if($(window).scrollTop() > $(".sobrepeso").scrollTop()+950)
 		{
 			$(".peso-uno").addClass("animated slideInLeft");	
 			$(".peso-dos").addClass("animated slideInRight");
 			$(".sobrepeso h1").addClass("animated bounce");
 		}
 
-			if($(window).scrollTop() > $("#procedimientos").get(0).offsetHeight)
+			if($(window).scrollTop() > $("#procedimientos").scrollTop()+1550)
 		{
 			$("#procedimientos section").addClass("animated slideInUp");	
 			$("#procedimientos h1").addClass("animated slideInDown");
@@ -141,5 +141,51 @@ $(document).on("ready",function()
 	//enviamos el comentario a la caja correspondiente
 	document.getElementById("leyenda").value=leyenda;
 	});
+
+
+
+	// MAPA DE CONTACTO
+	 var locations = [
+        {lat:24.035417, lon:-104.663236, place:"Felipe Pescador", id:'santabarbara'},
+        {lat:23.227174, lon:-106.421749, place:"Avenida Ejercito Mexicano", id:'cemeq'},
+        {lat:23.243168, lon:-106.442014, place:"Avenida Rafael y Dr Jesus Kumate", id:'conchas'}
+        ];
+
+           // Initialize and display a Google map when the web page is loaded
+    $(function() {  
+        // Initialize and display a google map
+            var latlng = new google.maps.LatLng( locations[0].lat, locations[0].lon );    
+
+            var mapOptions = { zoom: 7, center: latlng };
+
+            map = new google.maps.Map(document.getElementById('map'), mapOptions);
+            var markers = [];
+            for(var i = 0; i < locations.length; i++) 
+            {
+                markers.push(new google.maps.Marker({
+                    position: new google.maps.LatLng( locations[i].lat, locations[i].lon),
+                    map: map,
+                    title: locations[i].place
+                    // icon:'/img/pointer.png'
+                }));
+            }
+
+            $('.contacto div').click(function(){
+            // elm=$('label', this);
+            // $('#texto-ubicado').text("Sucursal: "+elm.get(0).innerHTML+"  "+"Direccion: "+elm.get(1).innerHTML);
+            for(var i = 0; i < locations.length; i++) 
+            {
+                if(locations[i].id == $(this).attr('id')){
+                    // Create a Google coordinate object for the closest location
+                    //var dist = Haversine( locations[ i ].lat, locations[ i ].lon, lat, lon );
+                    var latlng = new google.maps.LatLng( locations[i].lat, locations[i].lon );
+                    map.setCenter(latlng);
+                    map.setZoom(18);
+                    return;
+                }
+            }
+        });
+})
+
 
 })

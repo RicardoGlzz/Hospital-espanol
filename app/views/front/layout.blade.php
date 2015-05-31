@@ -15,6 +15,7 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="{{ asset('js/jquery.flexslider.js') }}"></script>
 	<script src="{{ asset('js/app.js') }}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
 </head>
 <body>
 	<!-- Inicias SDK de facebook -->
