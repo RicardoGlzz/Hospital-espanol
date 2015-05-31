@@ -65,11 +65,9 @@
 				<li class="menu-item opcion"><a href="{{ URL::to('bypass') }}">Gastric Bypass</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('sleeve') }}">Sleeve Gastrectomy</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('intragastric') }}">Intragastric Balloon</a></li>
-				<div class="fix-menu">
 				<li class="menu-item opcion"><a href="{{ URL::to('gastroplicature') }}">Gastroplicature</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('metabolic') }}">Metabolic Surgery</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('contact') }}">Contact</a></li>
-				</div>
 			</ul>
 	</header>
 
