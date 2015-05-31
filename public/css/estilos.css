@@ -43,6 +43,10 @@ header .menu
   margin-top: 15px;
   
 }
+.menu .menu-item span 
+{
+  display: none;
+}
 .menu li a 
 {
   text-decoration: none;
@@ -1188,4 +1192,168 @@ footer h1
 footer #contactos 
 {
   border-left: 3px solid gray;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 350px) {
+    *
+        {
+          /*Quitar animaciones*/
+
+         -webkit-animation: none !important;
+
+         -moz-animation: none !important;
+
+         -o-animation: none !important;
+
+         -ms-animation: none !important;
+
+         animation: none !important;
+
+        }
+
+    .logo 
+       {
+          display: block;
+          text-align: center;
+          position: relative;
+          top: 65px;
+          left: -15px;
+       } 
+    .logo-img img
+       {
+          width: 0
+       }  
+     .animar 
+     {
+        width: 100%;
+        background: white;
+        position: relative;
+        top: -15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+       
+     }
+
+     header .menu 
+     {
+        z-index: 20;
+        height: 0;
+     }
+     .menu .menu-item .ver-menu 
+      {
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 25px;
+      }
+
+      .menu .menu-item .cerrar-menu 
+      {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 25px;
+      }
+      .menu .menu-item span i 
+      {
+        font-size: 2.3em;
+        color: #3b5998;
+      }
+     .menu .opcion 
+     {
+        float: none;
+        left: -100%;
+        border-top: 1px solid #3b5998;
+        border-bottom: 1px solid #3b5998;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        position: relative;
+        top: inherit;
+        text-align: center;
+        width: 100%;
+        margin-top: 8px;
+       
+
+     } 
+}
+@media (min-width:350px) and (max-width: 600px) {
+        *
+        {
+          /*Quitar animaciones*/
+
+         -webkit-animation: none !important;
+
+         -moz-animation: none !important;
+
+         -o-animation: none !important;
+
+         -ms-animation: none !important;
+
+         animation: none !important;
+
+        }
+       .logo 
+       {
+          display: block;
+          text-align: center;
+          position: relative;
+          top: 65px;
+       } 
+       .logo-img img
+       {
+          width: 0
+       }
+       .animar 
+     {
+        width: 100%;
+        background: white;
+        position: relative;
+        top: -14px;
+        
+       
+     }
+
+     header .menu 
+     {
+        z-index: 20;
+        height: 0;
+     }
+     .menu .menu-item .ver-menu 
+      {
+        display: block;
+        position: absolute;
+        top: 40px;
+        right: 25px;
+      }
+
+      .menu .menu-item .cerrar-menu 
+      {
+        display: none;
+        position: absolute;
+        top: 40px;
+        right: 25px;
+      }
+      .menu .menu-item span i 
+      {
+        font-size: 2.3em;
+        color: #3b5998;
+      }
+      .menu .opcion 
+      {
+          float: none;
+          left: -100%;
+          border-top: 1px solid #3b5998;
+          border-bottom: 1px solid #3b5998;
+          padding-top: 5px;
+          padding-bottom: 5px;
+          position: relative;
+          top: inherit;
+          text-align: center;
+          width: 45%;
+          display: inline-block;
+          margin-top: 8px;
+      }
+  
 }

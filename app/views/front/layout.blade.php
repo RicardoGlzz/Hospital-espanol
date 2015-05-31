@@ -58,6 +58,8 @@
 							<img src="img/titulo.png" alt="">
 						</figure>
 					</a>
+					<span class="ver-menu"><i class="fa fa-bars"></i></span>
+					<span class="cerrar-menu"><i class="fa fa-times"></i></span>
 				</div>
 				<li class="menu-item opcion"><a href="{{ URL::to('doctores') }}">Know the doctor & the cols</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('bypass') }}">Gastric Bypass</a></li>

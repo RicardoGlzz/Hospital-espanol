@@ -44,7 +44,45 @@ $(document).on("ready",function()
 			$("#procedimientos section").addClass("animated slideInUp");	
 			$("#procedimientos h1").addClass("animated slideInDown");
 		}
-	
+		// ANIMACIONES DE SECCION DOCTORES
+		if($(window).scrollTop() > $(".titulo-doctores").scrollTop())
+		{
+			$(".titulo-doctores").addClass("animated slideInLeft");	
+			$(".doctor1 figure").addClass("animated slideInRight");
+		}
+		if($(window).scrollTop() > $(".doctor2").scrollTop()+400)
+		{
+			$(".doctor2 h2,p").addClass("animated slideInRight");	
+			$(".doctor2 figure img").addClass("animated slideInLeft");
+		}
+		if($(window).scrollTop() > $(".doctor3").scrollTop()+800)
+		{
+			$(".doctor3 h2").addClass("animated slideInRight");
+			$(".doctor3 p").addClass("animated slideInRight");	
+			$(".doctor3 figure img").addClass("animated slideInLeft");
+		}
+		if($(window).scrollTop() > $(".confianza").scrollTop()+1500)
+		{
+			$(".confianza h2,p").addClass("animated slideInRight");	
+			$(".confianza figure img").addClass("animated fadeIn");
+		}
+		if($(window).scrollTop() > $(".equipo-tec").scrollTop()+2000)
+		{
+			$(".equipo-tec h1").addClass("animated slideInRight");
+			$(".equipo-tec div p").addClass("animated slideInRight");	
+			$(".equipo-tec figure img").addClass("animated fadeIn");
+		}
+		if($(window).scrollTop() > $(".instalaciones").scrollTop()+2500)
+		{
+			$(".instalaciones h1").addClass("animated slideInRight");
+			$(".instalaciones div p").addClass("animated slideInRight");	
+			$(".instalaciones figure img").addClass("animated fadeIn");
+		}
+		if($(window).scrollTop() > $(".visita-mazatlan").scrollTop()+3800)
+		{
+			$(".visita-mazatlan h1").addClass("animated slideInRight");
+			
+		}
 		
 		
 	})
@@ -103,6 +141,23 @@ $(document).on("ready",function()
 			$(".sobrepeso figure h4").css("display","none");
 		}
 	);
+
+		//MENU RESPONSIVE
+		$(".ver-menu").on("click",function()
+		{
+			$(this).css("display","none");
+			$(".cerrar-menu").css("display","block");
+			$(".menu").css("height","100%");
+			$(".menu .opcion").css("left","0");
+			$(".menu .opcion").addClass("animated slideInDown");
+		})
+		$(".cerrar-menu").on("click",function()
+		{
+			$(this).css("display","none");
+			$(".ver-menu").css("display","block");
+			$(".menu").css("height","0");
+			$(".menu .opcion").css("left","-100%");
+		})
 
 
 

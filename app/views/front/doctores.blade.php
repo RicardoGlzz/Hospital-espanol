@@ -2,8 +2,8 @@
 @section('content')
 <section class="wrapper-section">
 	<section class="doctores">
-		<h1>Allow professionals handle your health</h1>
-		<div class="doctor-color">
+		<h1 class="titulo-doctores">Allow professionals handle your health</h1>
+		<div class="doctor-color doctor1">
 			<figure>
 				<img src="img/doctor-dos.jpg" alt="">
 			</figure>
@@ -13,7 +13,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, similique, ipsam. Minus non tenetur suscipit, magnam iure repellat repellendus error molestiae? Tempora repellendus amet explicabo, repellat totam accusantium aspernatur laudantium!</p>
 			</figure>
 		</div>
-		<div class="doctor-nocolor">
+		<div class="doctor-nocolor doctor2">
 			<figure>
 				<img src="img/doctor-dos.jpg" alt="">
 			</figure>
@@ -23,7 +23,7 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quasi, eius quod obcaecati numquam labore! Iusto saepe accusantium doloribus fugit tenetur. Id dicta labore maiores similique reprehenderit blanditiis temporibus dolorum.</p>
 			</figure>
 		</div>
-		<div class="doctor-color">
+		<div class="doctor-color doctor3">
 			<figure>
 				<img src="img/doctor-tres.jpg" alt="">
 			</figure>
