@@ -48,7 +48,6 @@ header .menu
   text-decoration: none;
   color:#28448C;
   font-size: 1.1em;
-  font-weight: bold;
 
 }
 .animar-menuitem 
@@ -745,7 +744,7 @@ header .menu
   font-size: 1.5em;
   position: absolute;
   z-index: 2;
-  top: 210px;
+  top: 170px;
   padding: 15px;
   display: none;
   margin-left: -15px;
@@ -1084,6 +1083,7 @@ header .menu
 {
   width: 35%;
   height: 600px;
+  margin-top: -75px;
 }
 .contacto div
 {
@@ -1091,6 +1091,17 @@ header .menu
   display: inline-block;
   vertical-align: top;
 }
+.contacto .direccion 
+{
+  border: 2px solid #3b5998;
+}
+.contacto .direccion h3 
+{
+  background: #3b5998;
+  color: white;
+  padding: 5px;
+}
+
 .contacto h3 
 {
   color: #3b5998;
@@ -1101,9 +1112,59 @@ header .menu
   color: #3b5998;
   text-align: center;
 }
-
-
-
+.contacto h2 
+{
+  text-align: center;
+  color: #3b5998;
+  margin-bottom: 20px;
+}
+.form-container 
+{
+  display: inline-block;
+  margin-left: 25px;
+}
+.contacto .formulario h3
+{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+.formulario 
+{
+  border: 2px solid #3b5998;
+  margin-top: 20px;
+}
+.formulario form
+{
+  display: block;
+  text-align: center; 
+}
+.formulario div 
+{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+.formulario div label 
+{
+  text-align: center;
+  color: #3b5998;
+  font-size: 1.2em;
+}
+.formulario .boton-send 
+{
+  display: block;
+  text-align: center;
+  background: #3b5998;
+}
+.formulario button 
+{
+  border: 2px solid white;
+  background: white;
+  color:  #3b5998; 
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px;
+}
 footer section 
 {
   width: 45%;
