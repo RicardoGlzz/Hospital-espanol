@@ -24,12 +24,10 @@
 			<br>
 			<h2>You can use our BMI calculator in order to know your BMI value</h2>
 		</section>
-		<section id="calculadora-imc">
-			<div class="bmi-figure img-uno">
-				<figure>
-					<img src="img/bmi-men.jpg" alt="">
-				</figure>
-			</div>
+
+		<!-- Boton de caluladora -->
+		<div class="calc-boton">CHECK <br>YOUR <br>BMI <br>HERE</div>
+		<section id="calculadora-imc">	
 			<div class="calculadora">	
 				<h2>Check your BMI(Body Mass Index)</h2>
 				<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
@@ -49,14 +47,12 @@
 				    <input type="email" name="leyenda" id="leyenda" size="42">		             
 				</form>
 			</div>  
-			<div class="bmi-figure img-dos">
-				<figure>
-					<img src="img/bmi-women.jpg" alt="">
-				</figure>
-			</div>   
+			  
 			<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
 				Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
 			</section>
+
+
 			<section class="bypass-desc">
 				<h1>What is gastric bypass?</h1>
 				<p>Also called gastric bypass "Y" de Roux, is the gold standard surgery for weight loss that takes place in Mexico and the world .

@@ -11,6 +11,7 @@ $(document).on("ready",function()
 			$(".menu").css("border-bottom","none");
 			$(".social").removeClass("mostrar-social");
 			$(".ayuda").removeClass("mostrar-ayuda");
+			$(".calc-boton").removeClass("mostrar-calc");
 			$(".menu .opcion").removeClass("animar-menuitem");
 			$(".menu .opcion").removeClass("animated fadeIn menu-bordes");
 		}
@@ -21,6 +22,7 @@ $(document).on("ready",function()
 			$(".menu .opcion").addClass("animated slideInDown menu-bordes");
 			$(".social").addClass("mostrar-social");
 			$(".ayuda").addClass("mostrar-ayuda");
+			$(".calc-boton").addClass("mostrar-calc");
 			$(".ayuda").css("margin-top","-55px");
 			$(".consulta").css("margin-top","-20px");
 		}
