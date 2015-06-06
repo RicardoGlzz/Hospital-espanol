@@ -879,7 +879,6 @@ header .menu
 {
   width: 50%;
   margin-top: 10px;
-  border-radius: 10px;
 }
 .equipo-tec h1
 {
@@ -1453,6 +1452,10 @@ footer #contactos
      #procedimientos .inicio-metabolica 
      {
         margin-left: -70px;
+     }
+     .inicio-gastro 
+     {
+        left: 0;
      }
       
 }

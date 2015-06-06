@@ -9,6 +9,11 @@
 		    <li  class="slide1">
 		  		<img src="{{ $item->ruta }}" alt="Imagenes de Galeria">			
 		    </li>
+		    <li>
+		    	<a href="{{ URL::to('sleeve') }}">
+		    		<img src="img/collage.jpg" alt="">
+		    	</a>
+		    </li>
 		    @endforeach
 		  </ul>
 		</div>	
