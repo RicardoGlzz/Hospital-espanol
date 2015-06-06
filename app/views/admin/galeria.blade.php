@@ -12,47 +12,15 @@
 			<br>
 			<br>
 			<div class="pull-left">
-			<!-- Button trigger modal -->
-			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  				Cambiar Imagen
-			</button>
+			<label>Cambiar Imagen</label>
+			<form action="{{ url('galeria/upload/'.$item->id) }}" method="POST" enctype="multipart/form-data">
+				<input type="file" name="file">
 				<br>
-				<br>
-				<label>Cambiar Orden:</label>
-				{{ Form::open() }}
-				<select name="orden" class="form-control">
-				  <option>1</option>
-				  <option>2</option>
-				  <option>3</option>
-				  <option>4</option>
-				  <option>5</option>
-				</select>
-				<br>
-				<button type="submit" class="btn btn-success btn-sm">Guardar orden</button>
-				{{ Form::close() }}
-				<br>
+				<button type="submit" class="btn btn-primary">Guardar</button>
+			</form>
+			<br>
+			<br>
 			</div>
 		</div>
-	@endforeach
-
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Subir Imagen</h4>
-      </div>
-      <div class="modal-body">
-        <form action="/upload/
-      class="dropzone"
-      id="my-awesome-dropzone"></form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-      </div>
-    </div>
-  </div>
-</div>
+@endforeach
 @stop

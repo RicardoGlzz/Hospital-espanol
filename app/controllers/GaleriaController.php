@@ -9,13 +9,25 @@ class GaleriaController extends BaseController {
 		return View::make('admin.galeria')->with('galeria',$galeria);
 	}
 
-	public function saveImg()
+	public function saveImg($id)
 	{
+		$file = Input::file('file');
 
+		$fileName = $file->getClientOriginalName();
+
+		$filePath = 'img/'.$fileName;
+
+		$galeria = Galeria::find($id);
+
+		$galeria->nombre = $fileName;
+
+		$galeria->ruta = $filePath;
+
+		$file->move('img',$fileName);
+
+		$galeria->save();
+
+		return Redirect::to('galeria');
 	}
 
-	public function saveOrden()
-	{
-		
-	}
 }

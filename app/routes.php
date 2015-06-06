@@ -33,8 +33,7 @@ Route::group(array('before' => 'auth'),function(){
 
 	//Ruta para galeria
 	Route::get('galeria','GaleriaController@index');
-	Route::post('upload','GaleriaController@saveImg');
-	Route::post('orden','GaleriaController@saveOrden');
+	Route::post('galeria/upload/{id}','GaleriaController@saveImg');
 
 	//Rutas para los mensajes
 	Route::get('mensajes','MensajeController@index');
