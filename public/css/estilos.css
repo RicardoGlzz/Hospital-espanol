@@ -9,6 +9,10 @@ body
   overflow-x: hidden; 
 
 }
+ul 
+{
+  list-style: none;
+}
 .flexslider 
 {
   margin-top: 100px;
@@ -413,7 +417,7 @@ header .menu
   display: table;
 }
 #procedimientos h1 {
-  color: #1E305F;
+  color: #3b5998;
   text-align: center;
   margin-bottom: 55px;
 }
@@ -761,9 +765,20 @@ header .menu
 }
 .wrapper-section 
 {
-  margin-top: 130px;
+  padding-top: 100px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -o-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
+  -ms-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-
+.wrapper-section > section 
+{
+  padding: 10px;
+}
 /*SECCION DE DOCTORES*/
 .doctores 
 {
@@ -942,7 +957,7 @@ header .menu
 .calc-boton 
 {
   position: fixed;
-  top: 175px;
+  top: 170px;
   color: white;
   background: #3b5998;
   padding: 10px;
@@ -950,29 +965,48 @@ header .menu
   height: 80px;
   border-radius: 50%;
   border: 2px solid white;
-  right: 10px;
+  right: -10%;
   cursor: pointer;
   font-size: 1.1em; 
-  margin-right: 100%;
-  transition: all 1s ease;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-
+  margin-left: 100%;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  
 }
-.bypass-section #calculadora-imc 
+.calc  
 {
   width: 30%;
-  right: 100%;
+  right: -100%;
   position: fixed;
   top: 175px;
   z-index: 10;
   border: 2px solid #3b5998;
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+}
+.calc h3 
+{
+  margin-top: 0 !important;
+}
+.calc span 
+{
+  color: white;
+  cursor: pointer;
+}
+.calc span i 
+{
+  color:white;
+  font-size: 1.5em;
 }
 .mostrar-calc 
 {
-  margin-right: 0;
+  right: 1%;
 }
 /*SECCION MANGA GASTRICA*/
 .sleeve-section figure img
@@ -1205,6 +1239,12 @@ header .menu
   font-weight: bold;
   margin: 10px;
 }
+footer 
+{
+  background: rgb(247, 247, 247);
+  border-top: 2px solid gray;
+
+}
 footer section 
 {
   width: 45%;
@@ -1228,6 +1268,10 @@ footer h1
 footer #contactos 
 {
   border-left: 3px solid gray;
+  vertical-align: top;
+  position: relative;
+  top: 90px;
+  
 }
 
 /*MEDIA QUERIES*/

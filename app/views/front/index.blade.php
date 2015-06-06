@@ -12,8 +12,8 @@
 		    @endforeach
 		  </ul>
 		</div>	
-<h1 class="bmi-titulo">Welcome, first let's check your BMI</h1>
-<section id="calculadora-imc">
+<h1 class="bmi-titulo">Welcome, check your BMI here</h1>
+<section id="calculadora-imc" >
 		<div class="bmi-figure img-uno">
 			<figure>
 				<img src="img/bmi-men.jpg" alt="">
@@ -49,10 +49,10 @@
 	<section class="sobrepeso">
 		<figure class="peso-img peso-uno">
 			<img src="img/resumen-dos.jpg" alt="">
-			<h4>Worldwide obesity has more than doubled since 1980.</h4>
+			<h4>Worldwide obesity has doubled since 1980.</h4>
 		</figure>
 		<figure>
-			<h1>Got overweight?</h1>
+			<h1>Overweight?</h1>
 		</figure>
 		<figure class="peso-img peso-dos">
 			<img src="img/resumen.jpg" alt="">
@@ -109,7 +109,7 @@
 			<img src="img/gastro.png" alt="">
 		</div>
 		<div>
-			<h2>Gastroplication</h2>
+			<h2>Gastroplicature</h2>
 			<br>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor pariatur, numquam harum inventore porro consectetur explicabo eius alias nam possimus, fuga quisquam, dolorum! Minima assumenda harum exercitationem nemo eius magni!</p>
 			<br>

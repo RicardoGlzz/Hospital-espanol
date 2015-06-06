@@ -144,6 +144,20 @@ $(document).on("ready",function()
 		}
 	);
 
+
+	// calculadora en procedimientos
+	$(".calc-boton").on("click",function()
+	{
+		$(this).css("right","410px");
+		$(".calc").css("right","0");
+	})
+	$(".hide-calc").on("click",function()
+	{
+		$(".calc-boton").css("right","1%");
+		$(".calc").css("right","-100%");
+	})	
+
+
 		//MENU RESPONSIVE
 		$(".ver-menu").on("click",function()
 		{

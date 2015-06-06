@@ -17,12 +17,7 @@
 			<p>Colonia Palos Prietos C.P 82019</p>
 			<p>Mazatlán,Sinaloa</p>
 		</div>
-		<div id="conchas" class="direccion">
-			<h3>Centro Medico Las Conchas</h3>
-			<p>Avenida Rafael y Dr Jesus Kumate #202</p>
-			<p>Colonia Hacienda las Cruces</p>
-			<p>Mazatlán,Sinaloa</p>
-		</div>
+		
 		<section class="formulario">
 			<h3>If you have any questions, be sure to send us a message</h3>
 			<form action="">
@@ -57,8 +52,7 @@
 	// MAPA DE CONTACTO
 	 var locations = [
         {lat:24.035417, lon:-104.663236, place:"Felipe Pescador", id:'santabarbara'},
-        {lat:23.227174, lon:-106.421749, place:"Avenida Ejercito Mexicano", id:'cemeq'},
-        {lat:23.243168, lon:-106.442014, place:"Avenida Rafael y Dr Jesus Kumate", id:'conchas'}
+        {lat:23.227174, lon:-106.421749, place:"Avenida Ejercito Mexicano", id:'cemeq'}
         ];
 
            // Initialize and display a Google map when the web page is loaded
