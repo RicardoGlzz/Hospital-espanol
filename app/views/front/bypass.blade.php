@@ -34,12 +34,12 @@
 			</section>
 
 		<!-- Boton de caluladora -->
-		<div class="calc-boton">CHECK <br>YOUR <br>BMI <br>HERE</div>
+		<div class="calc-boton"><span>CHECK <br>YOUR <br>BMI <br>HERE</span></div>
 		<section id="calculadora-imc" class="calc">	
 			<span class="hide-calc">Hide  <i class="fa fa-arrow-right"></i></span>
 			<div class="calculadora">	
 				<h2>Check your BMI(Body Mass Index)</h2>
-				<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
+				
 				<form  role="form">
 				    <label class="" for="calculodeIMC">Height: </label>
 				    <input type="email" class="" id="altura" placeholder="Height in cms">
@@ -83,7 +83,7 @@
 			<h2>You can use our BMI calculator in order to know your BMI value</h2>
 		</section>
 		<h1>Informacion de precios de este preocedimiento</h1>
-	
+
 	</section>	
 </section>
 

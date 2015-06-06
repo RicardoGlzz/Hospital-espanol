@@ -25,7 +25,7 @@
 				<h1>Informacion de precios de este preocedimiento</h1>
 			</section>
 			<!-- Boton de caluladora -->
-		<div class="calc-boton">CHECK <br>YOUR <br>BMI <br>HERE</div>
+		<div class="calc-boton"><span>CHECK <br>YOUR <br>BMI <br>HERE</span> </div>
 		<section id="calculadora-imc" class="calc">	
 			<span class="hide-calc">Hide  <i class="fa fa-arrow-right"></i></span>
 			<div class="calculadora">	

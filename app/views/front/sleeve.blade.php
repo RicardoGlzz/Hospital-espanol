@@ -29,9 +29,9 @@
 			</section>
 		
 			<!-- Boton de caluladora -->
-		<div class="calc-boton">CHECK <br>YOUR <br>BMI <br>HERE</div>
+		<div class="calc-boton"><span>CHECK<br>YOUR <br>BMI <br>HERE</span></div>
 		<section id="calculadora-imc" class="calc">	
-			<span class="hide-calc">Hide  <i class="fa fa-arrow-right"></i></span>
+			<span class="hide-calc">Hide <span></span> <i class="fa fa-arrow-right"></i></span>
 			<div class="calculadora">	
 				<h2>Check your BMI(Body Mass Index)</h2>
 				<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
