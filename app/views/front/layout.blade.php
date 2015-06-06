@@ -61,7 +61,7 @@
 					<span class="ver-menu"><i class="fa fa-bars"></i></span>
 					<span class="cerrar-menu"><i class="fa fa-times"></i></span>
 				</div>
-				<li class="menu-item opcion"><a href="{{ URL::to('doctores') }}">Know the doctor & the cols</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('doctores') }}">Know the doctor & cols</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('bypass') }}">Gastric Bypass</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('sleeve') }}">Sleeve Gastrectomy</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('intragastric') }}">Intragastric Balloon</a></li>
@@ -82,7 +82,7 @@
 		</div>
 
 		<!-- Consulta doctor -->
-		<div class="ayuda"><span>FAQ</span><i class="fa fa-question"></i></div>
+		<div class="ayuda"><span>FAQs</span><i class="fa fa-question"></i></div>
 		<div class="consulta">
 			<h2>Have a doubt?</h2>
 			<span class="ocultar-consulta"><i class="fa fa-arrow-right"></i></span>
@@ -150,12 +150,6 @@
 					<span>C.P. 82010 Mazatlan, Sin; Mexico.</span>
 					<br>
 					<span>phone: [+52] (669) 985-0730</span>
-				</div>
-				<div>
-					<h3>Centro Medico Las Conchas</h3>
-					<span>Dr. Jesus Kumate 202, L-B3. Col. Hacienda las Cruces</span>
-					<br>
-					<span>C.P. 82126 Mazatlan, Sin; Mexico</span>
 				</div>
 			</section>
 		</footer>	
