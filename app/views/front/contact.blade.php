@@ -22,7 +22,7 @@
 			<h3>If you have any questions, be sure to send us a message</h3>
 			<form action="">
 				<div>
-					<label for="">Name/Last name:</label>
+					<label for="">Name:</label>
 					<br>
 					<input type="text">
 					<br>
@@ -33,6 +33,10 @@
 					<label for="">Email:</label>
 					<br>
 					<input type="email">
+					<br>
+					<label for="">Country:</label>
+					<br>
+					<select id="country2" name ="country2"></select>
 					<br>
 				</div>
 				<div>
@@ -48,6 +52,12 @@
 		</section>
 	</section>
 </section>
+
+
+<!-- Paises -->
+<script>
+	populateCountries("country2");
+</script>
 <script>
 	// MAPA DE CONTACTO
 	 var locations = [

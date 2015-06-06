@@ -1011,7 +1011,7 @@ header .menu
 /*SECCION MANGA GASTRICA*/
 .sleeve-section figure img
 {
-  width: 45%;
+  width: 50%;
 }
 .sleeve-section h1
 {
@@ -1047,7 +1047,7 @@ header .menu
 /*SECCION GASTROPLICATURE*/
 .gastro-section img 
 {
-  width: 25%;
+  width: 40%;
 }
 .gastro-section h1
 {
@@ -1083,7 +1083,7 @@ header .menu
 /*SECCION DE BALON INTRAGASTRICO*/
 .balloon-section img 
 {
-  width: 25%;
+  width: 40%;
 }
 .balloon-section h1
 {
@@ -1119,7 +1119,7 @@ header .menu
 /*SECCION METABOLICA*/
 .metabolic-section img 
 {
-  width: 25%;
+  width: 45%;
 }
 .metabolic-section h1
 {
@@ -1155,7 +1155,7 @@ header .menu
 /*SECCION CONTACTO*/
 #map 
 {
-  width: 35%;
+  width: 40%;
   height: 600px;
   margin-top: -75px;
 }
@@ -1223,6 +1223,11 @@ header .menu
   text-align: center;
   color: #3b5998;
   font-size: 1.2em;
+}
+.formulario select 
+{
+  width: 200px;
+  color: #3b5998;
 }
 .formulario .boton-send 
 {

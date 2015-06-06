@@ -5,10 +5,10 @@
 		<h1>Intragastric Balloon</h1>
 		
 		<section>
-				<h1>What is sleeve intragastric balloon?</h1>
+				<h1>What is intragastric balloon?</h1>
 				<p>It is an endoscopic method that involves placing a balloon in the stomach with a hospital stay of one hour.</p>
 				<figure>
-					<img src="img/gastro.png" alt="">
+					<img src="img/balon.jpg" alt="">
 				</figure>
 				<h3>Method</h3>
 				<p>Deep sedation the deflated balloon is introduced as stomach once instilled in 700 cc of saline solution marked with a dye such as methylene blue. Reversible 100%.</p>
