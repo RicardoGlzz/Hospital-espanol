@@ -57,7 +57,7 @@
 			<h4>Worldwide obesity has doubled since 1980.</h4>
 		</figure>
 		<figure>
-			<h1>Overweight?</h1>
+			<h1 class="overweight">Overweight?</h1>
 		</figure>
 		<figure class="peso-img peso-dos">
 			<img src="img/resumen.jpg" alt="">
