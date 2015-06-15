@@ -9,11 +9,6 @@
 		    <li  class="slide1">
 		  		<img src="{{ $item->ruta }}" alt="Imagenes de Galeria">			
 		    </li>
-		    <li>
-		    	<a href="{{ URL::to('sleeve') }}">
-		    		<img src="img/collage.jpg" alt="">
-		    	</a>
-		    </li>
 		    @endforeach
 		  </ul>
 		</div>	
@@ -29,10 +24,10 @@
 			<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
 			<form  role="form">
 			    <label class="" for="calculodeIMC">Height: </label>
-			    <input type="email" class="" id="altura" placeholder="Height in cms">
+			    <input type="email" class="" id="altura" placeholder="Height in inches">
 				<br>
 			  <label class="">Weight: </label>
-			      <input class="" id="peso" type="email" placeholder="Weight in kgs">  
+			      <input class="" id="peso" type="email" placeholder="Weight in pounds">  
 			  	<br>
 			     <input type="button" class="" id="boton-imc" value="Get BMI">
 			     <br>	

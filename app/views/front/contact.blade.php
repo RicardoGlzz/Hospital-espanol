@@ -8,8 +8,9 @@
 		<div id="santabarbara" class="direccion">
 			<h3>Hospital Santa Barbara del Rieti</h3>
 			<p>Felipe Pescador 302 Ote</p>
-			<p>Durango,Durango.</p>
-			<br>
+			<p>Colonia Centro C.P 34000</p>
+			<p>Durango,dgo</p>
+			
 		</div>
 		<div id="cemeq" class="direccion">
 			<h3>Cemeq</h3>

@@ -7,6 +7,7 @@
 body
 {
   overflow-x: hidden; 
+  background: #f9f9f9;
 
 }
 ul 
@@ -15,15 +16,12 @@ ul
 }
 .flexslider 
 {
-  margin-top: 100px;
-  width: 100%;
-  height: 500px;
+ 
+  
 }
-.flexslider li img
+.flexslider .slides img
 {
-  width: 100%;
-  height: 600px;
-
+  margin-top: -55px;
 }
 header .menu
 {
@@ -419,7 +417,6 @@ header .menu
 #procedimientos h1 {
   color: #3b5998;
   text-align: center;
-  margin-bottom: 55px;
 }
 #procedimientos section 
 {
@@ -428,24 +425,27 @@ header .menu
   margin-bottom: 35px;
   outline: 2px solid gray;
   vertical-align: top;
+  width: 310px;
 }
 #procedimientos hr 
 {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   position: relative;
+  z-index: 2;
   width: 1100px;
   left: 10%;
 }
 /*bypass de pagina inicio*/
 .inicio-bypass
 {
-  background: #8CB0F4;
   width: 320px;
   
 }
 .inicio-bypass,.inicio-sleeve,.inicio-balloon,.inicio-gastro,.inicio-metabolica h2
 {
   text-align: center;
+  background: #8CB0F4;
+  color: white;
 }
 .inicio-bypass div 
 {
@@ -458,16 +458,15 @@ header .menu
 
 .inicio-bypass div img 
 {
-  width: 320px;
+  width: 210px;
   margin-left: -5px;
-  margin-top: -5px;
 }
 .inicio-bypass button 
 {
   background:transparent;
   border: 2px solid white;
   color:white;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 10px; 
    -webkit-transition: all.5s ease-out;
   -moz-transition: all.5s ease-out;
@@ -482,30 +481,27 @@ header .menu
 /*inicio manga gastrica*/
 .inicio-sleeve
 {
-  background: white;
    width: 320px;
 }
 .inicio-sleeve div 
 {
   display: inline-block;
   vertical-align: middle;
-  color: #24448C;
+  color: white;
   font-size: 1em;
   padding: 5px;
 }
 
 .inicio-sleeve div img 
 {
-  width: 400px;
-  margin-left: -42px;
-  margin-top:  -52px;;
+  width: 227px;
 }
 .inicio-sleeve button 
 {
-  background:white;
-  border: 2px solid #24448C;
-  color:#24448C;
-  font-size: 1.5em;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-size: 1em;
   padding: 10px; 
    -webkit-transition: all.5s ease-out;
   -moz-transition: all.5s ease-out;
@@ -514,8 +510,8 @@ header .menu
 }
 .inicio-sleeve button:hover 
 {
-  background:#24448C;
-  color: white;
+  background:white;
+  color: #8CB0F4;
 } 
 /*balon intragastrico*/
 .inicio-balloon
@@ -534,8 +530,7 @@ header .menu
 
 .inicio-balloon div img 
 {
-  width: 320px;
-  margin-top: -30px;
+  width: 190px;
   margin-left: -5px;
 }
 .inicio-balloon button 
@@ -543,7 +538,7 @@ header .menu
   background:transparent;
   border: 2px solid white;
   color:white;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 10px; 
    -webkit-transition: all.5s ease-out;
   -moz-transition: all.5s ease-out;
@@ -559,52 +554,54 @@ header .menu
 /*Gastroplication*/
 .inicio-gastro
 {
-  background: white;
+  background: #8CB0F4;;
   width: 320px;
   position: relative;
   left: 5%;
+}
+.inicio-gastro h2 
+{
+  margin-top: -22px;
 }
 .inicio-gastro div 
 {
   display: inline-block;
   vertical-align: middle;
-  color: #24448C;
+  color: white;
   font-size: 1em;
   padding: 15px;
 }
 
 .inicio-gastro div img 
 {
-  width: 320px;
-  margin-left: -15px; 
-  margin-top: -22px; 
+  width: 210px;
+  margin-top: -10px;
 }
 .inicio-gastro button 
 {
-  background:white;
-  border: 2px solid #24448C;
-  color:#24448C;
-  font-size: 1.5em;
+  background:#8CB0F4;;
+  border: 2px solid white;
+  color:white;
+  font-size: 1em;
   padding: 10px; 
    -webkit-transition: all.5s ease-out;
   -moz-transition: all.5s ease-out;
   -o-transition: all.5s ease-out;
   transition: all.5s ease-out;
-  margin-left: 25px;
 }
 .inicio-gastro button:hover 
 {
-  background:#24448C;
-  color: white;
+  background:white;
+  color: #8CB0F4;
 } 
 /*Cirugia metabolica*/
 .inicio-metabolica
 {
-  background: #8CB0F4;
   width: 320px;
   position: relative;
   left: 22%;
-  
+  background: #8CB0F4;
+
 }
 .inicio-metabolica div 
 {
@@ -617,22 +614,22 @@ header .menu
 
 .inicio-metabolica div img 
 {
-  width: 320px;
-  margin-top: -5px;
-  margin-left: -5px;
+  width: 210px;
+  margin-left: 45px;
 }
 .inicio-metabolica button 
 {
   background:transparent;
   border: 2px solid white;
   color:white;
-  font-size: 1.5em;
+  font-size: 1em;
   padding: 10px; 
+  margin-left: 85px;
    -webkit-transition: all.5s ease-out;
   -moz-transition: all.5s ease-out;
   -o-transition: all.5s ease-out;
   transition: all.5s ease-out;
-  margin-left: 65px;
+  
 }
 .inicio-metabolica button:hover 
 {
@@ -774,6 +771,7 @@ header .menu
   -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   -o-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); 
   -ms-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  background: white;
 }
 .wrapper-section > section 
 {
@@ -925,7 +923,8 @@ header .menu
 {
   text-align: center;
   font-size: 2.5em;
-  color: #3b5998;
+  color: white;
+  background: #3B5998;
 }
 .bypass-section 
 {
@@ -948,10 +947,51 @@ header .menu
   width: 80%;
   margin: 0 auto;
 }
+/**/
 .bypass-section h3 
 {
   margin-top: 10px;
 }
+.proc-desc .proc-div 
+{
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+.proc-desc .proc-div div 
+{
+  border: 2px solid;
+  margin-top: 20px;
+}
+.proc-desc .proc-div div h3 
+{
+   background: #3B5998;
+   color: white;
+   margin-bottom: 15px; 
+}
+
+.proc-desc figure 
+{
+    margin: 0;
+}
+.requisitos  div
+{
+  background: rgb(140, 176, 244) none repeat scroll 0% 0%;
+  border: 1px solid #3B5998;
+  color: white;
+  width: 45%;
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+  margin-left: 28%;  
+}
+.requisitos  div h2 
+{
+   background: #3B5998;
+   color: white;
+   margin-bottom: 15px;  
+}
+/**/
 /*Calculadora*/
 .calc-boton 
 {
@@ -1008,15 +1048,13 @@ header .menu
   right: 0;
 }
 /*SECCION MANGA GASTRICA*/
-.sleeve-section figure img
-{
-  width: 50%;
-}
+
 .sleeve-section h1
 {
   text-align: center;
   font-size: 2.5em;
-  color: #3b5998;
+  color: white;
+  background: #3B5998;
 }
 .sleeve-section 
 {
@@ -1043,52 +1081,46 @@ header .menu
 {
   margin-top: 10px;
 }
+.sleeve-section .proc-div figure img
+{
+   width: 100%;
+}
 /*SECCION GASTROPLICATURE*/
 .gastro-section img 
 {
-  width: 40%;
+  width: 90%;
 }
 .gastro-section h1
 {
   text-align: center;
   font-size: 2.5em;
-  color: #3b5998;
+  color: white;
+  background: #3B5998;
 }
 .gastro-section 
 {
   text-align: center;
   color: #3b5998;
 }
-.gastro-section label 
-{
-  font-size: 1.5em;
-  font-weight: bold;
-}
+
 .gastro-section ul li 
 {
-  font-size: 1.2em;
   margin-top: 15px;
+  font-size: .8em;
 }
-.gastro-section p 
-{
-  font-size: 1.2em;
-  width: 80%;
-  margin: 0 auto;
-}
+
 .gastro-section h3 
 {
   margin-top: 10px;
 }
 /*SECCION DE BALON INTRAGASTRICO*/
-.balloon-section img 
-{
-  width: 40%;
-}
+
 .balloon-section h1
 {
   text-align: center;
   font-size: 2.5em;
-  color: #3b5998;
+  color: white;
+  background: #3B5998;
 }
 .balloon-section 
 {
@@ -1116,15 +1148,13 @@ header .menu
   margin-top: 10px;
 }
 /*SECCION METABOLICA*/
-.metabolic-section img 
-{
-  width: 45%;
-}
+
 .metabolic-section h1
 {
   text-align: center;
   font-size: 2.5em;
-  color: #3b5998;
+  color: white;
+  background: #3B5998;
 }
 .metabolic-section 
 {
@@ -1138,7 +1168,7 @@ header .menu
 }
 .metabolic-section ul li 
 {
-  font-size: 1.2em;
+  font-size: .8em;
   margin-top: 15px;
 }
 .metabolic-section p 
@@ -1210,6 +1240,7 @@ header .menu
 {
   display: block;
   text-align: center; 
+  padding: 5px;
 }
 .formulario div 
 {
@@ -1245,20 +1276,19 @@ header .menu
 }
 footer 
 {
-  background: rgb(247, 247, 247);
-  border-top: 2px solid gray;
-
+  background:rgb(59, 89, 152);
 }
 footer section 
 {
   width: 45%;
   display: inline-block;
-  color: #3b5998;
+  color: #ffffff;
 }
 footer #facebook-api 
 {
   position: relative;
   left: 90px;
+  padding-right: 70px;
 }
 footer section div 
 {
@@ -1271,7 +1301,7 @@ footer h1
 }
 footer #contactos 
 {
-  border-left: 3px solid gray;
+  border-left: 3px solid white;
   vertical-align: top;
   position: relative;
   top: 90px;
@@ -1441,7 +1471,12 @@ footer #contactos
      /*Inicio*/
      .inicio-section h1
      {
-        margin-top: 100px;
+        display: none;
+     }
+     #procedimientos h1 
+     {
+        display: block;
+        margin-top: 5px;
      }
      .flexslider 
      {

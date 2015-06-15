@@ -2,31 +2,56 @@
 @section('content')
 <section class="wrapper-section">
 	<section class="sleeve-section">
-		<h1>Sleeve Gastrectomy</h1>
-		<section>
-				<h1>What is sleeve gastrectomy?</h1>
-				<p>It removes / removes 70% of the greater curvature of the stomach , leaving a new stomach as "manga " or " gastric tube " .</p>
-				<figure>
-					<img src="img/sleeve.jpg" alt="">
-				</figure>
+		<h1>- Sleeve Gastrectomy -</h1>
+		<section class="proc-desc">
+			<div class="proc-div">	
+				<div>
+				<h3>What is sleeve gastrectomy?</h3>
+				<p>In this procedure 70% of the stomach is removed leaving a new stomach as "sleeve " or "gastric tube". You will lose weight by two mechanisms. The first one, you won´t be able to eat the same amount of food you ate before. Second one, in the stomach portion that is removed there a hormone called “ghrelin” which relates to appetite and it won´t be produced in the same amount. </p>
+				</div>
+
+				<div>
 				<h3>Method</h3>
-				<p>Laparoscopic : In 98 % of patients the surgery is performed by laparoscopy.</p>
-				<h3>Method by which weight is lost</h3>
-				<p>Stomach size is reduced by 70 % of its initial size . Causing the passage of food restriction . Besides producing hormone called GRHELINA appetite decreases.</p>
+				<p>In 98 % of patients the surgery is performed by laparoscopy.</p>
+				</div>
+
+				<div>
+				<h3>How will I lose weight?</h3>
+				<p>With the new size of your stomach, you won´t be able to eat the same amount of food you ate before. The appetite hormone won´t be produced in the same amount.</p>
+				</div>
+
+				<div>
 				<h3>What is the expected weight loss ?</h3>
-				<p>Weight loss is expected to 70-80 % of the percentage of excess body weight . Beginning with a weight loss of 15 to 20 kg in the first month and 5 to 7 kilograms per month in subsequent .</p>
+				<p>Weight loss is expected to 70-80 % of the percentage of excess body weight. Beginning with a weight loss of 35 to 30 pounds in the first month and 15 to 10 pounds per month.</p>
+				</div>
+
+				<div>
 				<h3>Surgical time</h3>
 				<p>2 hours</p>
-				<h3>Hospital stay</h3>
+				</div>
+
+				<div>
+				<h3>Hospitalization</h3>
 				<p>24 to 48 hours</p>
+				</div>
+
+				<div>
 				<h3>Recovery time</h3>
 				<ul>
 					<li>3rd to 5th day of desk work</li>
 					<li>5th- 10th : Exercises such as walking</li>
 					<li>10th to 20vo day : Aerobic exercise</li>
 				</ul>
-				<h1>Informacion de precios de este preocedimiento</h1>
-			</section>
+				</div>
+
+				
+			</div>
+			<div class="proc-div">
+				<figure>
+					<img src="img/sleeve.jpg" alt="">
+				</figure>
+			</div>	
+		</section>
 		
 			<!-- Boton de caluladora -->
 		<div class="calc-boton"><span>CHECK<br>YOUR <br>BMI <br>HERE</span></div>
@@ -37,10 +62,10 @@
 				<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
 				<form  role="form">
 				    <label class="" for="calculodeIMC">Height: </label>
-				    <input type="email" class="" id="altura" placeholder="Height in cms">
+				    <input type="email" class="" id="altura" placeholder="Height in inches">
 					<br>
 				  <label class="">Weight: </label>
-				      <input class="" id="peso" type="email" placeholder="Weight in kgs">  
+				      <input class="" id="peso" type="email" placeholder="Weight in pounds">  
 				  	<br>
 				     <input type="button" class="" id="boton-imc" value="Get BMI">
 				     <br>	
@@ -51,31 +76,36 @@
 				    <input type="email" name="leyenda" id="leyenda" size="42">		             
 				</form>
 			</div>  
-			  
-			<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
-				Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
 			</section>
+			<br>
+			<hr>
+			<br>	
 			<section class="requisitos">
 			<h2>Am I a candidate for this procedure?</h2>
 			<br>
 			<br>
-			<label for="">Criteria:</label>
+			<h2>Candidate for surgery Criteria: </h2>
 			<br>
 			<br>
-			<label for="">Age:</label>
+			<div>
+			<h2>Age:</h2>
 				<ul>
 					<li>15-65 years</li>
 				</ul>
-			<label for="">Weight:</label>
+			</div>
+			<div>	
+			<h2>Weight:</h2>
 			<ul>
-				<li>45 kgs more than ideal value.</li>
-				<li>BMI value up to 30.</li>
-				<li>Higher body mass index of 30 with a disease associated examples ( systemic hypertension , diabetes mellitus type II , osteorartosis , cholesterol , triglycerides, sleep apnea , depression , heart failure) .</li>
+			
+				<li>BMI > 35 with any associated obesity disease (systemic hypertension, diabetes mellitus type II, dyslipidemia, Obstructive sleep apnea, cardiac disease)</li>
+				<li>BMI > 40</li>
 			</ul>
+			</div>
 			<br>
 			<br>
 			<h2>You can use our BMI calculator in order to know your BMI value</h2>
 		</section>
+		<h1>Informacion de precios de este preocedimiento</h1>
 	</section>	
 </section>
 

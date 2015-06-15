@@ -47,12 +47,9 @@ $(document).on("ready",function()
 			$("#procedimientos h1").addClass("animated slideInDown");
 		}
 		// ANIMACIONES DE SECCION DOCTORES
-		if($(window).scrollTop() > $(".titulo-doctores").scrollTop())
-		{
-			$(".titulo-doctores").addClass("animated slideInLeft");	
-			$(".doctor1 figure").addClass("animated slideInRight");
-		}
+		
 		if($(window).scrollTop() > $(".doctor2").scrollTop()+400)
+			
 		{
 			$(".doctor2 h2,p").addClass("animated slideInRight");	
 			$(".doctor2 figure img").addClass("animated slideInLeft");
@@ -146,7 +143,7 @@ $(document).on("ready",function()
 
 
 	// calculadora en procedimientos
-	$(".calc-boton").on("click",function()
+	$(".calc-boton").hover(function()
 	{
 		$(this).css("right","410px");
 		$(".calc").css("right","0");
@@ -189,21 +186,21 @@ $(document).on("ready",function()
 	var peso, altura, imc, leyenda;
 	//hacemos la llamada a los datos introducidos
 	peso=document.getElementById("peso").value;
-	altura=document.getElementById("altura").value/100;
+	altura=document.getElementById("altura").value;
 	//calculamos el imc
-	imc=peso/(altura*altura);
+	imc=(peso/(altura*altura))*703;
 	//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
 	document.getElementById("imc").value=imc.toFixed(2);
 	//mediante if comparamos el resultado para determinar si es correcto el peso
-	if(imc<=20.5)
+	if(imc<=18.5)
 	{
 	//determinamos el defecto en peso y definimos el comentario
-		leyenda="You are under ther recommended value by " + (altura*altura*20.5-peso).toFixed(1) + " kgs";
+		leyenda="You are under ther recommended value " ;
 	}
 	else if(imc>=25.5)
 	{
 	//determinamos el exceso en peso y definimos el comentario
-		leyenda="You are above the recommended value by "+(peso-altura*altura*25.5).toFixed(1) +" kgs";
+		leyenda="You are above the recommended value" ;
 	}
 	else
 	{

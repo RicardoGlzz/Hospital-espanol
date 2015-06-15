@@ -2,27 +2,54 @@
 @section('content')
 <section class="wrapper-section">
 	<section class="gastro-section">
-		<h1>Gastroplicature</h1>
+		<h1>- Gastroplicature -</h1>
 		
-			<section>
-				<h1>What is sleeve gastroplicature?</h1>
-				<p>Invagination of the greater curvature of the stomach.</p>
-				<figure>
-					<img src="img/gastro.png" alt="">
-				</figure>
-				<h3>Method</h3>
-				<p>Laparoscopic : In 98 % of patients the surgery is performed by laparoscopy.</p>
-				<h3>Method by which weight is lost</h3>
-				<p>Restricting the passage of food. Early satiety</p>
-				<h3>What is the expected weight loss ?</h3>
-				<p>Approximately 60 % of the percentage of excess body weight.</p>
-				<h3>Surgical time</h3>
-				<p>2 hours</p>
-				<h3>Hospital stay</h3>
-				<p>24 to 48 hours</p>
-				<h3>Recovery time</h3>
-				<p>10 days</p>
-				<h1>Informacion de precios de este preocedimiento</h1>
+			<section class="proc-desc">
+				<div class="proc-div">
+					<div>
+					<h3>What is sleeve gastroplicature?</h3>
+					<p>An invagination of the stomach is performed surgically which will make an stomach similar to a sleeve gastrectomy without the need of stapling devices.</p>
+					</div>
+
+					<div>
+					<h3>Method</h3>
+					<p>In 98 % of patients the surgery is performed by laparoscopy.</p>
+					</div>
+
+					<div>
+					<h3>How will I lose weight?</h3>
+					<p>With the new size of your stomach, you won´t be able to eat the same amount of food you ate before. The appetite hormone won´t be produced in the same amount.</p>
+					</div>
+
+					<div>
+					<h3>What is the expected weight loss ?</h3>
+					<p>Weight loss is expected to 70-80 % of the percentage of excess body weight. Beginning with a weight loss of 35 to 30 pounds in the first month and 15 to 10 pounds per month.</p>
+					</div>
+
+					<div>
+					<h3>Surgical time</h3>
+					<p>2 hours</p>
+					</div>
+
+
+					<div>
+					<h3>Hospitalization</h3>
+					<p>24 to 48 hours</p>
+					</div>
+
+
+					<div>
+					<h3>Recovery time</h3>
+					<p>3rd to 5th day of desk work</p>
+					<p>5th- 10th : Exercises such as walking</p>
+					<p>10th to 20vo day : Aerobic exercise</p>
+					</div>
+				</div>		
+				<div class="proc-div">
+					<figure>
+						<img src="img/gastro.png" alt="">
+					</figure>
+				</div>	
 			</section>
 			<!-- Boton de caluladora -->
 		<div class="calc-boton"><span>CHECK <br>YOUR <br>BMI <br>HERE</span></div>
@@ -33,10 +60,10 @@
 				<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
 				<form  role="form">
 				    <label class="" for="calculodeIMC">Height: </label>
-				    <input type="email" class="" id="altura" placeholder="Height in cms">
+				    <input type="email" class="" id="altura" placeholder="Height in inches">
 					<br>
 				  <label class="">Weight: </label>
-				      <input class="" id="peso" type="email" placeholder="Weight in kgs">  
+				      <input class="" id="peso" type="email" placeholder="Weight in pounds">  
 				  	<br>
 				     <input type="button" class="" id="boton-imc" value="Get BMI">
 				     <br>	
@@ -54,21 +81,23 @@
 
 			<section class="requisitos">
 			<h2>Am I a candidate for this procedure?</h2>
+			<br>	
 			<br>
-			<br>
-			<label for="">Criteria:</label>
-			<br>
-			<br>
-			<label for="">Age:</label>
+			<h2>Candidate for surgery Criteria: <h2>
+			
+			<div>
+			<h2>Age:</h2>
 				<ul>
 					<li>15-65 years</li>
 				</ul>
-			<label for="">Weight:</label>
+			</div>
+			<div>	
+			<h2>Weight:</h2>
 			<ul>
-				<li>45 kgs more than ideal value.</li>
-				<li>BMI value up to 30.</li>
-				<li>Higher body mass index of 30 with a disease associated examples ( systemic hypertension , diabetes mellitus type II , osteorartosis , cholesterol , triglycerides, sleep apnea , depression , heart failure) .</li>
+				<li>BMI > 35 with any associated obesity disease (systemic hypertension, diabetes mellitus type II, dyslipidemia, Obstructive sleep apnea, cardiac disease).</li>
+				<li>BMI >40.</li>
 			</ul>
+			</div>
 			<br>
 			<br>
 			<h2>You can use our BMI calculator in order to know your BMI value</h2>
