@@ -426,6 +426,7 @@ header .menu
   outline: 2px solid gray;
   vertical-align: top;
   width: 310px;
+  height: 600px;
 }
 #procedimientos hr 
 {
@@ -700,6 +701,10 @@ header .menu
 {
   color:#3b5998; 
 }
+#calculadora-imc .bmi-figure 
+{
+  width: 35%;
+}
 #calculadora-imc #imc
  {
   margin-left: 20px;
@@ -713,12 +718,93 @@ header .menu
   margin-top: 15px;
   margin-bottom: 15px;
 }
+/*Precio de procedimientos*/
+#precio-bypass 
+{
+  border: 2px solid #3b5998;
+  background: rgb(140, 176, 244);
+ 
+}
+#precio-bypass h2 
+{
+  color: white;
+  background: #3b5998;
+  margin-bottom: 5px;
+  font-size: 2em !important;
+}
+/*#precio-bypass h3 
+{
+  color: white;
+  text-align: left;
+}
+#precio-bypass h3 a 
+{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 20px;
+  font-size: 1.5em;
+  margin-left: 30px;
+} */
+
+#precio-bypass .precio-carac 
+{
+  background: white;
+  width: 24%;
+  display: inline-block;
+  vertical-align: top;
+  height: 100px;
+}
+#precio-bypass .precio-carac i 
+{
+  font-size: 2.5em;
+}
+#precio-bypass #precio 
+{
+  color: white;
+  background: #3b5998;
+  padding: 10px;
+  width: 145px;
+  height: 145px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  left: 42%;
+  margin-top: -60px;
+  top: 35px;
+}
+#precio-bypass #precio p 
+{
+  margin-top: 35px;
+  font-size: 2em;
+
+}
+
+#lugar-precio 
+{
+  background: white;
+}
+#lugar-precio span 
+{
+  font-size: 2em;
+  text-align: left;
+  display: block;
+  margin-left: 50px;
+}
+
+/**/
 .sobrepeso 
 {
   display: block;
   position: relative;
   text-align: center;
   top: 50px;
+}
+.sobrepeso ul li 
+{
+  font-size: 1.5em;
+  margin-top: 35px;
+  color: #3b5998;
 }
 .sobrepeso figure
 {

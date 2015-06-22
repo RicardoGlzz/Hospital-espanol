@@ -19,26 +19,7 @@
 						<h3>How will I lose weight?</h3>
 						<p>You won’t be able to eat the same amount of food that you ate before. A malabsorptive mechanism of nutrients will be perform.</p>
 					</div>
-					<div>
-						<h3>What is the expected weight loss ?</h3>
-						<p>A loss of 85% of excess body weight is expected. The first month you will lose up to 30 to 40 pounds.</p>
-					</div>
-					<div>
-						<h3>Surgical time</h3>
-						<p>3 hours</p>
-					</div>
-					<div>
-						<h3>Hospitalization</h3>
-						<p>24 to 48 hours</p>
-					</div>
-					<div>
-						<h3>Recovery time</h3>
-						<ul>
-							<li>3rd to 5th day of desk work</li>
-							<li>5th- 10th : Exercises such as walking</li>
-							<li>10th to 20vo day : Normal life</li>
-						</ul>
-				</div>
+					
 
 				</div>
 				<div class="proc-div">
@@ -78,6 +59,54 @@
 			<br>
 			<hr>
 			<br>	
+			<!-- Precios -->
+			<section id="precio-bypass">
+				<h2>Gastric Bypass</h2>
+				<div class="precio-carac">
+					<span>Expected weight loss</span>
+					<br>
+					<i class="fa fa-check"></i>
+					<br>
+					<span>85%</span>
+				</div>
+				<div class="precio-carac">
+					<span>Surgical time</span>
+					<br>
+					<i class="fa fa-clock-o"></i>
+					<br>
+					<span>3 hours</span>
+				</div>
+				<div class="precio-carac">
+					<span>Hospital time</span>
+					<br>
+					<i class="fa fa-bed"></i>
+					<br>
+					<span>3 hours</span>
+				</div>
+				<div class="precio-carac">
+					<span>Recovery time</span>
+					<br>
+					<i class="fa fa-street-view"></i>
+					<br>
+					<span>3rd to 5th day of desk work</span>
+				</div>
+				
+				<div id="precio">
+					<p>
+						$95,000 MXN
+					</p>
+					
+				</div>
+				<div id="lugar-precio">
+					<span>Mazatlán 
+						&						
+						Durango	
+					</span>
+				</div>
+			</section>
+			<br>
+			<hr>
+			<br>	
 			<section class="requisitos">
 			<h2>Am I a candidate for this procedure?</h2>
 			<br>
@@ -100,7 +129,7 @@
 			<br>
 			<h2>You can use our BMI calculator in order to know your BMI value</h2>
 		</section>
-		<h1>Informacion de precios de este preocedimiento</h1>
+		
 
 	</section>	
 </section>

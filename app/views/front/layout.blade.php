@@ -79,7 +79,7 @@
 				<li><a href="https://www.facebook.com/hospitalsantabarbaradelrieti?fref=ts" class="fb" target="_blank"><i class="fa fa-facebook"></i></a></li>
 				<li><a href="https://twitter.com/HospStaBarbara" class="tw"><i class="fa fa-twitter"target="_blank"></i></a></li>
 				<li><a href="https://www.youtube.com/channel/UCa1o1CSIqJf7jUwbJBfRSJA" class="youtube" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
-				<li><a href="" class="g-plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://plus.google.com/+HospitalSantaBarbaradelRietiDurango/videos" class="g-plus" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 			</ul>
 		</div>
 

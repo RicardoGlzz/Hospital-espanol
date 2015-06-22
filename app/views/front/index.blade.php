@@ -19,9 +19,15 @@
 				<img src="img/bmi-men.jpg" alt="">
 			</figure>
 		</div>
-		<div class="calculadora">	
+	 
+		<div class="bmi-figure img-dos">
+			<figure>
+				<img src="img/bmi-women.jpg" alt="">
+			</figure>
+		</div>  
+			<div class="calculadora">	
+				<h2>English System</h2>
 			<h2>Check your BMI(Body Mass Index)</h2>
-			<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
 			<form  role="form">
 			    <label class="" for="calculodeIMC">Height: </label>
 			    <input type="email" class="" id="altura" placeholder="Height in inches">
@@ -37,12 +43,26 @@
 			        	<label>Conclusión:</label>
 			    <input type="email" name="leyenda" id="leyenda" size="42">		             
 			</form>
+		</div> 
+			<div class="calculadora">	
+				<h2>Sistema Metrico Internacional</h2>
+			<h2>Checa tu IMC</h2>
+			<form  role="form">
+			    <label class="" for="calculodeIMC">Altura: </label>
+			    <input type="email" class="" id="altura" placeholder="Altura en centimetros">
+				<br>
+			  <label class="">Weight: </label>
+			      <input class="" id="peso" type="email" placeholder="Peso en kilogramos">  
+			  	<br>
+			     <input type="button" class="" id="boton-imc" value="Get IMC">
+			     <br>	
+			     <label for="">IMC:</label>
+			    <input type="text" class="l" id="imc" placeholder="IMC" disabled>		     
+			       <br>
+			        	<label>Conclusión:</label>
+			    <input type="email" name="leyenda" id="leyenda" size="42">		             
+			</form>
 		</div>  
-		<div class="bmi-figure img-dos">
-			<figure>
-				<img src="img/bmi-women.jpg" alt="">
-			</figure>
-		</div>   
 		<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
 			Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
 	</section>
@@ -52,7 +72,14 @@
 			<h4>Worldwide obesity has doubled since 1980.</h4>
 		</figure>
 		<figure>
-			<h1 class="overweight">Overweight?</h1>
+			<ul>
+				<li>+Diabetes type II</li>
+				<li class="overweight">+High blood pressure</li>
+				<li>+Overweight</li>
+				<li>+Joint pain</li>
+				<li>+Cholesterol</li>
+				<li>+Triglycerides</li>
+			</ul>
 		</figure>
 		<figure class="peso-img peso-dos">
 			<img src="img/resumen.jpg" alt="">
@@ -70,7 +97,7 @@
 		<div>
 			<h2>Gastric Bypass</h2>
 			<br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor pariatur, numquam harum inventore porro consectetur explicabo eius alias nam possimus, fuga quisquam, dolorum! Minima assumenda harum exercitationem nemo eius magni!</p>
+			<p>Also called gastric bypass "Y" of Roux, is the gold standard surgery for weight loss that takes place in Mexico and around theworld. A stomach pouch of about 30 cc is formed. Subsequently the smaller intestine is attached to new stomach pouch. You will lose weight by two mechanisms. First one, you will not be able to eat the same amount of that you ate before. Second one, a malabsorptive mechanism will be created.</p>
 			<br>
 			<button>Lorem ipsum</button>
 		</div>
@@ -83,7 +110,7 @@
 		<div>
 			<h2>Sleeve Gastrectomy</h2>
 			<br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor pariatur, numquam harum inventore porro consectetur explicabo eius alias nam possimus, fuga quisquam, dolorum! Minima assumenda harum exercitationem nemo eius magni!</p>
+			<p>In this procedure 70% of the stomach is removed leaving a new stomach as "sleeve " or "gastric tube". You will lose weight by two mechanisms. The first one, you won´t be able to eat the same amount of food you ate before. Second one, in the stomach portion that is removed there a hormone called “ghrelin” which relates to appetite and it won´t be produced in the same amount. </p>
 			<br>
 			<button>Lorem ipsum</button>
 		</div>
@@ -97,7 +124,7 @@
 		<div>
 			<h2>Intragastric Balloon</h2>
 			<br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor pariatur, numquam harum inventore porro consectetur explicabo eius alias nam possimus, fuga quisquam, dolorum! Minima assumenda harum exercitationem nemo eius magni!</p>
+			<p>It is a balloon that is filled up with saline solution with a colorant. Its introduced to stomach by endoscopy and leave there for 6 months.</p>
 			<br>
 			<button>Lorem ipsum</button>
 		</div>
@@ -111,7 +138,7 @@
 		<div>
 			<h2>Gastroplicature</h2>
 			<br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor pariatur, numquam harum inventore porro consectetur explicabo eius alias nam possimus, fuga quisquam, dolorum! Minima assumenda harum exercitationem nemo eius magni!</p>
+			<p>An invagination of the stomach is performed surgically which will make an stomach similar to a sleeve gastrectomy without the need of stapling devices.</p>
 			<br>
 			<button>Lorem ipsum</button>
 		</div>
@@ -125,7 +152,7 @@
 		<div>
 			<h2>Metabolic Surgery</h2>
 			<br>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor pariatur, numquam harum inventore porro consectetur explicabo eius alias nam possimus, fuga quisquam, dolorum! Minima assumenda harum exercitationem nemo eius magni!</p>
+			<p>It´s a modified gastric bypass that will cause the production of a substance in the small intestine called incretin that stimulates insulin production.</p>
 			<br>
 			<button>Lorem ipsum</button>
 		</div>
