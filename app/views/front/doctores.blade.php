@@ -8,9 +8,50 @@
 				<img src="img/doctor-dos.jpg" alt="">
 			</figure>
 			<figure>
-				<h2>Dr.Lorem Ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam laborum quos, dolorum libero, quasi adipisci mollitia architecto consequatur delectus vero earum praesentium nobis optio laudantium eum omnis veritatis nihil! Harum.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, similique, ipsam. Minus non tenetur suscipit, magnam iure repellat repellendus error molestiae? Tempora repellendus amet explicabo, repellat totam accusantium aspernatur laudantium!</p>
+				<h2>Dr. Othón Vázquez Novoa</h2>
+				<h3>Laparoscopic Surgeon and Obesity Surgeon. Gastrointestinal Endoscopist</h3>
+				<ul>
+					<li>- Responsible of the Obesity Surgery Service in
+					Santa Bárbara del Rieti Hospital
+					Durango, Durango, México
+					</li>
+					<li>- Responsible of the Obesity Surgery Service in
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Responsible of the Obesity Surgery Service in
+					General 450 Hospital 
+					State Department of Health
+					Durango, Durango, Mexico
+					</li>
+					<li>- Member of the General Surgery Mexican Association</li>
+					<li>- Member of the Endoscopic Surgery Mexican Association</li>
+					<li>- Member of the Gastrointestinal Endoscopy Mexican Association</li>
+					<li>- Professor of the Gastrointestinal Endoscopy, Advanced Laparoscopic Surgery and Obesity Surgery Course 
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Responsible of the Gastrointestinal Endoscopy Unit
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Obesity Surgery
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Advanced Laparoscopic Surgery
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Obesity Endoscopy and Gastrointestinal Endoscopy
+					20th of November Hospital
+					Mexico City, State Department of Health
+					</li>
+					<li>- General Surgery Residency
+					Mexican Central Red Cross Hospital
+					Mexico City 
+					</li>
+				</ul>
 			</figure>
 		</div>
 		<div class="doctor-nocolor doctor2">
@@ -18,9 +59,25 @@
 				<img src="img/doctor-dos.jpg" alt="">
 			</figure>
 			<figure>
-				<h2>Dr.Lorem Ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi commodi quidem molestiae magni ullam dicta repellat laborum accusantium similique ex fugit numquam temporibus, ducimus nostrum. Assumenda magni, repudiandae nemo veritatis.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quasi, eius quod obcaecati numquam labore! Iusto saepe accusantium doloribus fugit tenetur. Id dicta labore maiores similique reprehenderit blanditiis temporibus dolorum.</p>
+				<h2>Dr. Fernando Vazquez Reyes</h2>
+				<ul>
+					<li>- Bariatric Surgery Program Coordinator
+					Santa Barbara del Rieti Hospital
+					Durango, Durango,México
+					</li>
+					<li>- Bariatric Surgery, Advanced laparoscopic Surgery and Gastrointestinal Endoscopic Assistant
+					Santa Barbara del Rieti Hospital
+					Durango, Durango, Mexico
+					</li>
+					<li>- General Medical Practitioner
+					Santa Barbara del Rieti Hospital
+					Durango, Durango, Mexico
+					</li>
+					<li>- Medical Degree
+					Monterrey University
+					Moterrey, Nuevo Leon, Mexico
+					</li>
+				</ul>
 			</figure>
 		</div>
 		<div class="doctor-color doctor3">
@@ -28,11 +85,73 @@
 				<img src="img/doctor-tres.jpg" alt="">
 			</figure>
 			<figure>
-				<h2>Dr.Lorem Ipsum</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae animi, dolorum ducimus, unde consectetur ad a necessitatibus optio aspernatur quos odit rerum, reiciendis, magnam repellendus quae dolor aliquam qui obcaecati!</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et autem provident ea necessitatibus ducimus dicta dolorum totam illum voluptatibus blanditiis quod vero, modi officiis quas. Similique itaque alias voluptatem. Dolore.</p>
+				<h2>Dr. Jorge Arturo Hernández Favela</h2>
+				<h3>Laparoscopic Surgeon and Obesity Surgeon. Gastrointestinal Endoscopist</h3>
+				<ul>
+					<li>- Bariatric Surgeon
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>Gastrointestinal and Laparoscopic Surgery Unit
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Co-Professor of the Gastrointestinal Endoscopy, Advanced Laparoscopic Surgery and Obesity Surgery Course 
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Gastrointestinal Endoscopy Subspecialty
+					Santiago Ramon y Cajal General Hospital
+					ISSSTE
+					</li>
+					<li>- Mexican General Surgery Board Certificate</li>
+					<li>- Member of the General Surgery Mexican Association</li>
+					<li>- Member of the Endoscopic Surgery Mexican Association</li>
+					<li>- General Surgery Residency
+					Mexico General Hospital
+					State Department of Health
+					Mexico City
+					</li>
+				</ul>
 			</figure>
 		</div>
+
+
+		<div class="doctor-nocolor doctor4">
+			<figure>
+				<img src="img/doctor-tres.jpg" alt="">
+			</figure>
+			<figure>
+				<h2>Lic. Paulina Rámirez Bonilla</h2>
+				<br>
+				<ul>
+					<li>- Nutritionist
+					Universidad España
+					Durango, Durango, Mexico
+					</li>
+					<li>- Specialty in Diabetes
+					Anahuac University
+					Mexico City
+					</li>
+					<li>- Medical Consultation in patients with obesity, diabetes, dyslipidemia, metabolic syndrome
+					</li>
+					<li>- Experience in clinical nutrition and research
+					</li>
+					<li>- Diabetes Educator Certificate</li>
+					<li>- Diabetes Mexican Educators College</li>
+					<li>- Medical Consultation in the Endocrinology, obesity and lipids Clinic
+					Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán
+					Mexico City
+					</li>
+					<li>- Clinical Nutritionist
+					Respiratory Diseases National Institute
+					Mexico City
+					</li>
+					
+				</ul>
+			</figure>
+		</div>
+
 		<div class="confianza">
 			<figure>
 				<img src="img/confianza.jpg" alt="">

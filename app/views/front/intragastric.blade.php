@@ -20,26 +20,6 @@
 				<h3>How will I lose weight?</h3>
 				<p>The balloon will make you eat less because of the mass effect. There will be a feeling of early satiety allowing eating small amounts of food.</p>
 				</div>
-
-				<div>
-				<h3>What is the expected weight loss ?</h3>
-				<p>65-55 pounds in six months, is a method that depends largely on the patient.</p>
-				</div>
-
-				<div>
-				<h3>Surgical time</h3>
-				<p>No surgery needed. I'ts done in 30 minutes.</p>
-				</div>
-
-				<div>
-				<h3>Hospitalization</h3>
-				<p>1 hour</p>
-				</div>
-
-				<div>
-				<h3>Recovery time</h3>
-				<p>During the first week take a liquid diet. You may have mild abdominal pain and occasional vomiting. They prescribed medications in order to lessen the discomfort .</p>
-				</div>
 			</div>
 			
 			<div class="proc-div">	
@@ -72,6 +52,53 @@
 				</form>
 			</div>  
 
+			</section>
+			<br>
+			<br>	
+			<!-- Precios -->
+			<section id="precio-proc">
+				<h2>Intragastric Balloon</h2>
+				<div class="precio-carac">
+					<span>Expected weight loss</span>
+					<br>
+					<i class="fa fa-check"></i>
+					<br>
+					<span>65-55 pounds in six months</span>
+				</div>
+				<div class="precio-carac">
+					<span>Surgical time</span>
+					<br>
+					<i class="fa fa-clock-o"></i>
+					<br>
+					<span>No surgery needed. It's done in 30 minutes</span>
+				</div>
+				<div class="precio-carac">
+					<span>Hospital time</span>
+					<br>
+					<i class="fa fa-bed"></i>
+					<br>
+					<span>1 hour</span>
+				</div>
+				<div class="precio-carac">
+					<span>Recovery time</span>
+					<br>
+					<i class="fa fa-street-view"></i>
+					<br>
+					<span>During the first week take a liquid diet. </span>
+				</div>
+				
+				<div id="precio">
+					<p>
+						$25,000 MXN
+					</p>
+					
+				</div>
+				<div id="lugar-precio">
+					<span>Mazatlán 
+						&						
+						Durango	
+					</span>
+				</div>
 			</section>
 
 		</section>

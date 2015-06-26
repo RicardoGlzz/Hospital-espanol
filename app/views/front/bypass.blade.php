@@ -60,7 +60,7 @@
 			<hr>
 			<br>	
 			<!-- Precios -->
-			<section id="precio-bypass">
+			<section id="precio-proc">
 				<h2>Gastric Bypass</h2>
 				<div class="precio-carac">
 					<span>Expected weight loss</span>

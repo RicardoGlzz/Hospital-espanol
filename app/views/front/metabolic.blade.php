@@ -61,7 +61,55 @@
 			<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
 				Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
 			</section>
-
+			<br>
+			<br>	
+			<!-- Precios -->
+			<section id="precio-proc">
+				<h2>Metabolic Surgery</h2>
+				<div class="precio-carac">
+					<span>Expected weight loss</span>
+					<br>
+					<i class="fa fa-check"></i>
+					<br>
+					<span>85%</span>
+				</div>
+				<div class="precio-carac">
+					<span>Surgical time</span>
+					<br>
+					<i class="fa fa-clock-o"></i>
+					<br>
+					<span>2 to 3 hours</span>
+				</div>
+				<div class="precio-carac">
+					<span>Hospital time</span>
+					<br>
+					<i class="fa fa-bed"></i>
+					<br>
+					<span>24 to 48 hours</span>
+				</div>
+				<div class="precio-carac">
+					<span>Recovery time</span>
+					<br>
+					<i class="fa fa-street-view"></i>
+					<br>
+					<span>3rd to 5th day of desk work</span>
+				</div>
+				
+				<div id="precio">
+					<p>
+						$95,000 MXN
+					</p>
+					
+				</div>
+				<div id="lugar-precio">
+					<span>Mazatlán 
+						&						
+						Durango	
+					</span>
+				</div>
+			</section>
+			<br>
+			<br>
 			<section class="requisitos">
 			<h2>Am I a candidate for this procedure?</h2>
 			<br>

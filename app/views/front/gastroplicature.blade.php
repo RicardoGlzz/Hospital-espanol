@@ -21,22 +21,6 @@
 					<p>With the new size of your stomach, you won´t be able to eat the same amount of food you ate before. The appetite hormone won´t be produced in the same amount.</p>
 					</div>
 
-					<div>
-					<h3>What is the expected weight loss ?</h3>
-					<p>Weight loss is expected to 70-80 % of the percentage of excess body weight. Beginning with a weight loss of 35 to 30 pounds in the first month and 15 to 10 pounds per month.</p>
-					</div>
-
-					<div>
-					<h3>Surgical time</h3>
-					<p>2 hours</p>
-					</div>
-
-
-					<div>
-					<h3>Hospitalization</h3>
-					<p>24 to 48 hours</p>
-					</div>
-
 
 					<div>
 					<h3>Recovery time</h3>
@@ -78,7 +62,55 @@
 			<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
 				Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
 			</section>
-
+			<br>
+			<br>
+			<!-- Precios -->
+			<section id="precio-proc">
+				<h2>Gastroplicature</h2>
+				<div class="precio-carac">
+					<span>Expected weight loss</span>
+					<br>
+					<i class="fa fa-check"></i>
+					<br>
+					<span>70 to 80%</span>
+				</div>
+				<div class="precio-carac">
+					<span>Surgical time</span>
+					<br>
+					<i class="fa fa-clock-o"></i>
+					<br>
+					<span>2 hours</span>
+				</div>
+				<div class="precio-carac">
+					<span>Hospital time</span>
+					<br>
+					<i class="fa fa-bed"></i>
+					<br>
+					<span>24 to 48 hours</span>
+				</div>
+				<div class="precio-carac">
+					<span>Recovery time</span>
+					<br>
+					<i class="fa fa-street-view"></i>
+					<br>
+					<span>3rd to 5th day of desk work</span>
+				</div>
+				
+				<div id="precio">
+					<p>
+						$95,000 MXN
+					</p>
+					
+				</div>
+				<div id="lugar-precio">
+					<span>Mazatlán 
+						&						
+						Durango	
+					</span>
+				</div>
+			</section>
+			<br>
+			<br>	
 			<section class="requisitos">
 			<h2>Am I a candidate for this procedure?</h2>
 			<br>	

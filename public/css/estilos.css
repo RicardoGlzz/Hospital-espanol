@@ -426,7 +426,6 @@ header .menu
   outline: 2px solid gray;
   vertical-align: top;
   width: 310px;
-  height: 600px;
 }
 #procedimientos hr 
 {
@@ -448,6 +447,31 @@ header .menu
   background: #8CB0F4;
   color: white;
 }
+.inicio-bypass button a 
+{
+  text-decoration: none;
+  color: white;
+}
+.inicio-bypass button a:hover 
+{
+  color:  #8CB0F4;
+} 
+.inicio-sleeve button a:hover 
+{
+  color:  #8CB0F4;
+} 
+.inicio-balloon button a:hover 
+{
+  color:  #8CB0F4;
+} 
+.inicio-gastro button a:hover 
+{
+  color:  #8CB0F4;
+} 
+.inicio-metabolica button a:hover 
+{
+  color:  #8CB0F4;
+} 
 .inicio-bypass div 
 {
   display: inline-block;
@@ -492,7 +516,11 @@ header .menu
   font-size: 1em;
   padding: 5px;
 }
-
+.inicio-sleeve button a 
+{
+  color: white;
+  text-decoration: none;
+}
 .inicio-sleeve div img 
 {
   width: 227px;
@@ -528,7 +556,11 @@ header .menu
   font-size: 1em;
   padding: 5px;
 }
-
+.inicio-balloon button a 
+{
+  color: white;
+  text-decoration: none;
+}
 .inicio-balloon div img 
 {
   width: 190px;
@@ -572,7 +604,11 @@ header .menu
   font-size: 1em;
   padding: 15px;
 }
-
+.inicio-gastro button a 
+{
+  color: white;
+  text-decoration: none;
+}
 .inicio-gastro div img 
 {
   width: 210px;
@@ -612,7 +648,11 @@ header .menu
   font-size: 1em;
   padding: 5px;
 }
-
+.inicio-metabolica button a 
+{
+  color: white;
+  text-decoration: none;
+}
 .inicio-metabolica div img 
 {
   width: 210px;
@@ -625,7 +665,7 @@ header .menu
   color:white;
   font-size: 1em;
   padding: 10px; 
-  margin-left: 85px;
+  margin-left: 100px;
    -webkit-transition: all.5s ease-out;
   -moz-transition: all.5s ease-out;
   -o-transition: all.5s ease-out;
@@ -637,6 +677,10 @@ header .menu
   background:white;
   color:  #8CB0F4;
 } 
+.inicio-metabolica p 
+{
+  text-align: center;
+}
 /*Calculadora en inicio*/
 .calculadora 
 {
@@ -719,25 +763,25 @@ header .menu
   margin-bottom: 15px;
 }
 /*Precio de procedimientos*/
-#precio-bypass 
+#precio-proc 
 {
   border: 2px solid #3b5998;
   background: rgb(140, 176, 244);
  
 }
-#precio-bypass h2 
+#precio-proc h2 
 {
   color: white;
   background: #3b5998;
   margin-bottom: 5px;
   font-size: 2em !important;
 }
-/*#precio-bypass h3 
+/*#precio-proc h3 
 {
   color: white;
   text-align: left;
 }
-#precio-bypass h3 a 
+#precio-proc h3 a 
 {
   text-decoration: none;
   color: white;
@@ -747,7 +791,7 @@ header .menu
   margin-left: 30px;
 } */
 
-#precio-bypass .precio-carac 
+#precio-proc .precio-carac 
 {
   background: white;
   width: 24%;
@@ -755,11 +799,11 @@ header .menu
   vertical-align: top;
   height: 100px;
 }
-#precio-bypass .precio-carac i 
+#precio-proc .precio-carac i 
 {
   font-size: 2.5em;
 }
-#precio-bypass #precio 
+#precio-proc #precio 
 {
   color: white;
   background: #3b5998;
@@ -773,7 +817,7 @@ header .menu
   margin-top: -60px;
   top: 35px;
 }
-#precio-bypass #precio p 
+#precio-proc #precio p 
 {
   margin-top: 35px;
   font-size: 2em;
@@ -876,13 +920,21 @@ header .menu
     padding-top: 40px;
 
 }
-.doctores p 
+.doctores h2
 {
-    margin: 0 auto;
+    text-align: center;
     color: #3b5998;
-    font-size: 1.1em;
-    width: 85%;
+    padding-top: 40px;
+
 }
+.doctores h3
+{
+    text-align: center;
+    color: #3b5998;
+    padding-top: 40px;
+
+}
+
 .doctores .doctor-color 
 {
   background: #3b5998;
@@ -891,17 +943,29 @@ header .menu
 {
    color: white;
 }
-.doctores .doctor-color p 
+.doctores .doctor-color h3 
 {
    color: white;
+   margin-bottom: 10px;
 }
-.doctores .doctor-nocolor p 
+.doctores .doctor-color ul
+{
+  list-style: 
+}
+.doctores .doctor-color ul li 
+{
+   color: white;
+   margin-bottom: 10px;
+}
+.doctores .doctor-nocolor ul li 
 {
   color:#3b5998; 
+  margin-bottom: 10px;
 }
 .doctores .doctor-nocolor h2 
 {
   color:#3b5998; 
+  margin-bottom: 10px;
 }
 .doctores .doctor-color img 
 {
@@ -919,7 +983,7 @@ header .menu
 {
   width: 35%;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 .doctor-nocolor figure img
 {

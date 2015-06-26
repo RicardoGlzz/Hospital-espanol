@@ -97,9 +97,9 @@
 		<div>
 			<h2>Gastric Bypass</h2>
 			<br>
-			<p>Also called gastric bypass "Y" of Roux, is the gold standard surgery for weight loss that takes place in Mexico and around theworld. A stomach pouch of about 30 cc is formed. Subsequently the smaller intestine is attached to new stomach pouch. You will lose weight by two mechanisms. First one, you will not be able to eat the same amount of that you ate before. Second one, a malabsorptive mechanism will be created.</p>
+			<p>Also called gastric bypass "Y" of Roux, is the gold standard surgery for weight loss that takes place in Mexico and around the world...</p>
 			<br>
-			<button>Lorem ipsum</button>
+			<button><a href="{{ URL::to('bypass') }}">See more</a></button>
 		</div>
 	</section>
 	<!-- Manga gastrica -->
@@ -110,9 +110,9 @@
 		<div>
 			<h2>Sleeve Gastrectomy</h2>
 			<br>
-			<p>In this procedure 70% of the stomach is removed leaving a new stomach as "sleeve " or "gastric tube". You will lose weight by two mechanisms. The first one, you won´t be able to eat the same amount of food you ate before. Second one, in the stomach portion that is removed there a hormone called “ghrelin” which relates to appetite and it won´t be produced in the same amount. </p>
+			<p>In this procedure 70% of the stomach is removed leaving a new stomach as "sleeve " or "gastric tube". You will lose weight by two mechanisms...</p>
 			<br>
-			<button>Lorem ipsum</button>
+			<button><a href="{{ URL::to('sleeve') }}">See more</a></button>
 		</div>
 		
 	</section>
@@ -124,9 +124,9 @@
 		<div>
 			<h2>Intragastric Balloon</h2>
 			<br>
-			<p>It is a balloon that is filled up with saline solution with a colorant. Its introduced to stomach by endoscopy and leave there for 6 months.</p>
+			<p>It is a balloon that is filled up with saline solution with a colorant. Its introduced to stomach by endoscopy and leave there for 6 months...</p>
 			<br>
-			<button>Lorem ipsum</button>
+			<button><a href="{{ URL::to('intragastric') }}">See more</a></button>
 		</div>
 	</section>
 	<hr>
@@ -138,9 +138,9 @@
 		<div>
 			<h2>Gastroplicature</h2>
 			<br>
-			<p>An invagination of the stomach is performed surgically which will make an stomach similar to a sleeve gastrectomy without the need of stapling devices.</p>
+			<p>An invagination of the stomach is performed surgically which will make an stomach similar to a sleeve gastrectomy without the need of stapling devices...</p>
 			<br>
-			<button>Lorem ipsum</button>
+			<button><a href="{{ URL::to('gastroplicature') }}">See more</a></button>
 		</div>
 		
 	</section>
@@ -152,9 +152,9 @@
 		<div>
 			<h2>Metabolic Surgery</h2>
 			<br>
-			<p>It´s a modified gastric bypass that will cause the production of a substance in the small intestine called incretin that stimulates insulin production.</p>
+			<p>It´s a modified gastric bypass that will cause the production of a substance in the small intestine called incretin that stimulates insulin production...</p>
 			<br>
-			<button>Lorem ipsum</button>
+			<button><a href="{{ URL::to('metabolic') }}">See more</a></button>
 		</div>
 		</section>
 	</section>	
