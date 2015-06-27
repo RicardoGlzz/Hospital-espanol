@@ -36,4 +36,9 @@ class FrontendController extends BaseController {
 	{
 		return View::make('front.contact');
 	}
+	public function faqs()
+	{
+		return View::make('front.faqs');
+	}
+
 }

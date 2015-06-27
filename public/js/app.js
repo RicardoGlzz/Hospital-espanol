@@ -14,6 +14,8 @@ $(document).on("ready",function()
 			$(".calc-boton").removeClass("mostrar-calc");
 			$(".menu .opcion").removeClass("animar-menuitem");
 			$(".menu .opcion").removeClass("animated fadeIn menu-bordes");
+			$("#barra-footer").css("bottom","-100%");
+			$("#barra-footer figure ").css("right","-100%");
 		}
 		else
 		{
@@ -25,6 +27,8 @@ $(document).on("ready",function()
 			$(".calc-boton").addClass("mostrar-calc");
 			$(".ayuda").css("margin-top","-55px");
 			$(".consulta").css("margin-top","-20px");
+			$("#barra-footer").css("bottom","0");
+			$("#barra-footer figure ").css("right","0");
 		}
 			if($(window).scrollTop() > $("#calculadora-imc").scrollTop()+350)
 		{
@@ -92,6 +96,16 @@ $(document).on("ready",function()
 		$(".consulta").css("margin-right","0");
 
 	})
+	$(".wrapper-section").on("click",function()
+	{
+		$(".ayuda").css("margin-right","-5px");	
+		$(".consulta").css("margin-right","-250px");
+		$(".calc-boton").css("right","1%");
+		$("#calculadora-imc").css("right","-100%");
+	})
+
+
+
 	$(".ayuda").on("mouseover",function()
 	{
 		

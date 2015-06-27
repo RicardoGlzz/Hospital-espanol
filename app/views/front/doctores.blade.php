@@ -165,7 +165,7 @@
 		<section class="equipo-tec">
 			<div>
 				<h1>We have the best process equipment</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque delectus vero earum quis, quam reiciendis iusto libero expedita voluptates, illum et at doloribus nulla. Labore quidem tempora vel placeat quisquam.</p>
+				<p>High Tech equipment, for your own safety and better operation results, your health it´s in hands of professionals.  </p>
 			</div>
 			<figure>
 				<img src="img/operacion.jpg" alt="">
@@ -174,7 +174,7 @@
 		<section class="instalaciones">
 			<div>
 				<h1>The best facilities</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque delectus vero earum quis, quam reiciendis iusto libero expedita voluptates, illum et at doloribus nulla. Labore quidem tempora vel placeat quisquam.</p>
+				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
 			</div>
 			<figure>
 				<img src="img/Sala_Espera.jpg" alt="">
@@ -186,7 +186,7 @@
 		<section class="visita-mazatlan">
 			<div>
 				<h1>Make a visit to Mazatlan</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque delectus vero earum quis, quam reiciendis iusto libero expedita voluptates, illum et at doloribus nulla. Labore quidem tempora vel placeat quisquam.</p>
+				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
 			</div>
 			<figure>
 				<img src="img/Mazatlan.jpg" alt="" class="mazatlan">

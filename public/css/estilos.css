@@ -14,11 +14,7 @@ ul
 {
   list-style: none;
 }
-.flexslider 
-{
- 
-  
-}
+
 .flexslider .slides img
 {
   margin-top: -55px;
@@ -39,6 +35,47 @@ header .menu
   transition: all .8s ease-out;
 
 }
+
+/*BARRA DE FOOTER*/
+#barra-footer 
+{
+  background: rgb(59, 89, 152);
+  position: fixed;
+  bottom: -100%;
+  z-index: 2;
+  width: 100%;
+  height: 50px;
+  border-top: 2px solid white;
+  transition:all .8s ease;
+  -webkit-transition:all .8s ease;
+  -moz-transition:all .8s ease;
+  -o-transition:all .8s ease;
+  -ms-transition:all .8s ease;
+}
+#barra-footer div a 
+{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+#barra-footer div 
+{
+  display: inline-block;
+  margin-top: 15px;
+}
+#barra-footer figure 
+{
+  position: fixed;
+  bottom: -145px;
+  right: -100%;
+   transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -ms-transition:all 1s ease;
+  cursor: pointer;
+}
+
 .menu .menu-item 
 {
   margin-right: 19px;
@@ -1457,7 +1494,32 @@ footer #contactos
   top: 90px;
   
 }
+#faqs
+{
+  margin: 25px;
+}
+#faqs h3 
+{
+  color: #28448C;
+  text-align: center;
+  margin: 10px;
+}
+#faqs h2 
+{
+  color: #28448C;
+  text-align: center;
+  margin: 10px;
+}
+#faqs h2 a 
+{
+  text-decoration: none;
+  color: #1E2261;
+  cursor: pointer;
+}
+#faqs p 
+{
 
+}
 /*MEDIA QUERIES*/
 
 @media (max-width: 350px) {
@@ -1696,6 +1758,7 @@ footer #contactos
      {
         margin-left: 0;
      }
+  
      .calc 
      {
         width: 300px;

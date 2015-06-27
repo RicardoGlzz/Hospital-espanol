@@ -21,6 +21,8 @@ Route::get('intragastric', 'FrontendController@intragastric');
 Route::get('gastroplicature', 'FrontendController@gastroplicature');
 Route::get('metabolic', 'FrontendController@metabolic');
 Route::get('contact', 'FrontendController@contact');
+Route::get('faqs', 'FrontendController@faqs');
+
 
 
 //Rutas para el administrador
