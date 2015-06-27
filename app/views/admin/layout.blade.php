@@ -60,11 +60,12 @@
             <li><a href="#">Inicio</a></li>
             <li><a href="{{ URL::to('galeria') }}">Galeria</a></li>
             <li><a href="{{ URL::to('mensajes') }}">Mensajes</a></li>
-            <li><a href="#">Seccion</a></li>
-            <li><a href="#">Seccion</a></li>
-            <li><a href="#">Seccion</a></li>
-            <li><a href="#">Seccion</a></li>
-
+            <li><a href="#">Doctor & cols</a></li>
+            <li><a href="#">Gastric Bypass</a></li>
+            <li><a href="#">Sleeve Gastrectomy</a></li>
+            <li><a href="#">Intragastric Ballon</a></li>
+            <li><a href="#">Gastroplicature</a></li>
+            <li><a href="#">Metabolic Surgery</a></li>
           </ul>
         </div>
 

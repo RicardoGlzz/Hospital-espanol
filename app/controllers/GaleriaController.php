@@ -23,7 +23,9 @@ class GaleriaController extends BaseController {
 
 		$galeria->ruta = $filePath;
 
-		$file->move('img',$fileName);
+		$img = Image::make($file)->resize(1920,1200);
+
+		$img->save('img/'.$fileName);
 
 		$galeria->save();
 

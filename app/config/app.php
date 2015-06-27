@@ -122,6 +122,7 @@ return array(
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'MaxHoffmann\Parsedown\ParsedownServiceProvider',
+		'Intervention\Image\ImageServiceProvider',
 
 	),
 
@@ -191,6 +192,7 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
     	'Markdown'        => 'MaxHoffmann\Parsedown\ParsedownFacade',
     	'Carbon'          => 'Carbon\Carbon',
+    	'Image' => 'Intervention\Image\Facades\Image',
 
 	),
 

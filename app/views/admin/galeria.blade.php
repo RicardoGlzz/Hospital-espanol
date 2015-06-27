@@ -11,7 +11,7 @@
 			</div>
 			<br>
 			<br>
-			<div class="pull-left">
+			<div class="pull-left table-responsive">
 			<label>Cambiar Imagen</label>
 			<form action="{{ url('galeria/upload/'.$item->id) }}" method="POST" enctype="multipart/form-data">
 				<input type="file" name="file">
