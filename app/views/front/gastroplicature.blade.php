@@ -98,7 +98,8 @@
 				
 				<div id="precio">
 					<p>
-						$95,000 MXN
+						${{ $precio[0]->precio }}
+						MXN
 					</p>
 					
 				</div>

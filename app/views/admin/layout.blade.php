@@ -41,7 +41,6 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Inicio</a></li>
             <li><a href="{{ URL::to('galeria') }}">Galeria</a></li>
             <li><a href="{{ URL::to('mensajes') }}">Mensajes 
               @if($mensajes > 0)
@@ -57,22 +56,18 @@
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
-            <li><a href="#">Inicio</a></li>
             <li><a href="{{ URL::to('galeria') }}">Galeria</a></li>
             <li><a href="{{ URL::to('mensajes') }}">Mensajes</a></li>
             <li><a href="#">Doctor & cols</a></li>
-            <li><a href="#">Gastric Bypass</a></li>
-            <li><a href="#">Sleeve Gastrectomy</a></li>
-            <li><a href="#">Intragastric Ballon</a></li>
-            <li><a href="#">Gastroplicature</a></li>
-            <li><a href="#">Metabolic Surgery</a></li>
+            <li><a href="{{ URL::to('precios') }}">Precios</a></li>
           </ul>
         </div>
 
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
         @yield('content')
         </div>
-
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

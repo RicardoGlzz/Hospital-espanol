@@ -37,6 +37,11 @@ Route::group(array('before' => 'auth'),function(){
 	Route::get('galeria','GaleriaController@index');
 	Route::post('galeria/upload/{id}','GaleriaController@saveImg');
 
+	//Rutas para precios
+	Route::get('precios','PrecioController@index');
+	Route::get('precios/edit/{id}','PrecioController@edit');
+	Route::post('precios/edit/{id}','PrecioController@saveEdit');
+
 	//Rutas para los mensajes
 	Route::get('mensajes','MensajeController@index');
 	//Ruta para marcar como leido

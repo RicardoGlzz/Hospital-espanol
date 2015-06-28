@@ -14,23 +14,28 @@ class FrontendController extends BaseController {
 	}
 	public function bypass()
 	{
-		return View::make('front.bypass');
+		$precio = Precio::bypass()->get();
+		return View::make('front.bypass')->with(compact('precio'));
 	}
 	public function sleeve()
 	{
-		return View::make('front.sleeve');
+		$precio = Precio::sleeve()->get();
+		return View::make('front.sleeve')->with(compact('precio'));
 	}
 	public function intragastric()
 	{
-		return View::make('front.intragastric');
+		$precio = Precio::ballon()->get();
+		return View::make('front.intragastric')->with(compact('precio'));
 	}
 	public function gastroplicature()
 	{
-		return View::make('front.gastroplicature');
+		$precio = Precio::gastro()->get();
+		return View::make('front.gastroplicature')->with(compact('precio'));
 	}
 	public function metabolic()
 	{
-		return View::make('front.metabolic');
+		$precio = Precio::metabolic()->get();
+		return View::make('front.metabolic')->with(compact('precio'));
 	}
 	public function contact()
 	{
