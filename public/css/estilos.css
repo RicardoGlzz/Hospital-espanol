@@ -1702,6 +1702,7 @@ footer #contactos
      {
         display: block;
         margin-top: 5px;
+        margin-left: 0;
      }
      .flexslider 
      {
@@ -1732,6 +1733,7 @@ footer #contactos
      #procedimientos section 
      {
         margin-left: 0;
+        width: 318px;
      }
      #procedimientos .inicio-metabolica 
      {
@@ -1858,6 +1860,35 @@ footer #contactos
      {
         margin-left: 0;
      }
+      #barra-footer 
+     {
+        display: none !important;
+     }
+      #precio-proc .precio-carac
+     {
+        height: 160px;
+     }
+     #precio-proc #precio
+     {
+        width: 100px;
+        height: 100px;
+        left: 90px;
+        top: 0;
+        margin-top: 0;
+     }
+     #precio-proc #precio p 
+     {
+        margin-top: 27px;
+        font-size: 1.5em;
+     }
+     .proc-desc .proc-div 
+     {
+        width: 100%;
+     }
+     .proc-desc .proc-div img 
+     {
+        width: 80%;
+     }
 }
 @media (min-width:350px) and (max-width: 600px) {
         *
@@ -1971,6 +2002,10 @@ footer #contactos
         top: 75px;
         left: 0;
      }
+     #calculadora-imc .bmi-figure 
+     {
+        width: 100%;
+     }
      .consulta,.consulta2,.consulta3 
      {
         z-index: 30;
@@ -1978,6 +2013,33 @@ footer #contactos
      .consulta2 figure img 
      {
         display: none;
+     }
+     .bypass-section h1 
+     {
+        width: 2em;
+     }
+     .proc-desc .proc-div 
+     {
+        width: 100%;
+     }
+     .proc-desc .proc-div img 
+     {
+        width: 80%;
+     }
+     #precio-proc .precio-carac
+     {
+        height: 160px;
+     }
+     #precio-proc #precio
+     {
+        width: 100px;
+        height: 100px;
+        left: 90px;
+     }
+     #precio-proc #precio p 
+     {
+        margin-top: 27px;
+        font-size: 1.5em;
      }
      footer
      {
@@ -2002,6 +2064,10 @@ footer #contactos
     #procedimientos 
     {
       display: block;
+    }
+    #procedimientos h1 
+    {
+      margin-left: 0;
     }
     .inicio-metabolica 
     {
@@ -2033,6 +2099,10 @@ footer #contactos
      .form-container textarea 
      {
         margin-left: 0;
+     }
+     #barra-footer 
+     {
+        display: none !important;
      }
 }
 
