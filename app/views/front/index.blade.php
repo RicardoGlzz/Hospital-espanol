@@ -12,7 +12,7 @@
 		    @endforeach
 		  </ul>
 		</div>	
-<h1 class="bmi-titulo">Welcome, check your BMI here</h1>
+<h1 class="bmi-titulo">- Welcome, check your BMI here -</h1>
 <section id="calculadora-imc" >
 		<div class="bmi-figure img-uno">
 			<figure>
@@ -38,10 +38,10 @@
 			     <input type="button" class="" id="boton-imc" value="Get BMI">
 			     <br>	
 			     <label for="">BMI:</label>
-			    <input type="text" class="l" id="imc" placeholder="BMI" disabled>		     
+			    <input type="text" class="l" id="bmi" placeholder="BMI" disabled>		     
 			       <br>
 			        	<label>Conclusión:</label>
-			    <input type="email" name="leyenda" id="leyenda" size="42">		             
+			    <input name="leyenda" id="leyenda" size="42">		             
 			</form>
 		</div> 
 			<div class="calculadora">	
@@ -49,18 +49,18 @@
 			<h2>Checa tu IMC</h2>
 			<form  role="form">
 			    <label class="" for="calculodeIMC">Altura: </label>
-			    <input type="email" class="" id="altura" placeholder="Altura en centimetros">
+			    <input  class="altura"  placeholder="Altura en centimetros">
 				<br>
-			  <label class="">Weight: </label>
-			      <input class="" id="peso" type="email" placeholder="Peso en kilogramos">  
+			  <label class="">Peso: </label>
+			      <input class="peso" placeholder="Peso en kilogramos">  
 			  	<br>
-			     <input type="button" class="" id="boton-imc" value="Get IMC">
+			     <input type="button" class="boton-imc"  value="Obtener IMC">
 			     <br>	
 			     <label for="">IMC:</label>
-			    <input type="text" class="l" id="imc" placeholder="IMC" disabled>		     
+			    <input type="text" class="imc"  placeholder="IMC" disabled>		     
 			       <br>
 			        	<label>Conclusión:</label>
-			    <input type="email" name="leyenda" id="leyenda" size="42">		             
+			    <input name="legend" id="legend" size="42">		             
 			</form>
 		</div>  
 		<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
@@ -87,7 +87,7 @@
 		</figure>
 	</section>
 <section id="procedimientos">
-	<h1>Procedures that will benefit your life</h1>
+	<h1>- Procedures that will benefit your life -</h1>
 	<hr>
 	<!--  gastric bypass -->
 	<section class="inicio-bypass">

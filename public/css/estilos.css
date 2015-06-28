@@ -452,8 +452,10 @@ header .menu
   display: table;
 }
 #procedimientos h1 {
-  color: #3b5998;
+  color: white;
   text-align: center;
+  background: #3b5998;
+  margin-left: 8%;
 }
 #procedimientos section 
 {
@@ -754,9 +756,10 @@ header .menu
 .inicio-section h1 
 {
   text-align: center;
-  color: #3b5998; 
+  color: white; 
   margin-top: 200px;
   font-size: 2.5em;
+  background: #3b5998;
 }
 #calculadora-imc h2 
 {
@@ -798,6 +801,16 @@ header .menu
   border:none;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+.boton-imc
+{
+  background: #3b5998;
+  color: white;
+  padding: 10px;
+  border:none;
+  margin-bottom: 25px;
+  position: relative;
+  top: 10px; 
 }
 /*Precio de procedimientos*/
 #precio-proc 

@@ -197,21 +197,21 @@ $(document).on("ready",function()
 	{
 		
 	//declaramos las variables
-	var peso, altura, imc, leyenda;
+	var peso, altura, bmi, leyenda;
 	//hacemos la llamada a los datos introducidos
 	peso=document.getElementById("peso").value;
 	altura=document.getElementById("altura").value;
-	//calculamos el imc
-	imc=(peso/(altura*altura))*703;
+	//calculamos el bmi
+	bmi=(peso/(altura*altura))*703;
 	//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
-	document.getElementById("imc").value=imc.toFixed(2);
+	document.getElementById("bmi").value=bmi.toFixed(2);
 	//mediante if comparamos el resultado para determinar si es correcto el peso
-	if(imc<=18.5)
+	if(bmi<=18.5)
 	{
 	//determinamos el defecto en peso y definimos el comentario
 		leyenda="You are under ther recommended value " ;
 	}
-	else if(imc>=25.5)
+	else if(bmi>=25.5)
 	{
 	//determinamos el exceso en peso y definimos el comentario
 		leyenda="You are above the recommended value" ;
@@ -222,5 +222,40 @@ $(document).on("ready",function()
 	}
 	//enviamos el comentario a la caja correspondiente
 	document.getElementById("leyenda").value=leyenda;
+	});
+
+
+
+
+
+	$(".boton-imc").on("click",function()
+	{
+		
+	//declaramos las variables
+	var peso, altura, imc, conclusion;
+	//hacemos la llamada a los datos introducidos
+	altura =$(".altura").val()/100;
+	peso =$(".peso").val();
+	//calculamos el imc
+	imc=peso/(altura*altura);
+	//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
+	$(".imc").val(imc.toFixed(2));
+	//mediante if comparamos el resultado para determinar si es correcto el peso
+	if(imc<=18)
+	{
+	//determinamos el defecto en peso y definimos el comentario
+		conclusion="Estas por debajo del valor recomendado " ;
+	}
+	else if(imc>=27)
+	{
+	//determinamos el exceso en peso y definimos el comentario
+		conclusion="Estas en valores recomendados" ;
+	}
+	else
+	{
+		conclusion="Estas en valores mayores a los recomendados";
+	}
+	//enviamos el comentario a la caja correspondiente
+	$("#legend").val(conclusion);
 	});
 })
