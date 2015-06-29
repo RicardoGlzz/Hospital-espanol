@@ -113,6 +113,36 @@
 			<br>
 			<button class="enviar-duda" >Send</button>
 		</div>
+
+			<!-- Boton de caluladora -->
+		<div class="calc-boton"><span>CHECK <br>YOUR <br>BMI <br>HERE</span></div>
+		<section id="calculadora-imc" class="calc">	
+			<span class="hide-calc">Hide  <i class="fa fa-arrow-right"></i></span>
+			<div class="calculadora">	
+				<h2>Check your BMI(Body Mass Index)</h2>
+				
+				<form  role="form">
+				    <label class="" for="calculodeIMC">Height: </label>
+				    <input type="email" class="altura" id="" placeholder="Height in inches">
+					<br>
+				  <label class="">Weight: </label>
+				      <input class="peso" id="" type="email" placeholder="Weight in pounds">  
+				  	<br>
+				     <input type="button" class="boton-bmi" value="Get BMI">
+				     <br>	
+				     <label for="">BMI:</label>
+				    <input type="text" class="bmi" id="" placeholder="BMI" disabled>		     
+				       <br>
+				        	<label>Conclusión:</label>
+				    <input  name="leyenda" id="ley" size="42">		             
+				</form>
+			</div>  
+			  
+			<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
+				Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
+			</section>	
+
+
 		<div class="consulta3">
 			<span class="ocultar-consulta"><i class="fa fa-arrow-right"></i></span>
 			<h1>All done, <br> you will receive an email with your answer</h1>

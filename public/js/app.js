@@ -96,14 +96,17 @@ $(document).on("ready",function()
 		$(".consulta").css("margin-right","0");
 
 	})
-	$(".wrapper-section").on("click",function()
+	$(".wrapper-section section").on("click",function()
 	{
 		$(".ayuda").css("margin-right","-5px");	
 		$(".consulta").css("margin-right","-250px");
 		$(".calc-boton").css("right","1%");
 		$("#calculadora-imc").css("right","-100%");
 	})
-
+	$("#calculadora-imc").on("click",function()
+	{
+		$(this).css("right","0px");
+	})
 
 
 	$(".ayuda").on("mouseover",function()
@@ -224,6 +227,39 @@ $(document).on("ready",function()
 	document.getElementById("leyenda").value=leyenda;
 	});
 
+	$(".boton-bmi").on("click",function()
+	{
+		
+	//declaramos las variables
+	var peso, altura, bmi, leyenda;
+	//hacemos la llamada a los datos introducidos
+	peso= $(".peso").val();
+	altura=$(".altura").val();
+	//calculamos el bmi
+	bmi=(peso/(altura*altura))*703;
+	//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
+	$(".bmi").val(bmi.toFixed(2));
+	//mediante if comparamos el resultado para determinar si es correcto el peso
+	if(bmi<=18.5)
+	{
+	//determinamos el defecto en peso y definimos el comentario
+		leyenda="You are under ther recommended value " ;
+	}
+	else if(bmi>=25.5)
+	{
+	//determinamos el exceso en peso y definimos el comentario
+		leyenda="You are above the recommended value" ;
+	}
+	else
+	{
+		leyenda="You are in the recommended value ";
+	}
+	//enviamos el comentario a la caja correspondiente
+	document.getElementById("ley").value=leyenda;
+	});
+
+
+
 
 
 
@@ -234,12 +270,12 @@ $(document).on("ready",function()
 	//declaramos las variables
 	var peso, altura, imc, conclusion;
 	//hacemos la llamada a los datos introducidos
-	altura =$(".altura").val()/100;
-	peso =$(".peso").val();
+	altura =$(".alt").val()/100;
+	peso =$(".pes").val();
 	//calculamos el imc
 	imc=peso/(altura*altura);
 	//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
-	$(".imc").val(imc.toFixed(2));
+	$(".imc-val").val(imc.toFixed(2));
 	//mediante if comparamos el resultado para determinar si es correcto el peso
 	if(imc<=18)
 	{

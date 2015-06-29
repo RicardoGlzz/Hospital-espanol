@@ -802,6 +802,20 @@ header .menu
   margin-top: 15px;
   margin-bottom: 15px;
 }
+.calc-boton 
+{
+  text-align: center;
+}
+.boton-bmi 
+{
+  background: #3b5998;
+  color: white;
+  padding: 10px;
+  border: none;
+  margin-bottom: 25px;
+  position: relative;
+  top: 10px;
+}
 .boton-imc
 {
   background: #3b5998;
@@ -1529,10 +1543,57 @@ footer #contactos
   color: #1E2261;
   cursor: pointer;
 }
-#faqs p 
+#itinerario 
 {
-
+  width: 315px;
+  border: 2px solid #3b5998;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  background: rgb(140, 176, 244);
 }
+#itinerario h2 
+{
+  color: white;
+  background: #3b5998;
+  font-size: 2em;
+}
+#itinerario h3 
+{
+  color: white;
+  background: #3b5998;
+  font-size: 1.5em;
+}
+#itinerario h3 span 
+{
+  background: white;
+  padding: 8px;
+  margin-left: 30px;
+  border-radius: 3px;
+  color: #3b5998;
+}
+#itinerario .dia 
+{
+  border-radius: 50%;
+  background: #3b5998;
+  width: 60px;
+  height: 60px;
+}
+#itinerario .dia p 
+{
+  color: white;
+  margin-top: 15px;
+}
+#itinerario #dia-div 
+{
+  background: white;
+  margin: 10px;
+}
+#itinerario #dia-div div
+{
+  display: inline-block;
+}
+
 /*MEDIA QUERIES*/
 
 @media (max-width: 350px) {

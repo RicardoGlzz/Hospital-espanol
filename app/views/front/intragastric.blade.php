@@ -28,31 +28,7 @@
 				</figure>
 			</div>		
 		</section>
-			<!-- Boton de caluladora -->
-		<div class="calc-boton"><span>CHECK <br>YOUR <br>BMI <br>HERE</span> </div>
-		<section id="calculadora-imc" class="calc">	
-			<span class="hide-calc">Hide  <i class="fa fa-arrow-right"></i></span>
-			<div class="calculadora">	
-				<h2>Check your BMI(Body Mass Index)</h2>
-				<p>Remember: 1cm equals 0,328 ft and 1 kg equals 2.2046 lbs</p>
-				<form  role="form">
-				    <label class="" for="calculodeIMC">Height: </label>
-				    <input type="email" class="" id="altura" placeholder="Height in inches">
-					<br>
-				  <label class="">Weight: </label>
-				      <input class="" id="peso" type="email" placeholder="Weight in pounds">  
-				  	<br>
-				     <input type="button" class="" id="boton-imc" value="Get BMI">
-				     <br>	
-				     <label for="">BMI:</label>
-				    <input type="text" class="l" id="imc" placeholder="BMI" disabled>		     
-				       <br>
-				        	<label>Conclusión:</label>
-				    <input type="email" name="leyenda" id="leyenda" size="42">		             
-				</form>
-			</div>  
 
-			</section>
 			<br>
 			<br>	
 			<!-- Precios -->
@@ -99,6 +75,70 @@
 						&						
 						Durango	
 					</span>
+				</div>
+			</section>
+
+				<!-- Itinerario -->
+			<section id="itinerario" class="intragastric-itinerario">
+				<h2>ITINERARY</h2>
+				<h3>Intragastric B <span>5 Days</span></h3>
+				<div id="dia-div">
+					<div class="dia">
+						<p>
+							Day 1
+						</p>
+					</div>
+					<div>
+						<p>
+							Arrival. 1st night in hotel is included
+						</p>
+					</div>
+				</div>
+				<div id="dia-div">
+					<div class="dia">
+						<p>
+							Day 2
+						</p>
+					</div>
+					<p>
+						Arrival. 1st night in hotel is included
+					</p>
+				</div>
+				<div id="dia-div">
+					<div class="dia">
+						<p>
+							Day 3
+						</p>
+					</div>
+					<div>
+					<p>
+						Arrival. 1st night in hotel is included
+					</p>
+					</div>
+				</div>
+				<div id="dia-div">
+					<div class="dia">
+						<p>
+							Day 4
+						</p>
+					</div>
+					<div>
+					<p>
+						Arrival. 1st night in hotel is included
+					</p>
+					</div>
+				</div>
+				<div id="dia-div">
+					<div class="dia">
+						<p>
+							Day 5
+						</p>
+					</div>
+					<div>
+					<p>
+						Arrival. 1st night in hotel is included
+					</p>
+					</div>
 				</div>
 			</section>
 

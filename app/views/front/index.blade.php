@@ -48,16 +48,16 @@
 				<h2>Sistema Metrico Internacional</h2>
 			<h2>Checa tu IMC</h2>
 			<form  role="form">
-			    <label class="" for="calculodeIMC">Altura: </label>
-			    <input  class="altura"  placeholder="Altura en centimetros">
+			    <label class="">Altura: </label>
+			    <input  type="email" class="alt"  placeholder="Altura en centimetros">
 				<br>
 			  <label class="">Peso: </label>
-			      <input class="peso" placeholder="Peso en kilogramos">  
+			      <input type="email" class="pes" placeholder="Peso en kilogramos">  
 			  	<br>
 			     <input type="button" class="boton-imc"  value="Obtener IMC">
 			     <br>	
 			     <label for="">IMC:</label>
-			    <input type="text" class="imc"  placeholder="IMC" disabled>		     
+			    <input class="imc-val"  placeholder="IMC" disabled>		     
 			       <br>
 			        	<label>Conclusión:</label>
 			    <input name="legend" id="legend" size="42">		             
