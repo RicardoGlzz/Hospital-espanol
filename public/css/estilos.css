@@ -15,10 +15,7 @@ ul
   list-style: none;
 }
 
-.flexslider .slides img
-{
-  margin-top: -55px;
-}
+
 header .menu
 {
   position: fixed;
