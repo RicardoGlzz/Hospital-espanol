@@ -1,6 +1,6 @@
 @extends('front.layout')
 @section('content')
-<section class="wrapper-section">
+<section class="wrapper-section wrapper-content">
 	<section class="contacto">
 		<div id="map"></div>
 		<section class="form-container">

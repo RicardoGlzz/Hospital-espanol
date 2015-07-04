@@ -10,6 +10,30 @@ body
   background: #f9f9f9;
 
 }
+/*Pantalla de cargar*/
+.modal 
+{
+    display:    block;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('../img/ajax-loader.gif') 
+                50% 50% 
+                no-repeat;          
+}
+.modal h2
+{
+  display:    block;
+    position:   fixed;
+    z-index:    1000;
+    top:        60%;
+    left:       42%;
+    
+}
 ul 
 {
   list-style: none;
@@ -874,14 +898,15 @@ header .menu
   border-radius: 50%;
   border: 2px solid white;
   position: relative;
-  left: 42%;
   margin-top: -60px;
   top: 35px;
+  display: inline-block;
+  vertical-align: top;
 }
 #precio-proc #precio p 
 {
   margin-top: 35px;
-  font-size: 2em;
+  font-size: 1.5em;
 
 }
 
@@ -967,6 +992,27 @@ header .menu
 .wrapper-section > section 
 {
   padding: 10px;
+}
+#testimonios
+{
+  width: 90%;
+  margin: 0 auto;
+}
+#testimonios div{
+  display: inline-block;
+  text-align: center;
+  margin-left: 10%;
+}
+#testimonios h2 
+{
+  color: #3b5998;
+  margin-bottom: 10px;
+}
+#testimonios iframe
+{
+  width: 400px;
+  height: 315px;
+  border: none;
 }
 /*SECCION DE DOCTORES*/
 .doctores 
@@ -1083,7 +1129,16 @@ header .menu
 .equipo-tec 
 {
   background: #3b5998;
+  margin-top: -5%;
 }
+.equipo-tec div 
+{
+  text-align: center;
+}
+.equipo-tec figure
+{
+  text-align: center;
+} 
 .equipo-tec figure img 
 {
   width: 50%;
@@ -1099,7 +1154,19 @@ header .menu
   margin: 0 auto;
   color: white;
 }
-
+.instalaciones 
+{
+  margin-top: -5%;
+}
+.instalaciones div 
+{
+  color: #3b5998;
+  text-align: center;
+}
+.instalaciones figure 
+{
+  text-align: center;
+}
 .instalaciones figure img 
 {
   width: 70%;
@@ -1107,6 +1174,8 @@ header .menu
 .visita-mazatlan 
 {
   background: #3b5998;
+  margin-bottom: 100px;
+  margin-top: -5%;
 }
 .visita-mazatlan h1 
 {
@@ -1116,14 +1185,19 @@ header .menu
 {
   color: white;
 }
+.visita-mazatlan div 
+{
+  text-align: center;
+}
 .visita-mazatlan .mazatlan 
 {
-  width: 473px; 
+  width: 425px; 
 } 
 .visita-mazatlan figure
 {
   display: inline-block;
   vertical-align: top;
+  margin-left: 8%;
 }
 .visita-mazatlan figure img
 {
@@ -1219,6 +1293,7 @@ header .menu
   cursor: pointer;
   font-size: 1.1em; 
   margin-left: 100%;
+  z-index: 10;
   transition: all .5s ease;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;

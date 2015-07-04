@@ -1,6 +1,6 @@
 @extends('front.layout')
 @section('content')
-<section class="wrapper-section">
+<section class="wrapper-section wrapper-content">
 	<section class="doctores">
 		<h1 class="titulo-doctores">Allow professionals handle your health</h1>
 		<div class="doctor-color doctor1">
@@ -54,33 +54,7 @@
 				</ul>
 			</figure>
 		</div>
-		<div class="doctor-nocolor doctor2">
-			<figure>
-				<img src="img/doctor-dos.jpg" alt="">
-			</figure>
-			<figure>
-				<h2>Dr. Fernando Vazquez Reyes</h2>
-				<ul>
-					<li>- Bariatric Surgery Program Coordinator
-					Santa Barbara del Rieti Hospital
-					Durango, Durango,México
-					</li>
-					<li>- Bariatric Surgery, Advanced laparoscopic Surgery and Gastrointestinal Endoscopic Assistant
-					Santa Barbara del Rieti Hospital
-					Durango, Durango, Mexico
-					</li>
-					<li>- General Medical Practitioner
-					Santa Barbara del Rieti Hospital
-					Durango, Durango, Mexico
-					</li>
-					<li>- Medical Degree
-					Monterrey University
-					Moterrey, Nuevo Leon, Mexico
-					</li>
-				</ul>
-			</figure>
-		</div>
-		<div class="doctor-color doctor3">
+			<div class="doctor-color doctor3">
 			<figure>
 				<img src="img/doctor-tres.jpg" alt="">
 			</figure>
@@ -116,10 +90,36 @@
 			</figure>
 		</div>
 
-
-		<div class="doctor-nocolor doctor4">
+		<div class="doctor-nocolor doctor2">
 			<figure>
-				<img src="img/doctor-tres.jpg" alt="">
+				<img src="img/doctor-dos.jpg" alt="">
+			</figure>
+			<figure>
+				<h2>Dr. Fernando Vazquez Reyes</h2>
+				<ul>
+					<li>- Bariatric Surgery Program Coordinator
+					Santa Barbara del Rieti Hospital
+					Durango, Durango,México
+					</li>
+					<li>- Bariatric Surgery, Advanced laparoscopic Surgery and Gastrointestinal Endoscopic Assistant
+					Santa Barbara del Rieti Hospital
+					Durango, Durango, Mexico
+					</li>
+					<li>- General Medical Practitioner
+					Santa Barbara del Rieti Hospital
+					Durango, Durango, Mexico
+					</li>
+					<li>- Medical Degree
+					Monterrey University
+					Moterrey, Nuevo Leon, Mexico
+					</li>
+				</ul>
+			</figure>
+		</div>
+
+		<div class="doctor-color doctor4">
+			<figure>
+				<img src="img/paulina.jpg" alt="">
 			</figure>
 			<figure>
 				<h2>Lic. Paulina Rámirez Bonilla</h2>
@@ -162,39 +162,7 @@
 				<button>Contact</button>
 			</figure>
 		</div>
-		<section class="equipo-tec">
-			<div>
-				<h1>We have the best process equipment</h1>
-				<p>High Tech equipment, for your own safety and better operation results, your health it´s in hands of professionals.  </p>
-			</div>
-			<figure>
-				<img src="img/operacion.jpg" alt="">
-			</figure>
-		</section>
-		<section class="instalaciones">
-			<div>
-				<h1>The best facilities</h1>
-				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
-			</div>
-			<figure>
-				<img src="img/Sala_Espera.jpg" alt="">
-			</figure>
-			<figure>
-				<img src="img/Cuartos_Nuevos.jpg" alt="">
-			</figure>	
-		</section>
-		<section class="visita-mazatlan">
-			<div>
-				<h1>Make a visit to Mazatlan</h1>
-				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
-			</div>
-			<figure>
-				<img src="img/Mazatlan.jpg" alt="" class="mazatlan">
-			</figure>
-			<figure>
-				<img src="img/cemeq.jpg" alt="">
-			</figure>
-		</section>
+		
 	</section>
 </section>
 

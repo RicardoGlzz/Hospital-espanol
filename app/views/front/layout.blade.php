@@ -167,7 +167,7 @@
 				</figure>
 			</div>
 		</section>
-
+<div class="modal"><h2>Loading, please wait</h2></div>
 		@yield('content')
 
 		<footer>

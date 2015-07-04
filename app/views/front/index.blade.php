@@ -1,6 +1,6 @@
 @extends('front.layout')
 @section('content')
-<section class="inicio-section">
+<section class="inicio-section wrapper-content">
 <!-- Galeria -->
 	<section class="wrapper">
 		<div class="flexslider">
@@ -158,6 +158,47 @@
 		</div>
 		</section>
 	</section>	
+	<section id="testimonios">
+		<h1 class="bmi-titulo">- Testimonials -</h1>	
+		<div>
+			<h2> Prof Margarito Gastric Bypass</h2>
+			<iframe src="//www.youtube.com/embed/-m33RTmGcEs?rel=0" allowfullscreen=""></iframe>
+		</div>
+		<div>
+			 <h2>Elena Orozco, Metabolic Surgery</h2>	
+			 <iframe src="//www.youtube.com/embed/u_Z3kIWki_s?rel=0" frameborder="0" allowfullscreen=""></iframe>
+		</div>
+	</section>
+	<section class="equipo-tec">
+			<div>
+				<h1>We have the best process equipment</h1>
+				<p>High Tech equipment, for your own safety and better operation results, your health it´s in hands of professionals.  </p>
+			</div>
+			<figure>
+				<img src="img/operacion.jpg" alt="">
+			</figure>
+		</section>
+		<section class="instalaciones">
+			<div>
+				<h1>The best facilities</h1>
+				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
+			</div>
+			<figure>
+				<img src="img/Sala_Espera.jpg" alt="">
+			</figure>	
+		</section>
+		<section class="visita-mazatlan">
+			<div>
+				<h1>Make a visit to Mazatlan</h1>
+				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
+			</div>
+			<figure>
+				<img src="img/Mazatlan.jpg" alt="" class="mazatlan">
+			</figure>
+			<figure>
+				<img src="img/cemeq.jpg" alt="">
+			</figure>
+		</section>
 </section>	
 </section>
 @stop

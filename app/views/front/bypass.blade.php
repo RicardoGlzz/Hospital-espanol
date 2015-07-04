@@ -1,6 +1,6 @@
 @extends('front.layout')
 @section('content')
-<section class="wrapper-section">
+<section class="wrapper-section wrapper-content">
 
 	<section class="bypass-section">
 		<h1>- Gastric Bypass -</h1>
@@ -65,18 +65,32 @@
 					<span>3rd to 5th day of desk work</span>
 				</div>
 				
-				<div id="precio">
+				<div id="precio" class="precio-durango">
 					<p>
-						${{ $precio[0]->precio }}
+						$95,000
 						MXN
+						(Durango)
+					</p>
+					
+				</div>
+				<div id="precio" class="precio-mazatlan">
+					<p>
+						$95,000
+						MXN
+						(Mazatlán)
+					</p>
+					
+				</div>
+				<div id="precio" class="precio-usa">
+					<p>
+						$9500
+						DLS
+						(USA)
 					</p>
 					
 				</div>
 				<div id="lugar-precio">
-					<span>Mazatlán 
-						&						
-						Durango	
-					</span>
+					<span>Prices</span>
 				</div>
 			</section>
 			<!-- Itinerario -->

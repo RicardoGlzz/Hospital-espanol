@@ -1,7 +1,13 @@
+$(window).load(function()
+{	
+	$(".modal").hide();
+})  
+
 $(document).on("ready",function()
 {
 	// ANIMACIONES
 	$(".logo-animar").addClass("animar");
+	$body = $("body");
 
 	$(window).scroll(function()
 	{	
@@ -96,7 +102,7 @@ $(document).on("ready",function()
 		$(".consulta").css("margin-right","0");
 
 	})
-	$(".wrapper-section section").on("click",function()
+	$(".wrapper-content").on("click",function()
 	{
 		$(".ayuda").css("margin-right","-5px");	
 		$(".consulta").css("margin-right","-250px");
@@ -214,12 +220,12 @@ $(document).on("ready",function()
 	//determinamos el defecto en peso y definimos el comentario
 		leyenda="You are under ther recommended value " ;
 	}
-	else if(bmi>=25.5)
+	else if(imc >= 18 && imc <= 24)
 	{
 	//determinamos el exceso en peso y definimos el comentario
 		leyenda="You are above the recommended value" ;
 	}
-	else
+	else if(imc >= 25)
 	{
 		leyenda="You are in the recommended value ";
 	}
@@ -245,12 +251,12 @@ $(document).on("ready",function()
 	//determinamos el defecto en peso y definimos el comentario
 		leyenda="You are under ther recommended value " ;
 	}
-	else if(bmi>=25.5)
+	else if(imc >= 18 && imc <= 25)
 	{
 	//determinamos el exceso en peso y definimos el comentario
 		leyenda="You are above the recommended value" ;
 	}
-	else
+	else if(imc >= 25)
 	{
 		leyenda="You are in the recommended value ";
 	}
@@ -277,17 +283,17 @@ $(document).on("ready",function()
 	//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
 	$(".imc-val").val(imc.toFixed(2));
 	//mediante if comparamos el resultado para determinar si es correcto el peso
-	if(imc<=18)
+	if(imc <= 18)
 	{
 	//determinamos el defecto en peso y definimos el comentario
 		conclusion="Estas por debajo del valor recomendado " ;
 	}
-	else if(imc>=27)
+	else if(imc >= 18 && imc <= 25)
 	{
 	//determinamos el exceso en peso y definimos el comentario
 		conclusion="Estas en valores recomendados" ;
 	}
-	else
+	else if(imc >= 25)
 	{
 		conclusion="Estas en valores mayores a los recomendados";
 	}
