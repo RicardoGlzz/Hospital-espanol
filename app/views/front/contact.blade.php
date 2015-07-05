@@ -21,34 +21,35 @@
 		
 		<section class="formulario">
 			<h3>If you have any questions, be sure to send us a message</h3>
-			<form action="">
+			{{ Form::open(array('url' => 'contact/msj')) }}
 				<div>
 					<label for="">Name:</label>
 					<br>
-					<input type="text">
+					<input type="text" name="nombre" required>
 					<br>
 					<label for="">Last name:</label>
 					<br>
-					<input type="text">
+					<input type="text" name="apellido" required>
 					<br>
 					<label for="">Email:</label>
 					<br>
-					<input type="email">
+					<input type="email" name="email" required>
 					<br>
 					<label for="">Country:</label>
 					<br>
-					<select id="country2" name ="country2"></select>
+					<select id="country2" name ="country"></select>
 					<br>
 				</div>
 				<div>
 					<label for="">Message:</label>
 					<br>
-					<textarea name="" id="" cols="30" rows="8" placeholder=""></textarea>
+					<textarea name="mensaje" id="" cols="30" rows="8" placeholder=""></textarea>
 				</div>
-			</form>
-			<div class="boton-send">
-			<button type="submit">Send message</button>
-			</div>
+				<div class="boton-send">
+					<button type="submit">Send message</button>
+				</div>
+			{{Form::close()}}
+			
 		</section>
 		</section>
 	</section>

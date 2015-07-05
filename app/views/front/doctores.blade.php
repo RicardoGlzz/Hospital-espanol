@@ -5,7 +5,7 @@
 		<h1 class="titulo-doctores">Allow professionals handle your health</h1>
 		<div class="doctor-color doctor1">
 			<figure>
-				<img src="img/doctor-dos.jpg" alt="">
+				<img src="img/HSB_14 2.jpg" alt="">
 			</figure>
 			<figure>
 				<h2>Dr. Othón Vázquez Novoa</h2>

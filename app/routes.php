@@ -21,6 +21,8 @@ Route::get('intragastric', 'FrontendController@intragastric');
 Route::get('gastroplicature', 'FrontendController@gastroplicature');
 Route::get('metabolic', 'FrontendController@metabolic');
 Route::get('contact', 'FrontendController@contact');
+//ruta para el formulario de contacto
+Route::post('contact/msj','MensajeController@save_msj');
 Route::get('faqs', 'FrontendController@faqs');
 
 

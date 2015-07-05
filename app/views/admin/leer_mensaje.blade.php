@@ -5,6 +5,7 @@
 	<h3>Nombre: {{ $mensaje->nombre }}</h3>
 	<h4>Correo: {{ $mensaje->email }}</h4>
 	<h4>Telefono: {{ $mensaje->telefono }}</h4>
+	<h4>País: {{ $mensaje->pais }}</h4>
 	<h4>Mensaje:</h4>
 	<p>{{ $mensaje->mensaje }}</p>
 	<br>
