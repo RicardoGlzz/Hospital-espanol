@@ -1829,13 +1829,21 @@ footer #contactos
      /*Inicio*/
      .inicio-section h1
      {
-        display: none;
+        display: block;
+     }
+     .inicio-section h1 
+     {
+        font-size: 1.5em;
      }
      #procedimientos h1 
      {
         display: block;
         margin-top: 5px;
         margin-left: 0;
+     }
+     .equipo-tec 
+     {
+        margin-top: -150px;
      }
      .flexslider 
      {
@@ -1846,6 +1854,7 @@ footer #contactos
         width: 300px;
         position: relative;
         left: -30px;
+        top: 50px;
      }
      #calculadora-imc div 
      {
@@ -2003,9 +2012,9 @@ footer #contactos
      }
      #precio-proc #precio
      {
-        width: 100px;
-        height: 100px;
-        left: 90px;
+        width: 130px;
+        height: 130px;
+        left: 0;
         top: 0;
         margin-top: 0;
      }
@@ -2021,6 +2030,47 @@ footer #contactos
      .proc-desc .proc-div img 
      {
         width: 80%;
+     }
+     #testimonios div 
+     {
+        margin-left: 0; 
+     }
+     #testimonios iframe 
+     {
+        width: 320px;
+     }
+     .bypass-section h1 
+     {
+        font-size: 1.5em !important;
+     }
+     .sleeve-section h1 
+     {
+        font-size: 1.5em !important;
+     }
+     .balloon-section h1 
+     {
+        font-size: 1.5em !important;
+     }
+     .gastro-section h1 
+     {
+        font-size: 1.5em !important;
+     }
+     .metabolic-section h1 
+     {
+        font-size: 1.5em !important;
+     }
+     #faqs 
+     {
+        margin: 0;
+     }
+     .requisitos div 
+     {
+        width: 100%;
+        margin-left: 0;
+     }
+     .modal h2 
+     {
+        left: 20%;
      }
 }
 @media (min-width:350px) and (max-width: 600px) {
@@ -2312,7 +2362,26 @@ footer #contactos
     {
       left: 0
     }
-     
+    #calculadora-imc .bmi-figure 
+    {
+      width: 100%;
+    } 
+    .inicio-metabolica button 
+    {
+      margin-left: 50px;
+    }
+    #testimonios div 
+    {
+      margin-left: 20%;
+    }
+    .visita-mazatlan figure 
+    {
+      margin-left: 20%;
+    }
+    #barra-footer 
+    {
+      display: none;
+    }
 }
 @media (min-width:800px) and (max-width: 1024px){
 
@@ -2323,7 +2392,7 @@ footer #contactos
     }
     .menu .menu-item 
     {
-      margin-right: 40px;
+      margin-right: 65px;
     }
     .sobrepeso figure
     {
@@ -2358,11 +2427,32 @@ footer #contactos
     }
     #calculadora-imc div 
     {
-      display: block;
+      display: inline-block;
     }
     .overweight
     {
       margin-top: 0 !important;
+    }
+    #procedimientos h1 
+    {
+      margin-left: 0;
+    }
+    #procedimientos section 
+    {
+      display: inherit;
+      margin: 0 auto;
+    }
+    #testimonios div 
+    {
+      margin-left: 5%;
+    }
+    .visita-mazatlan figure 
+    {
+      margin-left: 30%;
+    }
+    #barra-footer 
+    {
+      display: none;
     }
 }
 @media (min-width:1280px) and (max-width: 1300px){

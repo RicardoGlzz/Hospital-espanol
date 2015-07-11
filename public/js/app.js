@@ -171,7 +171,7 @@ $(document).on("ready",function()
 		$(this).css("right","410px");
 		$(".calc").css("right","0");
 	})
-	$(".hide-calc").on("click",function()
+	$(document).on("click",".hide-calc",function()
 	{
 		$(".calc-boton").css("right","1%");
 		$(".calc").css("right","-100%");
@@ -205,32 +205,32 @@ $(document).on("ready",function()
 	$("#boton-imc").on("click",function()
 	{
 		
-	//declaramos las variables
-	var peso, altura, bmi, leyenda;
-	//hacemos la llamada a los datos introducidos
-	peso=document.getElementById("peso").value;
-	altura=document.getElementById("altura").value;
-	//calculamos el bmi
-	bmi=(peso/(altura*altura))*703;
-	//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
-	document.getElementById("bmi").value=bmi.toFixed(2);
-	//mediante if comparamos el resultado para determinar si es correcto el peso
-	if(bmi<=18.5)
-	{
-	//determinamos el defecto en peso y definimos el comentario
-		leyenda="You are under ther recommended value " ;
-	}
-	else if(imc >= 18 && imc <= 24)
-	{
-	//determinamos el exceso en peso y definimos el comentario
-		leyenda="You are above the recommended value" ;
-	}
-	else if(imc >= 25)
-	{
-		leyenda="You are in the recommended value ";
-	}
-	//enviamos el comentario a la caja correspondiente
-	document.getElementById("leyenda").value=leyenda;
+		//declaramos las variables
+		var peso, altura, bmi, leyenda;
+		//hacemos la llamada a los datos introducidos
+		peso= $("#peso").val();
+		altura= $("#altura").val();
+		//calculamos el bmi
+		bmi=(peso/(altura*altura))*703;
+		//enviamos el resultado a la caja correspondiente y lo reducimos a 2 decimales
+		document.getElementById("bmi").value=bmi.toFixed(2);
+		//mediante if comparamos el resultado para determinar si es correcto el peso
+		if(bmi<=18.5)
+		{
+		//determinamos el defecto en peso y definimos el comentario
+			leyenda="You are under ther recommended value " ;
+		}
+		else if(bmi >= 18 && bmi <= 25)
+		{
+		//determinamos el exceso en peso y definimos el comentario
+			leyenda="You are in the recommended value" ;
+		}
+		else if(bmi >= 25)
+		{
+			leyenda="You are above the recommended value";
+		}
+		//enviamos el comentario a la caja correspondiente
+		$("#leyenda").val(leyenda);
 	});
 
 	$(".boton-bmi").on("click",function()
@@ -251,23 +251,18 @@ $(document).on("ready",function()
 	//determinamos el defecto en peso y definimos el comentario
 		leyenda="You are under ther recommended value " ;
 	}
-	else if(imc >= 18 && imc <= 25)
+	else if(bmi >= 18 && bmi <= 25)
 	{
 	//determinamos el exceso en peso y definimos el comentario
-		leyenda="You are above the recommended value" ;
+		leyenda="You are in the recommended value" ;
 	}
-	else if(imc >= 25)
+	else if(bmi >= 25)
 	{
-		leyenda="You are in the recommended value ";
+		leyenda="You are above the recommended value ";
 	}
 	//enviamos el comentario a la caja correspondiente
 	document.getElementById("ley").value=leyenda;
 	});
-
-
-
-
-
 
 
 	$(".boton-imc").on("click",function()
