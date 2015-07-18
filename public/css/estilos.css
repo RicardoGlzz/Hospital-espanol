@@ -467,6 +467,7 @@ header .menu
 }
 
 /*Comienzo de contenido*/
+
 #procedimientos 
 {
   max-width: 1280px;
@@ -696,9 +697,8 @@ header .menu
 {
   width: 320px;
   position: relative;
-  left: 22%;
+  left: 33%;
   background: #8CB0F4;
-
 }
 .inicio-metabolica div 
 {
@@ -1291,7 +1291,7 @@ header .menu
   border: 2px solid white;
   right: -10%;
   cursor: pointer;
-  font-size: 1.1em; 
+  font-size: 1em; 
   margin-left: 100%;
   z-index: 10;
   transition: all .5s ease;

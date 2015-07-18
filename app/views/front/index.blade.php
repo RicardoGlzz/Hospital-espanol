@@ -130,20 +130,7 @@
 		</div>
 	</section>
 	<hr>
-	<!-- Gastroaplication -->
-	<section class="inicio-gastro">
-		<div class="cont-img">
-			<img src="img/gastro.png" alt="">
-		</div>
-		<div>
-			<h2>Gastroplicature</h2>
-			<br>
-			<p>An invagination of the stomach is performed surgically which will make an stomach similar to a sleeve gastrectomy without the need of stapling devices...</p>
-			<br>
-			<button><a href="{{ URL::to('gastroplicature') }}">See more</a></button>
-		</div>
-		
-	</section>
+
 	<!-- Cirugia metabolica -->
 	<section class="inicio-metabolica">
 		<div class="cont-img">
