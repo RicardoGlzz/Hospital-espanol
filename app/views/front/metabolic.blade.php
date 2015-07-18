@@ -71,7 +71,7 @@
 				
 					<div id="precio" class="precio-durango">
 					<p>
-						$95,000
+						${{$precio[0]->precio}}
 						MXN
 						(Durango)
 					</p>
@@ -79,7 +79,7 @@
 				</div>
 				<div id="precio" class="precio-mazatlan">
 					<p>
-						$95,000
+						${{$precio[0]->precio_mzt}}
 						MXN
 						(Mazatlán)
 					</p>
@@ -87,12 +87,21 @@
 				</div>
 				<div id="precio" class="precio-usa">
 					<p>
-						$9500
+						${{$precio[0]->precio_dls}}
 						DLS
 						(USA)
 					</p>
 					
 				</div>
+				<!--
+				<div id="precio" class="precio-usa">
+					<p>
+						${{$precio[0]->precio_mzt_dls}}
+						DLS
+						(USA)
+					</p>
+				</div>
+				-->
 				<div id="lugar-precio">
 					<span>Prices</span>
 				</div>

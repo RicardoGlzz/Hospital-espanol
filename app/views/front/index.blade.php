@@ -160,14 +160,12 @@
 	</section>	
 	<section id="testimonios">
 		<h1 class="bmi-titulo">- Testimonials -</h1>	
+		@foreach($testigos as $item)
 		<div>
-			<h2> Prof Margarito Gastric Bypass</h2>
-			<iframe src="//www.youtube.com/embed/-m33RTmGcEs?rel=0" allowfullscreen=""></iframe>
+			 <h2>{{ $item->nombre }}</h2>	
+			 <iframe src="{{ $item->link }}" frameborder="0" allowfullscreen=""></iframe>
 		</div>
-		<div>
-			 <h2>Elena Orozco, Metabolic Surgery</h2>	
-			 <iframe src="//www.youtube.com/embed/u_Z3kIWki_s?rel=0" frameborder="0" allowfullscreen=""></iframe>
-		</div>
+		@endforeach
 	</section>
 	<section class="equipo-tec">
 			<div>

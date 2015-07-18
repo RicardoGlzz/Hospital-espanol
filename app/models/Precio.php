@@ -6,42 +6,40 @@ class Precio extends Eloquent {
 
 	public function scopeBypass($query){
 
-		$query->select('precio')->where('seccion','=','bypass');
+		$query->select('precio','precio_mzt','precio_dls','precio_mzt_dls')
+			->where('seccion','=','bypass');
 
 		return $query;
 	}
 
 	public function scopeGastro($query){
 
-		$query->select('precio')->where('seccion','=','gastro');
+		$query->select('precio','precio_mzt','precio_dls','precio_mzt_dls')
+			->where('seccion','=','gastro');
 
 		return $query;
 	}
 
 	public function scopeSleeve($query){
 
-		$query->select('precio')->where('seccion','=','sleeve');
+		$query->select('precio','precio_mzt','precio_dls','precio_mzt_dls')
+			->where('seccion','=','sleeve');
 
 		return $query;
 	}
 
 	public function scopeBallon($query){
 
-		$query->select('precio')->where('seccion','=','ballon');
+		$query->select('precio','precio_mzt','precio_dls','precio_mzt_dls')
+			->where('seccion','=','ballon');
 
 		return $query;
 	}
 
 	public function scopeMetabolic($query){
 
-		$query->select('precio')->where('seccion','=','metabolic');
-
-		return $query;
-	}
-
-	public function scopePrecios($query){
-
-		$query->select('id','precio');
+		$query->select('precio','precio_mzt','precio_dls','precio_mzt_dls')
+			->where('seccion','=','metabolic');
 
 		return $query;
 	}
