@@ -41,8 +41,15 @@ Route::group(array('before' => 'auth'),function(){
 
 	//Rutas para precios
 	Route::get('precios','PrecioController@index');
-	Route::get('precios/edit/{id}','PrecioController@edit');
-	Route::post('precios/edit/{id}','PrecioController@saveEdit');
+	Route::get('precios/edit/dgo/{id}','PrecioController@edit');
+	Route::get('precios/edit/dls/{id}','PrecioController@edit2');
+	Route::get('precios/edit/mtz/{id}','PrecioController@edit3');
+	Route::get('precios/edit/mtz/dls/{id}','PrecioController@edit4');
+	//Ruta para Guardar Precios
+	Route::post('precios/edit/dgo/{id}','PrecioController@saveEdit');
+	Route::post('precios/edit/mtz/{id}','PrecioController@saveEdit2');
+	Route::post('precios/edit/dls/{id}','PrecioController@saveEdit3');
+	Route::post('precios/edit/mtz/dls/{id}','PrecioController@saveEdit4');
 
 	//Rutas para los mensajes
 	Route::get('mensajes','MensajeController@index');
@@ -52,6 +59,11 @@ Route::group(array('before' => 'auth'),function(){
 	Route::get('mensajes/noLeido/{id}','MensajeController@noLeido');
 	//Ruta para eliminar mensajes
 	Route::get('mensajes/delete/{id}','MensajeController@delete');
+
+	//ruta para videos de testigos
+	Route::get('testigos','TestigoController@index');
+	//Ruta para cambiar videos de testigos
+	Route::post('testigos/edit/{id}','TestigoController@edit');
 
 	//Ruta para logout
 	Route::get('logout','LoginController@logOut');

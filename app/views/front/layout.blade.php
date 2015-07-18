@@ -152,8 +152,11 @@
 		<section id="barra-footer">
 			<div><a href="{{ URL::to('doctores') }}">Doctors & cols</a></div>
 			<div><a href="{{ URL::to('bypass') }}">Gastric Bypass</a></div>
-			<div><a href="{{ URL::to('sleeve') }}">Sleeve Gastrectomy</a></div>
 			<div><a href="{{ URL::to('intragastric') }}">Intragastric Balloon</a></div>
+<<<<<<< HEAD
+=======
+			<div><a href="{{ URL::to('sleeve') }}">Sleeve Gastrectomy</a></div>
+>>>>>>> origin/master
 			<div><a href="{{ URL::to('metabolic') }}">Metabolic Surgery</a></div>
 			<div><a href="{{ URL::to('contact') }}">Contact</a></div>
 			<div><a href="{{ URL::to('faqs') }}">FAQS</a></div>
