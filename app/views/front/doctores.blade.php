@@ -54,7 +54,7 @@
 				</ul>
 			</figure>
 		</div>
-			<div class="doctor-color doctor3">
+			<div class="doctor-nocolor doctor3">
 			<figure>
 				<img src="img/doctor-tres.jpg" alt="">
 			</figure>
@@ -90,7 +90,7 @@
 			</figure>
 		</div>
 
-		<div class="doctor-nocolor doctor2">
+		<div class="doctor-color doctor2">
 			<figure>
 				<img src="img/doctor-dos.jpg" alt="">
 			</figure>
@@ -117,7 +117,7 @@
 			</figure>
 		</div>
 
-		<div class="doctor-color doctor4">
+		<div class="doctor-nocolor doctor4">
 			<figure>
 				<img src="img/paulina.jpg" alt="">
 			</figure>
@@ -152,6 +152,27 @@
 			</figure>
 		</div>
 
+		<div class="doctor-color doctor2">
+			<figure>
+				<img src="img/paulina.jpg" alt="">
+			</figure>
+			<figure>
+				<h2>Lic. Laurencia Zavala Banda </h2>
+				<ul>
+					<li>- Psychologist Universidad Iberoamericana, Torreón Coahuila.
+					</li>
+					<li>- Mastership Gestalt Psychotherapy, Instituto Humanístico Integral, Durango, Dgo. 
+					</li>
+					<li>- Phsycotherapy with children, adolescents and adults.
+					</li>
+					<li>- Experience in patients with eating disorders and obesity.
+					</li>
+					<li>Work in psychological evaluation of candidates for bariatric surgery.</li>
+				</ul>
+			</figure>
+		</div>
+
+
 		<div class="confianza">
 			<figure>
 				<img src="img/confianza.jpg" alt="">
@@ -159,7 +180,7 @@
 			<figure>
 				<h2>You can trust us</h2>
 				<p>If you have any questions, be sure to ask a proffesional by following the next link.</p>
-				<button>Contact</button>
+				<a href="{{ URL::to('contact') }}"><button>Contact</button></a>
 			</figure>
 		</div>
 		

@@ -81,20 +81,22 @@
 				<div id="precio" class="precio-usa">
 					<p>
 						${{$precio[0]->precio_dls}}
+						<br>
 						DLS
-						(USA)
+						(Durango)
 					</p>
 					
 				</div>
-				<!--
+				
 				<div id="precio" class="precio-usa">
 					<p>
 						${{$precio[0]->precio_mzt_dls}}
+						<br>
 						DLS
-						(USA)
+						(Mazatlán)
 					</p>
 				</div>
-				-->
+				
 				<div id="lugar-precio">
 					<span>Prices</span>
 				</div>	

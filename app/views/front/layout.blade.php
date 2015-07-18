@@ -191,6 +191,8 @@
 					<span>Felipe Pescador #302 ote. Zona Centro. </span>
 					<br>
 					<span>C.P. 34000 Durango, Dgo; Mexico.</span>
+					<br>
+					<span>phone: [+52] 618 8 811 10 25 and [+52] 618 8 11 06 74 </span>
 				</div>
 				<div>
 					<h3>Central Medica Quirurgica</h3>

@@ -10,6 +10,19 @@ body
   background: #f9f9f9;
 
 }
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-background:#ACC164; 
+   
+}
+ 
+::-webkit-scrollbar-thumb {
+   
+    -webkit-box-shadow: inset 0 0 2px rgba(0,0,0,0.5); 
+}
 /*Pantalla de cargar*/
 .modal 
 {
@@ -893,20 +906,20 @@ header .menu
   color: white;
   background: #3b5998;
   padding: 10px;
-  width: 145px;
-  height: 145px;
+  width: 115px;
+  height: 115px;
   border-radius: 50%;
   border: 2px solid white;
   position: relative;
   margin-top: -60px;
-  top: 35px;
+  top: 55px;
   display: inline-block;
   vertical-align: top;
 }
 #precio-proc #precio p 
 {
-  margin-top: 35px;
-  font-size: 1.5em;
+  margin-top: 15px;
+  font-size: 1.3em;
 
 }
 
@@ -1258,6 +1271,11 @@ header .menu
 .proc-desc figure 
 {
     margin: 0;
+}
+.requisitos 
+{
+  position: relative;
+  top: 50px;
 }
 .requisitos  div
 {
@@ -1617,11 +1635,8 @@ footer #contactos
 }
 #itinerario 
 {
-  width: 315px;
   border: 2px solid #3b5998;
-  margin: 0 auto;
-  position: relative;
-  top: 20px;
+  margin-top: 60px;
   background: rgb(140, 176, 244);
 }
 #itinerario h2 
@@ -1660,6 +1675,8 @@ footer #contactos
 {
   background: white;
   margin: 10px;
+  width: 17%;
+  display: inline-block;
 }
 #itinerario #dia-div div
 {
