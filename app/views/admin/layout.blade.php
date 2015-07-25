@@ -58,7 +58,7 @@
           <ul class="nav nav-sidebar">
             <li><a href="{{ URL::to('galeria') }}">Galeria</a></li>
             <li><a href="{{ URL::to('mensajes') }}">Mensajes</a></li>
-            <li><a href="#">Doctor & cols</a></li>
+            <li><a href="{{ URL::to('doctors&cols') }}">Doctor & cols</a></li>
             <li><a href="{{ URL::to('precios') }}">Precios</a></li>
           </ul>
         </div>

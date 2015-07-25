@@ -181,6 +181,12 @@
 					<span>e-mail: ovano@hotmail.com</span>
 				</div>
 				<div>
+					<h3>Dr. Fernando Vazquez Reyes</h3>
+					<span>Phone: [+52] (618) 818-02-05-564</span>
+					<br>
+					<span>e-mail: m_ceciliars@hotmail.com</span>
+				</div>
+				<div>
 					<h3>Dr. Cecilia R. de Vazquez</h3>
 					<span>Phone: [+52] (618) 815-2221</span>
 					<br>

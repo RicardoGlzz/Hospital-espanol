@@ -10,7 +10,8 @@ class FrontendController extends BaseController {
 	}
 	public function doctores()
 	{
-		return View::make('front.doctores');
+		$doctores = Doctor::all();
+		return View::make('front.doctores')->with(compact('doctores'));
 	}
 	public function bypass()
 	{

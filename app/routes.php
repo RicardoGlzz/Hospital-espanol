@@ -60,6 +60,9 @@ Route::group(array('before' => 'auth'),function(){
 	//Ruta para eliminar mensajes
 	Route::get('mensajes/delete/{id}','MensajeController@delete');
 
+	//Ruta para Doctor&cols
+	Route::get('doctors&cols','DoctorController@index');
+
 	//ruta para videos de testigos
 	Route::get('testigos','TestigoController@index');
 	//Ruta para cambiar videos de testigos

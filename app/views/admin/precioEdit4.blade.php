@@ -6,7 +6,7 @@
 	{{ Form::open(array('url' => 'precios/edit/mtz/dls/'.$precio->id,'class' => 'form-inline')) }}
 		<div class="form-group">
 			<label for="">Nuevo Precio:</label>
-			$ <input type="text" name="precio" placeholder="precio" class="form-control" required> MXN
+			$ <input type="text" name="precio" placeholder="precio" class="form-control" required> DLS
 			<br>
 			<button type="submit" class="btn btn-primary">Guardar</button>
 		</div>
