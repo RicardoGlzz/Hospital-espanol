@@ -5,7 +5,7 @@
 	<meta name="description" content="Hospital de obesidad" />
     <link rel="icon" href="img/favicon.ico" rel="shortcut icon" />
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
-	<title>Hospital Santa Barbara del Rieti</title>
+	<title>Durango Obesity Surgery</title>
 	<link rel="stylesheet" href="{{ asset('css/normalize.css')}}">
 	<link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/flexslider.css') }}">
@@ -63,12 +63,12 @@
 					<span class="cerrar-menu"><i class="fa fa-times"></i></span>
 				</div>
 				<li class="menu-item opcion"><a href="{{ URL::to('doctores') }}">Doctor & cols</a></li>
-				<li class="menu-item opcion"><a href="{{ URL::to('bypass') }}">Gastric Bypass</a></li>
-				<li class="menu-item opcion"><a href="{{ URL::to('sleeve') }}">Sleeve Gastrectomy</a></li>
-				<li class="menu-item opcion"><a href="{{ URL::to('intragastric') }}">Intragastric Balloon</a></li>
-				<li class="menu-item opcion"><a href="{{ URL::to('metabolic') }}">Metabolic Surgery</a></li>
-				<li class="menu-item opcion"><a href="{{ URL::to('contact') }}">Contact</a></li>
-				<li class="menu-item opcion"><a href="{{ URL::to('faqs') }}">FAQS</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('bypass') }}"> Bypass Gastrico</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('sleeve') }}">Manga Gastrica</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('intragastric') }}">Ballon Intragastrico</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('metabolic') }}">Cirugia Metabolica</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('contact') }}">Contacto</a></li>
+				<li class="menu-item opcion"><a href="{{ URL::to('faqs') }}">Preguntas</a></li>
 				<a id="mexico" href="">
 					<img src="img/mexico.png" alt="">
 				</a>
@@ -91,20 +91,20 @@
 		<!-- Consulta doctor -->
 		<div class="ayuda"><span>FAQs</span><i class="fa fa-question"></i></div>
 		<div class="consulta">
-			<h2>Have a doubt?</h2>
+			<h2>¿Tienes dudas?</h2>
 			<span class="ocultar-consulta"><i class="fa fa-arrow-right"></i></span>
 			<figure>
 				<img src="img/doctor-consulta.jpg" alt="">
 			</figure>
-			<button class="preguntar">Ask the doctor</button>
+			<button class="preguntar">Pregunta a un doctor</button>
 		</div>
 		<div class="consulta2">
-			<h3>Consultation</h3>
+			<h3>Consulta</h3>
 			<span class="ocultar-consulta"><i class="fa fa-arrow-right"></i></span>
 			<figure>
 				<img src="img/doctor-consulta.jpg" alt="">
 			</figure>
-			<label for="">Name: </label>
+			<label for="">Nombre: </label>
 			<br>
 			<input type="text">
 			<br>
@@ -112,30 +112,30 @@
 			<br>
 			<input type="text">
 			<br>
-			<label for="">Comments: </label>
+			<label for="">Comentarios: </label>
 			<br>
 			<textarea></textarea>
 			<br>
-			<button class="enviar-duda" >Send</button>
+			<button class="enviar-duda" >Enviar</button>
 		</div>
 
 			<!-- Boton de caluladora -->
-		<div class="calc-boton"><span>CHECK <br>YOUR <br>BMI <br>HERE</span></div>
+		<div class="calc-boton"><span>CHECA <br>TU <br>IMC <br>AQUI</span></div>
 		<section id="calculadora-imc" class="calc">	
 			<span class="hide-calc">Hide  <i class="fa fa-arrow-right"></i></span>
 			<div class="calculadora">	
-				<h2>Check your BMI(Body Mass Index)</h2>
+				<h2>Checa tu IMC(Indice de masa corporal)</h2>
 				
 				<form  role="form">
-				    <label class="" for="calculodeIMC">Height: </label>
+				    <label class="" for="calculodeIMC">Altura: </label>
 				    <input type="email" class="altura" id="" placeholder="Height in inches">
 					<br>
-				  <label class="">Weight: </label>
+				  <label class="">Peso: </label>
 				      <input class="peso" id="" type="email" placeholder="Weight in pounds">  
 				  	<br>
 				     <input type="button" class="boton-bmi" value="Get BMI">
 				     <br>	
-				     <label for="">BMI:</label>
+				     <label for="">IMC:</label>
 				    <input type="text" class="bmi" id="" placeholder="BMI" disabled>		     
 				       <br>
 				        	<label>Conclusión:</label>
@@ -143,26 +143,26 @@
 				</form>
 			</div>  
 			  
-			<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
-				Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
+			<h3>El índice de masa corporal , o IMC , es una métrica utilizada para estimar la cantidad de grasa corporal tiene una persona. <br>
+				Aunque el IMC no mide la grasa corporal directamente, se correlaciona con otras medidas directas de la grasa corporal, según los Centros para el Control y la Prevención de Enfermedades (CDC ).</h3> 
 			</section>	
 
 
 		<div class="consulta3">
 			<span class="ocultar-consulta"><i class="fa fa-arrow-right"></i></span>
-			<h1>All done, <br> you will receive an email with your answer</h1>
-			<button class="regreso-consulta">Back to consultation</button>			
+			<h1>Listo, <br> recibiras un correo con tu respuesta</h1>
+			<button class="regreso-consulta">Regresa a consulta</button>			
 		</div>
 
 
 		<section id="barra-footer">
-			<div><a href="{{ URL::to('doctores') }}">Doctors & cols</a></div>
-			<div><a href="{{ URL::to('bypass') }}">Gastric Bypass</a></div>
-			<div><a href="{{ URL::to('intragastric') }}">Intragastric Balloon</a></div>
-			<div><a href="{{ URL::to('sleeve') }}">Sleeve Gastrectomy</a></div>
-			<div><a href="{{ URL::to('metabolic') }}">Metabolic Surgery</a></div>
-			<div><a href="{{ URL::to('contact') }}">Contact</a></div>
-			<div><a href="{{ URL::to('faqs') }}">FAQS</a></div>
+			<div><a href="{{ URL::to('doctores') }}">Doctores</a></div>
+			<div><a href="{{ URL::to('bypass') }}"> Bypass Gastrico</a></div>
+			<div><a href="{{ URL::to('intragastric') }}">Balón Intragastrico</a></div>
+			<div><a href="{{ URL::to('sleeve') }}">Manga Gastrica</a></div>
+			<div><a href="{{ URL::to('metabolic') }}">Cirugia Metabolica</a></div>
+			<div><a href="{{ URL::to('contact') }}">Contacto</a></div>
+			<div><a href="{{ URL::to('faqs') }}">Preguntas</a></div>
 			<div>
 				<figure>
 					<a href="{{ URL::to('contact') }}">
@@ -171,7 +171,7 @@
 				</figure>
 			</div>
 		</section>
-<div class="modal"><h2>Loading, please wait</h2></div>
+<div class="modal"><h2>Cargando, por favor espere</h2></div>
 		@yield('content')
 
 		<footer>
@@ -179,22 +179,22 @@
 				<div class="fb-page" data-href="https://www.facebook.com/hospitalsantabarbaradelrieti?fref=ts" data-width="500" data-height="550" data-hide-cover="true" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/hospitalsantabarbaradelrieti?fref=ts"><a href="https://www.facebook.com/hospitalsantabarbaradelrieti?fref=ts">Hospital Santa Barbara del Rieti</a></blockquote></div></div>
 			</section>
 			<section id="contactos">
-				<h1>CONTACT US</h1>
+				<h1>CONTACTANOS</h1>
 				<div>
 					<h3>Dr. Othon Vazquez Novoa</h3>
-					<span>Phone: [+52] (618) 815-1935</span>
+					<span>telefono: [+52] (618) 815-1935</span>
 					<br>
 					<span>e-mail: ovano@hotmail.com</span>
 				</div>
 				<div>
 					<h3>Dr. Fernando Vazquez Reyes</h3>
-					<span>Phone: [+52] (618) 818-02-05-564</span>
+					<span>telefono: [+52] (618) 818-02-05-564</span>
 					<br>
 					<span>e-mail: m_ceciliars@hotmail.com</span>
 				</div>
 				<div>
 					<h3>Dr. Cecilia R. de Vazquez</h3>
-					<span>Phone: [+52] (618) 815-2221</span>
+					<span>telefono: [+52] (618) 815-2221</span>
 					<br>
 					<span>e-mail: m_ceciliars@hotmail.com</span>
 				</div>
@@ -204,7 +204,7 @@
 					<br>
 					<span>C.P. 34000 Durango, Dgo; Mexico.</span>
 					<br>
-					<span>phone: [+52] 618 8 811 10 25 and [+52] 618 8 11 06 74 </span>
+					<span>telefono: [+52] 618 8 811 10 25 and [+52] 618 8 11 06 74 </span>
 				</div>
 				<div>
 					<h3>Central Medica Quirurgica</h3>
@@ -212,7 +212,7 @@
 					<br>
 					<span>C.P. 82010 Mazatlan, Sin; Mexico.</span>
 					<br>
-					<span>phone: [+52] (669) 985-0730</span>
+					<span>telefono: [+52] (669) 985-0730</span>
 				</div>
 			</section>
 		</footer>	
