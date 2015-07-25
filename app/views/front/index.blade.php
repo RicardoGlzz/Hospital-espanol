@@ -12,7 +12,7 @@
 		    @endforeach
 		  </ul>
 		</div>	
-<h1 class="bmi-titulo">- Welcome, check your BMI here -</h1>
+<h1 class="bmi-titulo">- Bienvenido, checa tu IMC aquí -</h1>
 <section id="calculadora-imc" >
 		<div class="bmi-figure img-uno">
 			<figure>
@@ -63,31 +63,31 @@
 			    <input name="legend" id="legend" size="42">		             
 			</form>
 		</div>  
-		<h3>The body mass index, or BMI, is a metric used to estimate the amount of body fat a person has. <br>
-			Though BMI doesn't measure body fat directly, it correlates with other direct measures of body fat, according to the Centers for Disease Control and Prevention (CDC).</h3> 
+		<h3>El índice de masa corporal , o IMC , es una métrica utilizada para estimar la cantidad de grasa corporal tiene una persona.<br>
+			Aunque el IMC no mide la grasa corporal directamente, se correlaciona con otras medidas directas de la grasa corporal, según los Centros para el Control y la Prevención de Enfermedades (CDC ).</h3> 
 	</section>
 	<section class="sobrepeso">
 		<figure class="peso-img peso-uno">
 			<img src="img/resumen-dos.jpg" alt="">
-			<h4>Worldwide obesity has doubled since 1980.</h4>
+			<h4>La obesidad a nivel mundial se a duplicado desde 1980.</h4>
 		</figure>
 		<figure>
 			<ul>
-				<li>+Diabetes type II</li>
-				<li class="overweight">+High blood pressure</li>
-				<li>+Overweight</li>
-				<li>+Joint pain</li>
-				<li>+Cholesterol</li>
-				<li>+Triglycerides</li>
+				<li>+Diabetes tipo II</li>
+				<li class="overweight">+Hypertension arterial</li>
+				<li>+Sobrepeso</li>
+				<li>+Dolor articular</li>
+				<li>+Colesterol</li>
+				<li>+Trigliceridos</li>
 			</ul>
 		</figure>
 		<figure class="peso-img peso-dos">
 			<img src="img/resumen.jpg" alt="">
-			<h4>39% of adults aged 18 years and over were overweight in 2014, and 13% were obese.</h4>
+			<h4>39% de los adltos mayores a 18 años tienen sobrepeso, y 13% son obesos.</h4>
 		</figure>
 	</section>
 <section id="procedimientos">
-	<h1>- Procedures that will benefit your life -</h1>
+	<h1>- Procedimientos que benificiaran tu calidad de vida -</h1>
 	<hr>
 	<!--  gastric bypass -->
 	<section class="inicio-bypass">
@@ -95,11 +95,11 @@
 			<img src="img/bypass.jpg" alt="">
 		</div>
 		<div>
-			<h2>Gastric Bypass</h2>
+			<h2> Bypass Gastrico</h2>
 			<br>
-			<p>Also called gastric bypass "Y" of Roux, is the gold standard surgery for weight loss that takes place in Mexico and around the world...</p>
+			<p>También llamado bypass gástrico en "Y" de Roux , es la cirugía estándar de oro para la pérdida de peso que se produce en México y en todo el mundo ...</p>
 			<br>
-			<button><a href="{{ URL::to('bypass') }}">See more</a></button>
+			<button><a href="{{ URL::to('bypass') }}">Ver más</a></button>
 		</div>
 	</section>
 	<!-- Manga gastrica -->
@@ -108,11 +108,11 @@
 			<img src="img/sleeve.jpg" alt="">
 		</div>
 		<div>
-			<h2>Sleeve Gastrectomy</h2>
+			<h2>Manga Gastrica</h2>
 			<br>
-			<p>In this procedure 70% of the stomach is removed leaving a new stomach as "sleeve " or "gastric tube". You will lose weight by two mechanisms...</p>
+			<p>En este procedimiento el 70 % del estómago se retira dejando un nuevo estómago como " manga " o " tubo gástrico " . Usted va a perder peso por dos mecanismos ...</p>
 			<br>
-			<button><a href="{{ URL::to('sleeve') }}">See more</a></button>
+			<button><a href="{{ URL::to('sleeve') }}">Ver más</a></button>
 		</div>
 		
 	</section>
@@ -122,11 +122,11 @@
 			<img src="img/balon.jpg" alt="">
 		</div>
 		<div>
-			<h2>Intragastric Balloon</h2>
+			<h2>Balón Intragastrico</h2>
 			<br>
-			<p>It is a balloon that is filled up with saline solution with a colorant. Its introduced to stomach by endoscopy and leave there for 6 months...</p>
+			<p>Es un globo que se llena con solución salina con un colorante. Su presentación a estómago mediante endoscopia y dejar allí durante 6 meses ...</p>
 			<br>
-			<button><a href="{{ URL::to('intragastric') }}">See more</a></button>
+			<button><a href="{{ URL::to('intragastric') }}">Ver más</a></button>
 		</div>
 	</section>
 	<hr>
@@ -137,16 +137,16 @@
 			<img src="img/bypass.jpg" alt="">
 		</div>
 		<div>
-			<h2>Metabolic Surgery</h2>
+			<h2>Cirugia Metabolica</h2>
 			<br>
-			<p>It´s a modified gastric bypass that will cause the production of a substance in the small intestine called incretin that stimulates insulin production...</p>
+			<p>Es un bypass gástrico modificado que hará que la producción de una sustancia en el intestino delgado llamada incretina que estimula la producción de insulina ...</p>
 			<br>
-			<button><a href="{{ URL::to('metabolic') }}">See more</a></button>
+			<button><a href="{{ URL::to('metabolic') }}">Ver más</a></button>
 		</div>
 		</section>
 	</section>	
 	<section id="testimonios">
-		<h1 class="bmi-titulo">- Testimonials -</h1>	
+		<h1 class="bmi-titulo">- Testimonios -</h1>	
 		@foreach($testigos as $item)
 		<div>
 			 <h2>{{ $item->nombre }}</h2>	
@@ -156,8 +156,8 @@
 	</section>
 	<section class="equipo-tec">
 			<div>
-				<h1>We have the best process equipment</h1>
-				<p>High Tech equipment, for your own safety and better operation results, your health it´s in hands of professionals.  </p>
+				<h1>Contamos con el mejor equipo</h1>
+				<p>Equipos de alta tecnología , para su propia seguridad y mejores resultados de la operación , su salud esta  en manos de profesionales .  </p>
 			</div>
 			<figure>
 				<img src="img/operacion.jpg" alt="">
@@ -165,8 +165,8 @@
 		</section>
 		<section class="instalaciones">
 			<div>
-				<h1>The best facilities</h1>
-				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
+				<h1>Las mejores instalaciones</h1>
+				<p>Nuestras modernas instalaciones offer's los mejores servicios para que , adicionalmente, que ofrecen toda la comodidad y seguridad de nuestra amplias habitaciones tipo suite.</p>
 			</div>
 			<figure>
 				<img src="img/Sala_Espera.jpg" alt="">
@@ -174,8 +174,8 @@
 		</section>
 		<section class="visita-mazatlan">
 			<div>
-				<h1>Make a visit to Mazatlan</h1>
-				<p>Our modern facilities offer´s the best services for you, additionally, we offer all the comfort and safety of our spacious rooms type Suite.</p>
+				<h1>Visítanos en Mazatlan</h1>
+				<p>Nuestras modernas instalaciones offer's los mejores servicios para que , adicionalmente, que ofrecen toda la comodidad y seguridad de nuestra amplias habitaciones tipo suite.</p>
 			</div>
 			<figure>
 				<img src="img/Mazatlan.jpg" alt="" class="mazatlan">

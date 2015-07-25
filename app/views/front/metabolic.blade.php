@@ -2,29 +2,29 @@
 @section('content')
 <section class="wrapper-section wrapper-content">
 	<section class="metabolic-section">
-		<h1>- Metabolic Surgery -</h1>
+		<h1>- Cirugia Metabolica -</h1>
 		
 				<section class="proc-desc">
 
 				<div class="proc-div">
 					<div>	
-					<h3>What is metabolic surgery?</h3>
-					<p>It´s a modified gastric bypass that will cause the production of a substance in the small intestine called incretin that stimulates insulin production.</p>
+					<h3>¿Que es cirugia metabolica?</h3>
+					<p>Es un bypass gástrico modificado que hará que la producción de una sustancia en el intestino delgado llamada incretina que estimula la producción de insulina .</p>
 					</div>
 					
 					<div> 
-					<h3>Surgical time</h3>
-					<p>2 to 3 hours</p>
+					<h3>Tiempo de cirugia </h3>
+					<p>2 a 3 horas</p>
 					</div>	
 
 					<div>
-					<h3>Hospitalization</h3>
-					<p>24-48hrsr</p>
+					<h3>Hospitalizacion</h3>
+					<p>24-48hrs</p>
 					</div>	
 
 					<div>
-					<h3>Recovery time</h3>
-					<p>Discharge in 24-48 hrs Glycemic control without the use of insulin or oral hypoglycemic agents in 85 % of patients within a year. 60% will stop using hypoglycemiantsbefore 6 months. Patients should ideally have a BMI of 30 to 35. Although it can be performed on patients with a lower BMI.</p>
+					<h3>Tiempo de recuperación</h3>
+					<p>Aprobación de la gestión en 24-48 horas el control glucémico sin el uso de insulina o hipoglucemiantes orales en el 85 % de los pacientes dentro de un año . 60 % dejará de usar hypoglycemiantsbefore 6 meses. Los pacientes deben tener idealmente un IMC de 30 a 35. A pesar de que se puede realizar en pacientes con un IMC inferior.</p>
 					</div>
 				</div>
 
@@ -39,34 +39,34 @@
 			<br>	
 			<!-- Precios -->
 			<section id="precio-proc">
-				<h2>Metabolic Surgery</h2>
+				<h2>Cirugia Metabolica</h2>
 				<div class="precio-carac">
-					<span>Expected weight loss</span>
+					<span>Perdida d epeso aproximada</span>
 					<br>
 					<i class="fa fa-check"></i>
 					<br>
 					<span>85%</span>
 				</div>
 				<div class="precio-carac">
-					<span>Surgical time</span>
+					<span>Tiempo de cirugia</span>
 					<br>
 					<i class="fa fa-clock-o"></i>
 					<br>
-					<span>2 to 3 hours</span>
+					<span>2 a 3 horas</span>
 				</div>
 				<div class="precio-carac">
-					<span>Hospital time</span>
+					<span>Hospitalización</span>
 					<br>
 					<i class="fa fa-bed"></i>
 					<br>
-					<span>24 to 48 hours</span>
+					<span>24 a 48 horas</span>
 				</div>
 				<div class="precio-carac">
-					<span>Recovery time</span>
+					<span>Tiempo de recuperacion</span>
 					<br>
 					<i class="fa fa-street-view"></i>
 					<br>
-					<span>3rd to 5th day of desk work</span>
+					<span>3 al 5 días de trabajo de escritorio</span>
 				</div>
 				
 					<div id="precio" class="precio-durango">
@@ -105,69 +105,69 @@
 				</div>
 				
 				<div id="lugar-precio">
-					<span>Prices</span>
+					<span>Precios</span>
 				</div>
 			</section>
 
 			<!-- Itinerario -->
 			<section id="itinerario" class="metabolic-itinerario">
-				<h2>ITINERARY</h2>
-				<h3>Metabolic <span>5 Days</span></h3>
+				<h2>ITINERARIO</h2>
+				<h3>Metabolica <span>5 Dias</span></h3>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 1
+							Dia 1
 						</p>
 					</div>
 					<div>
 						<p>
-							Arrival. 1st night in hotel is included
+							Llegada . Primera noche en el hotel está incluido
 						</p>
 					</div>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 2
+							Dia 2
 						</p>
 					</div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 3
+							Dia 3
 						</p>
 					</div>
 					<div>
 					<p>
-						Arrival. 1st night in hotel is included
-					</p>
-					</div>
-				</div>
-				<div id="dia-div">
-					<div class="dia">
-						<p>
-							Day 4
-						</p>
-					</div>
-					<div>
-					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 					</div>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 5
+							Dia 4
 						</p>
 					</div>
 					<div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
+					</p>
+					</div>
+				</div>
+				<div id="dia-div">
+					<div class="dia">
+						<p>
+							Dia 5
+						</p>
+					</div>
+					<div>
+					<p>
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 					</div>
 				</div>

@@ -5,7 +5,7 @@
 	<meta name="description" content="Hospital de obesidad" />
     <link rel="icon" href="img/favicon.ico" rel="shortcut icon" />
     <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
-	<title>Durango Obesity Surgery</title>
+	<title>Durango Cirugia de Obesidad</title>
 	<link rel="stylesheet" href="{{ asset('css/normalize.css')}}">
 	<link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
 	<link rel="stylesheet" href="{{ asset('css/flexslider.css') }}">

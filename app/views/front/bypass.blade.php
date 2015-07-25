@@ -3,21 +3,21 @@
 <section class="wrapper-section wrapper-content">
 
 	<section class="bypass-section">
-		<h1>- Gastric Bypass -</h1>
+		<h1>- Bypass Gastrico -</h1>
 			
 			<section class="proc-desc">
 				<div class="proc-div">
 					<div>
-						<h3>What is gastric bypass? </h3>
-						<p>Also called gastric bypass "Y" of Roux, is the gold standard surgery for weight loss that takes place in Mexico and around theworld. A stomach pouch of about 30 cc is formed. Subsequently the smaller intestine is attached to new stomach pouch. You will lose weight by two mechanisms. First one, you will not be able to eat the same amount of that you ate before. Second one, a malabsorptive mechanism will be created.</p>
+						<h3>¿Que es Bypass Gastrico? </h3>
+						<p>También llamada bypass gástrico en "Y" de Roux , es la cirugía estándar de oro para la pérdida de peso que se produce en México y en todo theworld . Se forma una bolsa del estómago de aproximadamente 30 cc. Posteriormente el intestino pequeño se une a la nueva bolsa del estómago . Usted va a perder peso por dos mecanismos . Primero uno, usted no será capaz de comer la misma cantidad de que usted comió antes. Segundo, se creará un mecanismo de malabsorción .</p>
 					</div>	
 					<div>		
-						<h3>Method</h3>
-						<p>In 98 % of patients the surgery is performed by laparoscopic surgery.</p>
+						<h3>Metodo</h3>
+						<p>En 98 % de los pacientes la cirugía se realiza mediante cirugía laparoscópica.</p>
 					</div>	
 					<div>	
-						<h3>How will I lose weight?</h3>
-						<p>You won’t be able to eat the same amount of food that you ate before. A malabsorptive mechanism of nutrients will be perform.</p>
+						<h3>¿Como voy a perder peso?</h3>
+						<p>Usted no será capaz de comer la misma cantidad de alimento que usted comió antes. Un mecanismo de malabsorción de nutrientes se realice .</p>
 					</div>
 					
 
@@ -35,34 +35,34 @@
 			<br>	
 			<!-- Precios -->
 			<section id="precio-proc">
-				<h2>Gastric Bypass</h2>
+				<h2> Bypass Gastrico</h2>
 				<div class="precio-carac">
-					<span>Expected weight loss</span>
+					<span>Perdida de peso aproximada</span>
 					<br>
 					<i class="fa fa-check"></i>
 					<br>
 					<span>85%</span>
 				</div>
 				<div class="precio-carac">
-					<span>Surgical time</span>
+					<span>Tiempo de cirugia</span>
 					<br>
 					<i class="fa fa-clock-o"></i>
 					<br>
-					<span>3 hours</span>
+					<span>3 horas</span>
 				</div>
 				<div class="precio-carac">
-					<span>Hospital time</span>
+					<span>Hospitalización</span>
 					<br>
 					<i class="fa fa-bed"></i>
 					<br>
-					<span>3 hours</span>
+					<span>3 horas</span>
 				</div>
 				<div class="precio-carac">
-					<span>Recovery time</span>
+					<span>Tiempo de recuperacion</span>
 					<br>
 					<i class="fa fa-street-view"></i>
 					<br>
-					<span>3rd to 5th day of desk work</span>
+					<span>3 al 5 días de trabajo de escritorio</span>
 				</div>
 				
 				<div id="precio" class="precio-durango">
@@ -101,44 +101,44 @@
 				</div>
 				
 				<div id="lugar-precio">
-					<span>Prices</span>
+					<span>Precios</span>
 				</div>
 			</section>
 			<!-- Itinerario -->
 			<section id="itinerario" class="bypass-itinerario">
-				<h2>ITINERARY</h2>
-				<h3>Gastric Bypass <span>5 Days</span></h3>
+				<h2>ITINERARIO</h2>
+				<h3> Bypass Gastrico <span>5 Dias</span></h3>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 1
+							Dia 1
 						</p>
 					</div>
 					<div>
 						<p>
-							Arrival. 1st night in hotel is included
+							Llegada . Primera noche en el hotel está incluido
 						</p>
 					</div>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 2
+							Dia 2
 						</p>
 					</div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 3
+							Dia 3
 						</p>
 					</div>
 					<div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 					</div>
 				</div>
@@ -150,19 +150,19 @@
 					</div>
 					<div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 					</div>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 5
+							Dia 5
 						</p>
 					</div>
 					<div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 					</div>
 				</div>
@@ -174,26 +174,26 @@
 			<hr>
 			<br>	
 			<section class="requisitos">
-			<h2>Am I a candidate for this procedure?</h2>
+			<h2>¿Soy candidato para este procedimiento?</h2>
 			<br>
-			<h2>Candidate for surgery Criteria: </h2>
+			<h2>Criterios para ser candidato: </h2>
 			
 			<div>
-			<h2>Age:</h2>
+			<h2>Edad:</h2>
 				<ul>
-					<li>15-65 years</li>
+					<li>15-65 años</li>
 				</ul>
 			</div>
 			<div>	
-			<h2>Weight:</h2>
+			<h2>Pesos:</h2>
 			<ul>
-				<li>BMI > 35 with any associated obesity disease (systemic hypertension, diabetes mellitus type II, dyslipidemia, Obstructive sleep apnea, cardiac disease).</li>
-				<li>BMI >40.</li>
+				<li>IMC > 35 con cualquier enfermedad asociada obesidad (hipertensión sistémica , diabetes mellitus tipo II , dislipidemia , apnea obstructiva del sueño , enfermedad cardiaca) .</li>
+				<li>IMC >40.</li>
 			</ul>
 			</div>
 			<br>
 			<br>
-			<h2>You can use our BMI calculator in order to know your BMI value</h2>
+			<h2>Puedes usar nuestra calculadora para ver tus valores de IMC</h2>
 		</section>
 		
 

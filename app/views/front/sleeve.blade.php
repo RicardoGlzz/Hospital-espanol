@@ -2,22 +2,22 @@
 @section('content')
 <section class="wrapper-section wrapper-content">
 	<section class="sleeve-section">
-		<h1>- Sleeve Gastrectomy -</h1>
+		<h1>- Manga Gastrica-</h1>
 		<section class="proc-desc">
 			<div class="proc-div">	
 				<div>
-				<h3>What is sleeve gastrectomy?</h3>
-				<p>In this procedure 70% of the stomach is removed leaving a new stomach as "sleeve " or "gastric tube". You will lose weight by two mechanisms. The first one, you won´t be able to eat the same amount of food you ate before. Second one, in the stomach portion that is removed there a hormone called “ghrelin” which relates to appetite and it won´t be produced in the same amount. </p>
+				<h3>¿Que es manga gastrica?</h3>
+				<p>En este procedimiento el 70 % del estómago se retira dejando un nuevo estómago como " manga " o " tubo gástrico " . Usted va a perder peso por dos mecanismos . La primera de ellas , no podrás comer la misma cantidad de alimentos que comió antes. Segundo, en la porción del estómago que se retira allí una hormona llamada " grelina ", que se relaciona con el apetito y no seré produce en la misma cantidad.</p>
 				</div>
 
 				<div>
-				<h3>Method</h3>
-				<p>In 98 % of patients the surgery is performed by laparoscopy.</p>
+				<h3>Metodo</h3>
+				<p>En 98 % de los pacientes la cirugía se realiza por laparoscopia .</p>
 				</div>
 
 				<div>
-				<h3>How will I lose weight?</h3>
-				<p>With the new size of your stomach, you won´t be able to eat the same amount of food you ate before. The appetite hormone won´t be produced in the same amount.</p>
+				<h3>¿Como voy a perder peso?</h3>
+				<p>Con el nuevo tamaño de su estómago , no podrás comer la misma cantidad de alimentos que comió antes. El postulante no la hormona del apetito se produce en la misma cantidad.</p>
 				</div>
 	
 			</div>
@@ -34,34 +34,34 @@
 
 			<!-- Precios -->
 			<section id="precio-proc">
-				<h2>Sleeve Gastrectomy</h2>
+				<h2>Manga Gastrica</h2>
 				<div class="precio-carac">
-					<span>Expected weight loss</span>
+					<span>Perdida de peso aproximada</span>
 					<br>
 					<i class="fa fa-check"></i>
 					<br>
-					<span>70% to 80%</span>
+					<span>70% a 80%</span>
 				</div>
 				<div class="precio-carac">
-					<span>Surgical time</span>
+					<span>Tiempo de cirugia</span>
 					<br>
 					<i class="fa fa-clock-o"></i>
 					<br>
-					<span>2 hours</span>
+					<span>2 horas</span>
 				</div>
 				<div class="precio-carac">
-					<span>Hospital time</span>
+					<span>Hospitalizacion</span>
 					<br>
 					<i class="fa fa-bed"></i>
 					<br>
-					<span>24 to 48 hours</span>
+					<span>24 a 48 horas</span>
 				</div>
 				<div class="precio-carac">
-					<span>Recovery time</span>
+					<span>Tiempo de recuperacion</span>
 					<br>
 					<i class="fa fa-street-view"></i>
 					<br>
-					<span>3rd to 5th day of desk work</span>
+					<span>3 al 5 días de trabajo de escritorio</span>
 				</div>
 					<div id="precio" class="precio-durango">
 					<p>
@@ -99,69 +99,69 @@
 				</div>
 				
 				<div id="lugar-precio">
-					<span>Prices</span>
+					<span>Precios</span>
 				</div>
 			</section>
 
 				<!-- Itinerario -->
 			<section id="itinerario" class="sleeve-itinerario">
-				<h2>ITINERARY</h2>
-				<h3>Sleeve <span>5 Days</span></h3>
+				<h2>ITINERARIO</h2>
+				<h3>Manga <span>5 Dias</span></h3>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 1
+							Dia 1
 						</p>
 					</div>
 					<div>
 						<p>
-							Arrival. 1st night in hotel is included
+							Llegada . Primera noche en el hotel está incluido
 						</p>
 					</div>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 2
+							Dia 2
 						</p>
 					</div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 3
+							Dia 3
 						</p>
 					</div>
 					<div>
 					<p>
-						Arrival. 1st night in hotel is included
-					</p>
-					</div>
-				</div>
-				<div id="dia-div">
-					<div class="dia">
-						<p>
-							Day 4
-						</p>
-					</div>
-					<div>
-					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 					</div>
 				</div>
 				<div id="dia-div">
 					<div class="dia">
 						<p>
-							Day 5
+							Dia 4
 						</p>
 					</div>
 					<div>
 					<p>
-						Arrival. 1st night in hotel is included
+						Llegada . Primera noche en el hotel está incluido
+					</p>
+					</div>
+				</div>
+				<div id="dia-div">
+					<div class="dia">
+						<p>
+							Dia 5
+						</p>
+					</div>
+					<div>
+					<p>
+						Llegada . Primera noche en el hotel está incluido
 					</p>
 					</div>
 				</div>
@@ -169,24 +169,24 @@
 			<br>
 			<br>
 			<section class="requisitos">
-			<h2>Am I a candidate for this procedure?</h2>
+			<h2>¿Soy candidato a este procedimiento?</h2>
 			<br>
 			<br>
-			<h2>Candidate for surgery Criteria: </h2>
+			<h2>Criterios para este procedimiento: </h2>
 			<br>
 			<br>
 			<div>
-			<h2>Age:</h2>
+			<h2>Edad:</h2>
 				<ul>
-					<li>15-65 years</li>
+					<li>15-65 años</li>
 				</ul>
 			</div>
 			<div>	
-			<h2>Weight:</h2>
+			<h2>Peso:</h2>
 			<ul>
 			
-				<li>BMI > 35 with any associated obesity disease (systemic hypertension, diabetes mellitus type II, dyslipidemia, Obstructive sleep apnea, cardiac disease)</li>
-				<li>BMI > 40</li>
+				<li>IMC > 35 con cualquier enfermedad asociada obesidad (hipertensión sistémica , diabetes mellitus tipo II , dislipidemia , apnea obstructiva del sueño , enfermedad cardiaca) .</li>
+				<li>IMC > 40</li>
 			</ul>
 			</div>
 			<br>
