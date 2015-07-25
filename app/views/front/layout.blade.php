@@ -69,6 +69,12 @@
 				<li class="menu-item opcion"><a href="{{ URL::to('metabolic') }}">Metabolic Surgery</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('contact') }}">Contact</a></li>
 				<li class="menu-item opcion"><a href="{{ URL::to('faqs') }}">FAQS</a></li>
+				<a id="mexico" href="">
+					<img src="img/mexico.png" alt="">
+				</a>
+				<a id="usa" href="">
+					<img src="img/usa.gif" alt="">
+				</a>
 			</ul>
 	</header>
 

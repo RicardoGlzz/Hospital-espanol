@@ -222,6 +222,28 @@ header .menu
 {
   width: 200%;
 }
+#mexico img 
+{
+  width: 50px;
+}
+#mexico
+{
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  cursor: pointer;
+}
+#usa 
+{
+  position: absolute;
+  top: 35px;
+  right: 115px;
+  cursor: pointer;
+}
+#usa img 
+{
+  width: 50px;
+}
 .ayuda
 {
   background:#3b5998;
@@ -1772,6 +1794,18 @@ footer #contactos
         width: 100%;
         margin-top: 8px;
      } 
+     #usa 
+     {
+        position: fixed;
+        top: 78%;
+        right: 15px;
+     }
+     #mexico 
+     {
+        position: fixed;
+        top: 78%;
+        left: 15px;
+     }
      .social 
      {
         width: 100%;
@@ -2130,6 +2164,30 @@ footer #contactos
         z-index: 20;
         height: 0;
      }
+     #mexico
+     {
+      position: fixed;
+      top: 80%;
+      left: 10px;
+     }
+     #mexico img 
+     {
+        width: 80px;
+     }
+     #usa 
+     {
+      position: fixed;
+      top: 80%;
+      right: 0;
+     }
+     #usa img 
+     {
+      width: 80px;
+     }
+     .modal h2 
+     {
+       left: 25%; 
+     }
      .menu .menu-item .ver-menu 
       {
         display: block;
@@ -2472,10 +2530,15 @@ footer #contactos
       border: none;
       padding: 0;
     }
-    .menu .menu-item 
+    #usa 
     {
-      margin-right: 65px;
-    }
+      top: 60px;
+
+    } 
+    #mexico
+    {
+      top: 60px;
+    }  
     .sobrepeso figure
     {
       display: block;
